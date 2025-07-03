@@ -2,39 +2,62 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* Resilient Tomorrow Design System - Earth tones, sovereignty, belonging */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Core earth-tone palette */
+    --background: 45 15% 97%;
+    --foreground: 25 25% 15%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 40 20% 99%;
+    --card-foreground: 25 25% 15%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 40 20% 99%;
+    --popover-foreground: 25 25% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary: Deep forest green - sovereignty */
+    --primary: 140 35% 25%;
+    --primary-foreground: 45 15% 97%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Secondary: Warm earth brown - grounding */
+    --secondary: 25 25% 85%;
+    --secondary-foreground: 25 25% 15%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Muted: Soft sage - calm */
+    --muted: 90 15% 90%;
+    --muted-foreground: 25 15% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Accent: Warm terracotta - encouragement */
+    --accent: 15 45% 70%;
+    --accent-foreground: 45 15% 97%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    /* Success: Natural green */
+    --success: 120 40% 50%;
+    --success-foreground: 45 15% 97%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    /* Warning: Golden yellow */
+    --warning: 45 85% 60%;
+    --warning-foreground: 25 25% 15%;
+
+    --destructive: 0 60% 55%;
+    --destructive-foreground: 45 15% 97%;
+
+    --border: 25 15% 88%;
+    --input: 25 15% 88%;
+    --ring: 140 35% 25%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(140 35% 25%), hsl(120 30% 30%));
+    --gradient-warm: linear-gradient(135deg, hsl(25 45% 75%), hsl(35 40% 80%));
+    --gradient-progress: linear-gradient(90deg, hsl(120 40% 50%), hsl(140 35% 45%));
+    
+    /* Progress ring colors */
+    --progress-0: 0 0% 85%;
+    --progress-25: 45 70% 65%;
+    --progress-50: 35 60% 55%;
+    --progress-75: 25 50% 45%;
+    --progress-100: 120 40% 50%;
 
     --radius: 0.5rem;
 
