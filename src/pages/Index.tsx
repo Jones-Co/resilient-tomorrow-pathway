@@ -170,9 +170,16 @@ const Index = () => {
       <div className="container mx-auto px-4 py-8 max-w-7xl">
         {/* Header */}
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-foreground mb-2">
-            Resilient Tomorrow
-          </h1>
+          <div className="flex flex-col items-center gap-4 mb-4">
+            <img 
+              src="/lovable-uploads/badeea5d-467f-4971-8815-15ecfe8e22c1.png" 
+              alt="Resilient Tomorrow Logo" 
+              className="w-32 h-32 object-contain"
+            />
+            <h1 className="text-4xl font-bold text-foreground">
+              Resilient Tomorrow
+            </h1>
+          </div>
           <p className="text-lg text-muted-foreground">
             Your personalized offramp dashboard
           </p>
