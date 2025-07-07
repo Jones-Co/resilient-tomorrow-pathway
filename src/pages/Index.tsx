@@ -3,6 +3,7 @@ import { UserProfile } from "@/components/UserProfile";
 import { OverviewPanel } from "@/components/OverviewPanel";
 import { DomainCard } from "@/components/DomainCard";
 import { ReminderDialog } from "@/components/ReminderDialog";
+import { JsonInput } from "@/components/JsonInput";
 import { useToast } from "@/hooks/use-toast";
 
 // Mock data from the design brief
@@ -165,6 +166,19 @@ const Index = () => {
     setReminderDialogOpen(true);
   };
 
+  const handleJsonUpdate = (newData: any) => {
+    if (newData === null) {
+      // Reset to mock data
+      setUserData(mockUserData);
+      setExpandedDomains(new Set());
+      setReflections({});
+    } else {
+      setUserData(newData);
+      setExpandedDomains(new Set());
+      setReflections({});
+    }
+  };
+
   return (
     <div className="min-h-screen bg-background">
       <div className="container mx-auto px-4 py-8 max-w-7xl">
@@ -184,6 +198,12 @@ const Index = () => {
             Your personalized offramp dashboard
           </p>
         </div>
+
+        {/* JSON Input for Testing */}
+        <JsonInput 
+          onJsonUpdate={handleJsonUpdate}
+          currentData={userData}
+        />
 
         {/* User Profile */}
         <div className="mb-8">
