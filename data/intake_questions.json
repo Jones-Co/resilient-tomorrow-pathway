@@ -20,8 +20,8 @@
   },
   {
     "id": "monthly_budget",
-    "question": "What’s your budget for tools, supplies, or materials?",
-    "examples": ["$0", "$20/month", "flexible"],
+    "question": "Roughly how much could you spend per month on tools, materials, or supplies—if any? Even $0 is a fine place to start.",
+    "examples": ["$0", "$10/month", "$50 for something specific", "flexible depending on value"],
     "reflections": [
       {
         "condition": "0",
@@ -39,8 +39,8 @@
   },
   {
     "id": "preferred_style",
-    "question": "What types of activities do you enjoy?",
-    "examples": ["hands-on building", "organizing people", "researching", "helping others"],
+    "question": "What kinds of activities make you lose track of time—in a good way? That spark or satisfaction after doing something fulfilling?",
+    "examples": ["growing food", "solving problems", "helping friends", "fixing things", "planning events", "diving into research"],
     "reflections": [
       {
         "condition": "*",
@@ -49,9 +49,9 @@
     ]
   },
   {
-    "id": "social_support",
-    "question": "Do you have anyone in your life who might want to do this with you?",
-    "examples": ["friends", "family", "neighbors", "none"],
+    "id": "social_support_personal",
+    "question": "Is there anyone in your life—friend, partner, neighbor—who might want to do this with you?",
+    "examples": ["spouse", "roommate", "friend down the street"],
     "reflections": [
       {
         "condition": "yes",
@@ -60,6 +60,21 @@
       {
         "condition": "no",
         "response": "That’s totally okay. We’ll focus on solo wins—but I’ll offer ideas that might help you connect with others if/when you’re ready."
+      }
+    ]
+  },
+  {
+    "id": "social_support_community",
+    "question": "Do you belong to any groups that might support this work, even indirectly?",
+    "examples": ["Buy Nothing group", "community garden", "PTA", "neighborhood Facebook group", "co-op"],
+    "reflections": [
+      {
+        "condition": "yes",
+        "response": "Perfect. Tapping into existing groups can unlock shared resources, tools, and encouragement. I’ll highlight actions that connect those dots."
+      },
+      {
+        "condition": "no",
+        "response": "No worries—we’ll focus on building connections step by step. You might be surprised how quickly others get interested once they see you moving."
       }
     ]
   }
