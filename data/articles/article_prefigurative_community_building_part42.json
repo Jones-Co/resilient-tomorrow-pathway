@@ -53,4 +53,51 @@
           "Study facilitation methods for large group horizontal decision-making"
         ],
         "level1": [
-          "Practice facilitating cross-movement dialogue and relationship-building
+          "Practice facilitating cross-movement dialogue and relationship-building sessions",
+          "Document your convening team's process and accessibility practices",
+          "Learn about funding convergences through community-controlled resources"
+        ],
+        "level2": [
+          "Host workshops on convergence organizing and movement weaving",
+          "Create resources about Power With approaches to large group facilitation",
+          "Share knowledge with other convergence organizers and movement builders"
+        ],
+        "level3": [
+          "Develop comprehensive convergence organizing toolkits",
+          "Research and document impacts of horizontal vs hierarchical movement gatherings",
+          "Train facilitators in other communities starting convergence processes"
+        ]
+      }
+    },
+    "Narrative": {
+      "summary": "Challenge movement isolation narratives while promoting stories of cross-sector collaboration and collective power.",
+      "localizable": true,
+      "resources": [
+        {"label": "US Solidarity Economy Network", "url": "https://ussen.org/solidarity-economy/"},
+        {"label": "Movement Strategy Center", "url": "https://movementstrategy.org"}
+      ],
+      "levels": {
+        "level0": [
+          "Share stories about successful cross-movement collaboration and solidarity",
+          "Challenge narratives that promote competition between social movements",
+          "Practice seeing movements as interconnected rather than isolated"
+        ],
+        "level1": [
+          "Document examples of effective solidarity economy convergences and gatherings",
+          "Challenge hierarchical conference models and expert-centered event formats",
+          "Share stories of horizontal organizing and collective power building"
+        ],
+        "level2": [
+          "Lead community conversations about movement interconnection and solidarity",
+          "Create media highlighting successful cross-sector organizing",
+          "Advocate for movement gathering approaches that center community voice"
+        ],
+        "level3": [
+          "Contribute to cultural shift toward viewing movements as interconnected ecosystem",
+          "Develop and share analysis of convergence organizing as movement building practice",
+          "Support broader solidarity economy and movement weaving efforts"
+        ]
+      }
+    }
+  }
+}
