@@ -1,0 +1,66 @@
+[
+  {
+    "id": "time_per_week",
+    "question": "How much time can you spend on this each week?",
+    "examples": ["15 minutes", "1 hour", "weekends only"],
+    "reflections": [
+      {
+        "condition": "<15min",
+        "response": "That’s okay—even small steps count. But if you're serious about building a new system in your life, we may need to expand that over time. Want to keep it at 10–15 minutes, or brainstorm how to carve out a bit more?"
+      },
+      {
+        "condition": "15-60min",
+        "response": "That’s a solid starting point. A focused hour can make a big difference if we aim it well."
+      },
+      {
+        "condition": ">60min",
+        "response": "Amazing. That gives us lots of space to explore things that really move the needle."
+      }
+    ]
+  },
+  {
+    "id": "monthly_budget",
+    "question": "What’s your budget for tools, supplies, or materials?",
+    "examples": ["$0", "$20/month", "flexible"],
+    "reflections": [
+      {
+        "condition": "0",
+        "response": "Understood. We’ll keep things focused on what you can build, grow, share, or reuse—without needing to spend."
+      },
+      {
+        "condition": "1-30",
+        "response": "Perfect. Even $10–$20/month can unlock some great starter actions."
+      },
+      {
+        "condition": ">30",
+        "response": "Good to know. I’ll suggest a range of options—starting with free, then leveling up if you’re interested."
+      }
+    ]
+  },
+  {
+    "id": "preferred_style",
+    "question": "What types of activities do you enjoy?",
+    "examples": ["hands-on building", "organizing people", "researching", "helping others"],
+    "reflections": [
+      {
+        "condition": "*",
+        "response": "Thanks—that helps me recommend things you might actually enjoy doing, not just 'should' do."
+      }
+    ]
+  },
+  {
+    "id": "social_support",
+    "question": "Do you have anyone in your life who might want to do this with you?",
+    "examples": ["friends", "family", "neighbors", "none"],
+    "reflections": [
+      {
+        "condition": "yes",
+        "response": "Awesome. Doing this with others can speed things up and make it more fun."
+      },
+      {
+        "condition": "no",
+        "response": "That’s totally okay. We’ll focus on solo wins—but I’ll offer ideas that might help you connect with others if/when you’re ready."
+      }
+    ]
+  }
+]
