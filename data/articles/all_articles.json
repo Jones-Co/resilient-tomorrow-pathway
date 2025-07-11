@@ -1,5 +1,5 @@
-{
   "articles": [
+{
     {
       "id": "article_7steps_exit",
       "title": "7 Steps to Quietly Exit a System That Wants You Dependent",
@@ -9236,6 +9236,211 @@
           }
         }
       }
-    }
+    },
+      {
+      "id": "article_prefigurative_community_building_part41",
+      "title": "Prefigurative Community Building (Part 41): Resource Mapping & Infrastructure Weaving - Building Resilient Networks of Power With",
+      "slug": "prefigurative-community-building-part41-resource-mapping",
+      "summary": "A guide to participatory resource mapping and infrastructure weaving that makes invisible community assets visible and connects them into resilient systems.",
+      "tags": ["Resource Mapping", "Community Assets", "Infrastructure Weaving", "Network Building", "Participatory Planning", "Power With"],
+      "recommendedFor": ["Community Organizer", "Network Weaver", "Asset Mapper", "Infrastructure Planner", "Mutual Aid Coordinator"],
+      "domainActions": {
+        "Community": {
+          "summary": "Map and weave together existing community resources to create resilient networks of mutual support and shared infrastructure.",
+          "localizable": true,
+          "resources": [
+            {"label": "OCTOPI Community Mapping", "url": "https://networkweaver.com/mapping-community-contributions/"},
+            {"label": "Laundromat Project Radical Mapping", "url": "https://laundromatproject.org/resource-guide-radical-mapping/"},
+            {"label": "Solidarity Economy Mapping UK", "url": "https://computerweekly.com/feature/Digitally-mapping-for-solidarity-and-cooperation"},
+            {"label": "Grassroots Economic Organizing", "url": "https://geo.coop/articles/mapping-local-landscape-care-and-belonging"}
+          ],
+          "levels": {
+            "level0": [
+              "Form a cooperative mapping circle with diverse community members",
+              "Conduct storytelling walks and asset identification sessions",
+              "Practice participatory mapping methods using paper maps or simple tools"
+            ],
+            "level1": [
+              "Map physical, social, informational, and digital community resources",
+              "Include marginalized voices and center lived experience in mapping process",
+              "Begin weaving connections between mapped assets and resources"
+            ],
+            "level2": [
+              "Create resource sharing networks and infrastructure activation projects",
+              "Use technology thoughtfully to connect networks while maintaining community ownership",
+              "Test and adapt infrastructure based on community feedback and needs"
+            ],
+            "level3": [
+              "Connect multiple mapping nodes in federated but autonomous network",
+              "Support formation of additional resource mapping circles in other areas",
+              "Build lasting infrastructure for community-controlled resource coordination"
+            ]
+          }
+        },
+        "Knowledge": {
+          "summary": "Develop and share knowledge about participatory mapping, asset-based organizing, and community infrastructure development.",
+          "localizable": true,
+          "resources": [
+            {"label": "Asset-Based Community Development", "url": "https://abcdinstitute.org"},
+            {"label": "Community Resource Mapping Tools", "url": "https://communityresources.org"},
+            {"label": "Participatory Mapping Resources", "url": "https://participatorymapping.org"}
+          ],
+          "levels": {
+            "level0": [
+              "Learn about asset-based community development and participatory mapping methods",
+              "Study successful community mapping projects like OCTOPI and Grassroots Economic Organizing"
+            ],
+            "level1": [
+              "Practice facilitating inclusive mapping sessions and asset identification processes",
+              "Document your mapping circle's methods and community agreements",
+              "Learn about community-controlled data and technology sovereignty"
+            ],
+            "level2": [
+              "Host workshops on resource mapping and infrastructure weaving",
+              "Create open-source tools and resources for community mapping",
+              "Share knowledge with other mapping circles and asset-based organizers"
+            ],
+            "level3": [
+              "Develop comprehensive community mapping organizing toolkits",
+              "Research and document impacts of participatory vs extractive mapping approaches",
+              "Train facilitators in other communities starting mapping processes"
+            ]
+          }
+        },
+        "Narrative": {
+          "summary": "Challenge scarcity narratives while promoting stories of abundance, interconnection, and community resilience.",
+          "localizable": true,
+          "resources": [
+            {"label": "Asset-Based Storytelling Resources", "url": "https://assetstorytelling.org"},
+            {"label": "Community Wealth Building Stories", "url": "https://communitywealth.org"}
+          ],
+          "levels": {
+            "level0": [
+              "Share stories about hidden community assets and existing mutual aid networks",
+              "Challenge deficit-based narratives about communities and neighborhoods",
+              "Practice seeing abundance and interconnection rather than scarcity and isolation"
+            ],
+            "level1": [
+              "Document community assets and success stories through mapping processes",
+              "Challenge extractive approaches to community data and resource documentation",
+              "Share stories of successful resource sharing and infrastructure weaving"
+            ],
+            "level2": [
+              "Lead community conversations about abundance, assets, and collective capacity",
+              "Create media highlighting community-controlled resource networks",
+              "Advocate for asset-based rather than deficit-based community development approaches"
+            ],
+            "level3": [
+              "Contribute to cultural shift toward recognizing community assets and abundance",
+              "Develop and share analysis of resource mapping as liberation practice",
+              "Support movements for community-controlled development and infrastructure"
+            ]
+          }
+        }
+      }
+    },
+      {
+      "id": "article_prefigurative_community_building_part42",
+      "title": "Prefigurative Community Building (Part 42): Solidarity Economy Convergences - Building Collective Power Across Sectors",
+      "slug": "prefigurative-community-building-part42-solidarity-economy-convergences",
+      "summary": "A guide to hosting multi-sectoral gatherings that build relational infrastructure across movements without homogenizing or centralizing them.",
+      "tags": ["Solidarity Economy", "Movement Convergences", "Cross-Sector Organizing", "Collective Power", "Movement Building", "Power With"],
+      "recommendedFor": ["Movement Convener", "Solidarity Economy Organizer", "Cross-Movement Facilitator", "Coalition Builder", "Network Weaver"],
+      "domainActions": {
+        "Community": {
+          "summary": "Create gatherings that build relationships and coordination across different sectors of the solidarity economy and social movements.",
+          "localizable": true,
+          "resources": [
+            {"label": "Cooperation Humboldt Convergences", "url": "https://cooperationhumboldt.com"},
+            {"label": "RIPESS Intercontinental Forums", "url": "https://ripess.org"},
+            {"label": "Allied Media Conference Principles", "url": "https://alliedmedia.org/about/principles"},
+            {"label": "People's Movement Assembly Toolkit", "url": "https://movementassembly.org"}
+          ],
+          "levels": {
+            "level0": [
+              "Gather a core convening team representing multiple sectors and communities",
+              "Define intentional principles for inclusive, anti-oppressive gathering",
+              "Map the landscape of local solidarity economy and movement groups"
+            ],
+            "level1": [
+              "Extend personal invitations to diverse projects and informal networks",
+              "Design convergence format that reflects shared power and horizontal coordination",
+              "Create interweaving opportunities for different sectors to find each other"
+            ],
+            "level2": [
+              "Host convergences that prioritize relationship-building over content delivery",
+              "Fund gatherings through reciprocity and mutual aid rather than corporate sponsorship",
+              "Archive and share learnings through community-controlled documentation"
+            ],
+            "level3": [
+              "Support others in hosting their own locally-rooted convergences",
+              "Build networks of convergence organizers for mutual support and learning",
+              "Create lasting infrastructure for cross-movement relationship and coordination"
+            ]
+          }
+        },
+        "Knowledge": {
+          "summary": "Develop and share knowledge about movement convergence organizing and cross-sector collaboration.",
+          "localizable": false,
+          "resources": [
+            {"label": "Art of Convening Resources", "url": "https://centerforspaciousness.com"},
+            {"label": "Beautiful Solutions Library", "url": "https://solutions.thischangeseverything.org"},
+            {"label": "Resource Generation", "url": "https://resourcegeneration.org"},
+            {"label": "Interference Archive Zine Library", "url": "https://interferencearchive.org"}
+          ],
+          "levels": {
+            "level0": [
+              "Learn about successful movement convergences and solidarity economy gatherings",
+              "Study facilitation methods for large group horizontal decision-making"
+            ],
+            "level1": [
+              "Practice facilitating cross-movement dialogue and relationship-building sessions",
+              "Document your convening team's process and accessibility practices",
+              "Learn about funding convergences through community-controlled resources"
+            ],
+            "level2": [
+              "Host workshops on convergence organizing and movement weaving",
+              "Create resources about Power With approaches to large group facilitation",
+              "Share knowledge with other convergence organizers and movement builders"
+            ],
+            "level3": [
+              "Develop comprehensive convergence organizing toolkits",
+              "Research and document impacts of horizontal vs hierarchical movement gatherings",
+              "Train facilitators in other communities starting convergence processes"
+            ]
+          }
+        },
+        "Narrative": {
+          "summary": "Challenge movement isolation narratives while promoting stories of cross-sector collaboration and collective power.",
+          "localizable": true,
+          "resources": [
+            {"label": "US Solidarity Economy Network", "url": "https://ussen.org/solidarity-economy/"},
+            {"label": "Movement Strategy Center", "url": "https://movementstrategy.org"}
+          ],
+          "levels": {
+            "level0": [
+              "Share stories about successful cross-movement collaboration and solidarity",
+              "Challenge narratives that promote competition between social movements",
+              "Practice seeing movements as interconnected rather than isolated"
+            ],
+            "level1": [
+              "Document examples of effective solidarity economy convergences and gatherings",
+              "Challenge hierarchical conference models and expert-centered event formats",
+              "Share stories of horizontal organizing and collective power building"
+            ],
+            "level2": [
+              "Lead community conversations about movement interconnection and solidarity",
+              "Create media highlighting successful cross-sector organizing",
+              "Advocate for movement gathering approaches that center community voice"
+            ],
+            "level3": [
+              "Contribute to cultural shift toward viewing movements as interconnected ecosystem",
+              "Develop and share analysis of convergence organizing as movement building practice",
+              "Support broader solidarity economy and movement weaving efforts"
+            ]
+          }
+        }
+      }
+    } 
   ]
 }
