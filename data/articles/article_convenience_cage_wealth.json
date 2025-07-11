@@ -1,0 +1,68 @@
+{
+  "id": "article_convenience_cage_wealth",
+  "title": "Convenience Is the Cage: Why Redefining Wealth Is the First Step to Freedom",
+  "slug": "convenience-cage-redefining-wealth",
+  "summary": "Wealth isn't the number in your bank account—it's the number of needs you can meet without spending it. This fundamental reframe is the first step toward exiting systems of dependence.",
+  "tags": ["Wealth Redefinition", "Access", "Mutual Aid", "Post-Permission Systems", "Step 3"],
+  "recommendedFor": ["Beginner", "Frustrated Professional", "Systems Thinker", "Community Builder"],
+  "domainActions": {
+    "Money": {
+      "summary": "Redefine wealth as access rather than accumulation, reducing reliance on cash systems.",
+      "localizable": false,
+      "resources": [
+        {"label": "NeighborhoodShare Tool Library", "url": "https://neighborhoodshare.app"},
+        {"label": "Buy Nothing Groups", "url": "https://buynothingproject.org"},
+        {"label": "Hylo Community Platform", "url": "https://www.hylo.com"}
+      ],
+      "levels": {
+        "level0": ["Audit where you spend money just to save time", "Identify what you outsource that you could learn/share/trade"],
+        "level1": ["Reclaim one area: start tool library, meal sharing, or childcare swap", "Try one week without a convenience you normally pay for"],
+        "level2": ["Create bulk cooking group or skill-sharing circle", "Join or organize local barter network"],
+        "level3": ["Build neighborhood-scale mutual aid systems", "Establish community resource sharing infrastructure"]
+      }
+    },
+    "Community": {
+      "summary": "Build post-permission systems that meet needs through relationships rather than transactions.",
+      "localizable": true,
+      "resources": [
+        {"label": "Makesoil Compost Network", "url": "https://www.makesoil.org"},
+        {"label": "Community Gardens", "url": "https://communitygarden.org"},
+        {"label": "Time Banking", "url": "https://timebanks.org"}
+      ],
+      "levels": {
+        "level0": ["Share one meal per week with neighbor to reduce prep and waste"],
+        "level1": ["Start or join tool library, seed swap, or skill share", "Create local group for bulk purchasing"],
+        "level2": ["Organize neighborhood resource sharing network", "Start community garden or shared space"],
+        "level3": ["Build comprehensive mutual aid infrastructure", "Create resilient community support systems"]
+      }
+    },
+    "Knowledge": {
+      "summary": "Learn to measure wealth in terms of capability, access, and community rather than money.",
+      "localizable": false,
+      "resources": [
+        {"label": "Mutual Aid Resources", "url": "https://mutualaid.org"},
+        {"label": "Resilient Communities Institute", "url": "https://resilientcommunities.com"}
+      ],
+      "levels": {
+        "level0": ["Track needs met without money instead of just income/expenses"],
+        "level1": ["Learn about gift economy and mutual aid principles", "Study successful resource-sharing models"],
+        "level2": ["Develop skills in community organizing and resource coordination"],
+        "level3": ["Teach others to build post-permission economic systems"]
+      }
+    },
+    "Narrative": {
+      "summary": "Shift the story from scarcity and competition to abundance and cooperation.",
+      "localizable": false,
+      "resources": [
+        {"label": "Sacred Economics", "url": "https://charleseisenstein.org/books/sacred-economics/"},
+        {"label": "Mutual Aid by Dean Spade", "url": "https://www.deanspade.net/mutual-aid/"}
+      ],
+      "levels": {
+        "level0": ["Practice describing wealth as access rather than accumulation"],
+        "level1": ["Share stories of successful mutual aid and resource sharing"],
+        "level2": ["Help others reframe their relationship to money and wealth"],
+        "level3": ["Build cultural narratives around post-money abundance"]
+      }
+    }
+  }
+}

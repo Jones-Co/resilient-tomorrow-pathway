@@ -1,0 +1,102 @@
+{
+  "id": "article_prefigurative_community_building_part39",
+  "title": "Prefigurative Community Building (Part 39): Sanctuary Networks & Immigration Accompaniment - A Power With Path to Collective Protection",
+  "slug": "prefigurative-community-building-part39-sanctuary-networks",
+  "summary": "A guide to building sanctuary and accompaniment networks that resist immigration enforcement through horizontal coordination and community-led safety practices.",
+  "tags": ["Immigration Justice", "Sanctuary Networks", "Accompaniment", "Community Protection", "Solidarity", "Power With"],
+  "recommendedFor": ["Immigration Rights Organizer", "Sanctuary Coordinator", "Community Safety Advocate", "Solidarity Activist", "Legal Observer"],
+  "domainActions": {
+    "Community": {
+      "summary": "Build networks of mutual protection that resist immigration enforcement through collective action and horizontal support.",
+      "localizable": true,
+      "resources": [
+        {"label": "Georgia Latino Alliance for Human Rights", "url": "https://glahr.org"},
+        {"label": "We Belong Together Northern CA", "url": "https://webelongtogether.org"},
+        {"label": "Immigrant Legal Resource Center", "url": "https://ilrc.org"},
+        {"label": "Mobile Justice Accompaniment Guide", "url": "https://accompanimentguide.org"}
+      ],
+      "levels": {
+        "level0": [
+          "Form a small trust circle committed to immigration solidarity work",
+          "Learn about local immigration threats and enforcement patterns",
+          "Practice basic accompaniment and de-escalation skills"
+        ],
+        "level1": [
+          "Map local immigration assets and establish rapid response protocols",
+          "Train your team in legal rights, nonviolent intervention, and trauma support",
+          "Build communication systems for coordinating emergency responses"
+        ],
+        "level2": [
+          "Provide regular accompaniment services and immigration support",
+          "Embed with broader community ecosystems and solidarity networks",
+          "Offer know-your-rights trainings and community education"
+        ],
+        "level3": [
+          "Support formation of additional autonomous sanctuary networks",
+          "Build lasting infrastructure for community-controlled immigration defense",
+          "Advocate for policies that protect immigrant communities and limit enforcement"
+        ]
+      }
+    },
+    "Knowledge": {
+      "summary": "Share immigration law knowledge and accompaniment skills while building community capacity for solidarity work.",
+      "localizable": true,
+      "resources": [
+        {"label": "Showing Up for Racial Justice", "url": "https://surj.org"},
+        {"label": "Know Your Rights Resources", "url": "https://knowyourrights.org"},
+        {"label": "Creative Interventions Toolkit", "url": "https://transformharm.org/creative-interventions-toolkit/"}
+      ],
+      "levels": {
+        "level0": [
+          "Learn about immigration law, enforcement practices, and community rights",
+          "Study successful sanctuary networks and accompaniment programs"
+        ],
+        "level1": [
+          "Practice accompaniment techniques and legal observation skills",
+          "Document your network's protocols and safety practices",
+          "Learn trauma-informed approaches to immigration solidarity work"
+        ],
+        "level2": [
+          "Host workshops on immigration rights and accompaniment organizing",
+          "Create accessible resources about building sanctuary networks",
+          "Share knowledge with other immigration justice and solidarity organizers"
+        ],
+        "level3": [
+          "Develop comprehensive sanctuary organizing toolkits",
+          "Research and document community approaches to immigration defense",
+          "Train facilitators and organizers in other communities"
+        ]
+      }
+    },
+    "Power": {
+      "summary": "Challenge immigration enforcement systems while building community power through collective protection and solidarity.",
+      "localizable": true,
+      "resources": [
+        {"label": "Center for Popular Democracy", "url": "https://populardemocracy.org"},
+        {"label": "Detention Watch Network", "url": "https://detentionwatchnetwork.org"}
+      ],
+      "levels": {
+        "level0": [
+          "Practice immigration solidarity as community defense and mutual aid",
+          "Challenge anti-immigrant narratives and enforcement systems",
+          "Build analysis of how immigration justice relates to broader liberation struggles"
+        ],
+        "level1": [
+          "Organize community members to collectively resist immigration enforcement",
+          "Practice nonviolent confrontation of ICE raids and deportation attempts",
+          "Build collective capacity to protect and support immigrant community members"
+        ],
+        "level2": [
+          "Coordinate sanctuary activities with other social justice organizing",
+          "Challenge policies and systems that criminalize immigration and solidarity",
+          "Build political power through grassroots immigration justice organizing"
+        ],
+        "level3": [
+          "Contribute to broader movements for immigrant rights and abolition",
+          "Advocate for policies that protect immigrant communities and end enforcement",
+          "Build lasting infrastructure for community-controlled immigration defense"
+        ]
+      }
+    }
+  }
+}

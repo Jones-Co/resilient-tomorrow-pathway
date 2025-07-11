@@ -1,0 +1,102 @@
+{
+  "id": "article_prefigurative_community_building_part38",
+  "title": "Prefigurative Community Building (Part 38): Digital Security Pods - Power With in the Age of Surveillance",
+  "slug": "prefigurative-community-building-part38-digital-security-pods",
+  "summary": "A guide to forming small groups that support each other in digital security practices, sharing tools and knowledge through mutual aid rather than expert gatekeeping.",
+  "tags": ["Digital Security", "Privacy", "Surveillance Resistance", "Technology Justice", "Peer Support", "Power With"],
+  "recommendedFor": ["Digital Rights Activist", "Community Organizer", "Tech Worker", "Privacy Advocate", "Mutual Aid Organizer"],
+  "domainActions": {
+    "Communication": {
+      "summary": "Build secure communication practices and digital safety networks that protect community organizing and personal autonomy.",
+      "localizable": true,
+      "resources": [
+        {"label": "Cryptoparty Movement", "url": "https://cryptoparty.in"},
+        {"label": "Reclaim the Net Berlin", "url": "https://reclaimthenet.berlin"},
+        {"label": "Surveillance Self-Defense EFF", "url": "https://ssd.eff.org"},
+        {"label": "Digital First Aid Kit", "url": "https://digitalfirstaid.org"}
+      ],
+      "levels": {
+        "level0": [
+          "Form a small digital security pod with 3-6 trusted people",
+          "Share digital life maps and identify security concerns together",
+          "Practice basic digital hygiene like password managers and two-factor authentication"
+        ],
+        "level1": [
+          "Establish pod agreements for learning together without shame or judgment",
+          "Focus on one security topic at a time (messaging, passwords, app permissions)",
+          "Create rapid response plans for digital emergencies like hacking or doxxing"
+        ],
+        "level2": [
+          "Host digital security workshops for broader community",
+          "Build networks with other digital security pods for mutual support",
+          "Practice advanced security techniques like encrypted communications and secure storage"
+        ],
+        "level3": [
+          "Support formation of additional autonomous digital security pods",
+          "Advocate for community-controlled technology and digital rights",
+          "Build lasting infrastructure for grassroots digital security education"
+        ]
+      }
+    },
+    "Knowledge": {
+      "summary": "Share digital security knowledge horizontally while building community capacity for technological self-defense.",
+      "localizable": false,
+      "resources": [
+        {"label": "Security Education Companion", "url": "https://sec.eff.org"},
+        {"label": "Tactical Technology Collective", "url": "https://tacticaltech.org"},
+        {"label": "DIY Security Zine Kit", "url": "https://rorysolomon.nyc/security-zine"}
+      ],
+      "levels": {
+        "level0": [
+          "Learn about digital surveillance and privacy threats affecting your community",
+          "Study successful digital security organizing like Cryptoparty movement"
+        ],
+        "level1": [
+          "Practice teaching digital security skills in accessible, non-technical language",
+          "Document your pod's learning process and security practices",
+          "Learn trauma-informed approaches to discussing surveillance and digital threats"
+        ],
+        "level2": [
+          "Create zines and resources about community digital security organizing",
+          "Host skill-shares on digital security tools and practices",
+          "Share knowledge with other security pods and privacy organizers"
+        ],
+        "level3": [
+          "Develop comprehensive digital security organizing toolkits",
+          "Research and document community approaches to technological self-defense",
+          "Train facilitators in other communities starting digital security pods"
+        ]
+      }
+    },
+    "Power": {
+      "summary": "Challenge surveillance capitalism and state monitoring while building community power through collective digital security.",
+      "localizable": true,
+      "resources": [
+        {"label": "Electronic Frontier Foundation", "url": "https://eff.org"},
+        {"label": "Fight for the Future", "url": "https://fightforthefuture.org"}
+      ],
+      "levels": {
+        "level0": [
+          "Practice digital security as community care and mutual protection",
+          "Challenge narratives that normalize surveillance and data extraction",
+          "Build analysis of how digital security relates to broader liberation struggles"
+        ],
+        "level1": [
+          "Organize community members to collectively resist digital surveillance",
+          "Practice digital civil disobedience and technological resistance",
+          "Build collective capacity to protect vulnerable community members online"
+        ],
+        "level2": [
+          "Coordinate digital security organizing with other social justice work",
+          "Challenge policies and systems that enable mass surveillance",
+          "Build political power through grassroots digital rights organizing"
+        ],
+        "level3": [
+          "Contribute to broader movements for digital justice and technological sovereignty",
+          "Advocate for community-controlled technology infrastructure",
+          "Build lasting infrastructure for collective digital self-determination"
+        ]
+      }
+    }
+  }
+}

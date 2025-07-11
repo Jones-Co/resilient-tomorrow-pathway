@@ -1,0 +1,117 @@
+{
+  "id": "article_stop_waiting_heroes",
+  "title": "Stop Waiting for Heroes: How to Build a Resilient Community Before You Need One",
+  "slug": "stop-waiting-heroes-community",
+  "summary": "A practical guide to building community resilience through local action rather than waiting for top-down solutions. Introduces the NeighborhoodShare project and emphasizes community connections as the foundation of resilience.",
+  "tags": ["Community Building", "Local Action", "Practical Resilience", "NeighborhoodShare", "Solar Power"],
+  "recommendedFor": ["Community Organizer", "Neighborhood Leader", "Practical Implementer", "Beta Tester"],
+  "domainActions": {
+    "Community": {
+      "summary": "Build resilient local networks through practical sharing and mutual aid projects.",
+      "localizable": true,
+      "resources": [
+        {"label": "NeighborhoodShare Beta", "url": "#"},
+        {"label": "Harvard Study on Social Connections", "url": "#"},
+        {"label": "Mia Birdsong - How We Show Up", "url": "#"}
+      ],
+      "levels": {
+        "level0": [
+          "Start simple sharing with immediate neighbors—tools, meals, skills",
+          "Join or create local Buy Nothing groups"
+        ],
+        "level1": [
+          "Organize neighborhood tool libraries and skill exchanges",
+          "Create meal-prep exchanges and babysitting co-ops"
+        ],
+        "level2": [
+          "Establish community garden planning and harvest sharing",
+          "Build networks that connect multiple neighborhoods"
+        ],
+        "level3": [
+          "Create comprehensive community support systems",
+          "Develop replicable models for other communities to adopt"
+        ]
+      }
+    },
+    "Power": {
+      "summary": "Develop local energy independence through solar installations and community microgrids.",
+      "localizable": true,
+      "resources": [
+        {"label": "DIY Solar Installation Guide", "url": "#"},
+        {"label": "Used Solar Panel Sources", "url": "#"},
+        {"label": "Solar Energy Industries Association", "url": "#"},
+        {"label": "National Renewable Energy Laboratory", "url": "#"}
+      ],
+      "levels": {
+        "level0": [
+          "Research local solar potential and energy costs",
+          "Learn about used solar panel opportunities"
+        ],
+        "level1": [
+          "Partner with neighbors on joint solar projects",
+          "Install basic solar systems with battery backup"
+        ],
+        "level2": [
+          "Build comprehensive home energy systems under $4,000",
+          "Document installation process for community replication"
+        ],
+        "level3": [
+          "Create neighborhood microgrids and energy sharing networks",
+          "Teach community members to maintain and expand energy systems"
+        ]
+      }
+    },
+    "Knowledge": {
+      "summary": "Share practical knowledge openly to build collective community capacity.",
+      "localizable": false,
+      "resources": [
+        {"label": "Community Resilience Research", "url": "#"},
+        {"label": "Mutual Aid Society Examples", "url": "#"}
+      ],
+      "levels": {
+        "level0": [
+          "Document and share your own resilience experiments",
+          "Learn from historical examples of community mutual aid"
+        ],
+        "level1": [
+          "Create step-by-step guides for successful community projects",
+          "Study what makes social connections effective for longevity and well-being"
+        ],
+        "level2": [
+          "Develop frameworks others can adapt to their local circumstances",
+          "Build networks for sharing lessons learned across communities"
+        ],
+        "level3": [
+          "Create comprehensive knowledge bases for community resilience",
+          "Train others to become knowledge facilitators and project leaders"
+        ]
+      }
+    },
+    "Narrative": {
+      "summary": "Shift from waiting for external saviors to recognizing local capacity for solutions.",
+      "localizable": false,
+      "resources": [
+        {"label": "The Game Was Rigged - Previous Article", "url": "#"},
+        {"label": "Examples of Community Self-Reliance", "url": "#"}
+      ],
+      "levels": {
+        "level0": [
+          "Recognize the 'hero waiting' pattern in yourself and community",
+          "Understand that local problems often require local solutions"
+        ],
+        "level1": [
+          "Frame community projects as building power from the ground up",
+          "See resilience work as both individual and systems-level benefit"
+        ],
+        "level2": [
+          "Understand how local demonstrations influence larger policy changes",
+          "Connect individual projects to broader movements for systemic change"
+        ],
+        "level3": [
+          "Articulate vision of community-powered future to broader audiences",
+          "Inspire others to move from waiting to building"
+        ]
+      }
+    }
+  }
+}

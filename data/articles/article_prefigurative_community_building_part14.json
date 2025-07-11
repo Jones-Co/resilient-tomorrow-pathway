@@ -1,0 +1,53 @@
+{
+  "id": "article_prefigurative_community_building_part14",
+  "title": "Prefigurative Community Building (Part 14): Building Homes Together - Tiny House Villages and Ecovillages as Power With Solutions",
+  "slug": "prefigurative-community-building-part14-tiny-villages",
+  "summary": "Start tiny house villages and ecovillages as alternatives to the housing crisis. Build cooperative living based on care, autonomy, and interdependence rather than profit and control.",
+  "tags": ["Tiny House Villages", "Ecovillages", "Cooperative Living", "Alternative Housing", "Community Building"],
+  "recommendedFor": ["Alternative Living Advocate", "Community Builder", "Housing Justice Organizer", "Sustainability Activist"],
+  "domainActions": {
+    "Community": {
+      "summary": "Create cooperative living arrangements that embody shared responsibility and mutual care.",
+      "localizable": true,
+      "resources": [
+        {"label": "Square One Villages Oregon", "url": "https://squareonevillages.org"},
+        {"label": "EB PREC Community Land Cooperative", "url": "https://ebprec.org"},
+        {"label": "Sociocracy for All Governance", "url": "https://www.sociocracyforall.org"},
+        {"label": "Seeds for Change Consensus Guide", "url": "https://www.seedsforchange.org.uk/consensus"}
+      ],
+      "levels": {
+        "level0": ["Gather people concerned about housing - especially those with housing insecurity", "Choose structure together - tiny homes, ecovillage, or renovated units"],
+        "level1": ["Secure land or space through collective action", "Co-design homes and common spaces as a group"],
+        "level2": ["Create governance system based on consent and care", "Connect with local mutual aid networks"],
+        "level3": ["Build permanent community infrastructure", "Support others in starting similar projects"]
+      }
+    },
+    "Knowledge": {
+      "summary": "Learn sustainable building and cooperative living skills through shared practice.",
+      "localizable": true,
+      "resources": [
+        {"label": "Natural Building Resources", "url": "https://www.naturalbuilding.org"},
+        {"label": "Permaculture Design", "url": "https://permacultureprinciples.com"}
+      ],
+      "levels": {
+        "level0": ["Research zoning laws and legal pathways for alternative housing", "Learn about sustainable building techniques and materials"],
+        "level1": ["Practice shared decision-making and conflict resolution", "Develop skills in construction, renewable energy, and food growing"],
+        "level2": ["Include everyone in design, construction, and governance decisions", "Teach others about cooperative living and community building"],
+        "level3": ["Become resource for alternative housing development", "Create educational materials about Power With living"]
+      }
+    },
+    "Narrative": {
+      "summary": "Model alternatives to individualized housing that demonstrate cooperative possibilities.",
+      "localizable": false,
+      "resources": [
+        {"label": "Intentional Communities Movement", "url": "https://www.ic.org"}
+      ],
+      "levels": {
+        "level0": ["Practice seeing housing as relationship rather than commodity", "Challenge narratives about individual home ownership"],
+        "level1": ["Share stories about cooperative living and mutual aid", "Model interdependence as strength rather than weakness"],
+        "level2": ["Help others envision alternatives to nuclear family housing", "Demonstrate sustainable living practices"],
+        "level3": ["Transform community understanding of home and belonging", "Build culture where cooperative living is normalized and celebrated"]
+      }
+    }
+  }
+}

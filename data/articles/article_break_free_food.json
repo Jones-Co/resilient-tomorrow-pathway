@@ -1,0 +1,125 @@
+{
+  "id": "article_break_free_food",
+  "title": "You've Been Trained to Depend on the System for Survival—Here's How to Break Free",
+  "slug": "break-free-food-sovereignty",
+  "summary": "A foundational guide to reclaiming food sovereignty as the first step toward independence from extractive systems. Reveals how dependency isn't accidental—it's by design—and offers a practical 3-level off-ramp to rebuild food autonomy.",
+  "tags": ["Food Sovereignty", "Off-Ramp", "Beginner", "Resilience", "Quiet Resistance"],
+  "recommendedFor": ["Beginner", "Frustrated Professional", "Parent", "Urban Dweller"],
+  "domainActions": {
+    "Food": {
+      "summary": "Reclaim food sovereignty through practical steps that reduce dependency on fragile supply chains.",
+      "localizable": true,
+      "resources": [
+        {"label": "BudgetBytes - Easy Meal Ideas", "url": "https://budgetbytes.com"},
+        {"label": "EWG's Food Scores", "url": "https://ewg.org/foodscores/"},
+        {"label": "USDA Local Food Directory", "url": "https://usda.gov/local-food-directory"},
+        {"label": "Stealth Health Life - Freezer Meals", "url": "https://stealthhealthlife.substack.com"}
+      ],
+      "levels": {
+        "level0": [
+          "Do a pantry audit—identify what you actually use vs. what's marketing",
+          "Cook one more meal at home this week than usual",
+          "Shop intentionally: stick to outer edges of grocery store",
+          "Put a bowl by your sink tonight and start collecting compost scraps"
+        ],
+        "level1": [
+          "Choose shelf-stable items to 'buffer' each week (rice, beans, oats)",
+          "Learn to freeze leftovers and stretch ingredients",
+          "Try one new cooking skill: making stock, drying herbs, or baking bread",
+          "Start a simple compost system at home or find local drop-off"
+        ],
+        "level2": [
+          "Buy herbs or greens to grow on windowsill or patio",
+          "Join a CSA or find local farm box delivery",
+          "Swap or share food through Buy Nothing groups",
+          "Ask gardening neighbors about extra produce"
+        ],
+        "level3": [
+          "Set up container gardening for tomatoes, peppers, or potatoes",
+          "Connect with community gardens or permaculture meetups",
+          "Learn to identify one wild edible in your area",
+          "Build relationships with local farmers and food producers"
+        ]
+      }
+    },
+    "Community": {
+      "summary": "Build food-sharing networks that create co-sufficiency rather than individual self-reliance.",
+      "localizable": true,
+      "resources": [
+        {"label": "Buy Nothing Groups", "url": "https://buynothingproject.org"},
+        {"label": "Make Soil - Compost Sharing", "url": "https://makesoil.org"},
+        {"label": "NeighborhoodShare (upcoming)", "url": "#"}
+      ],
+      "levels": {
+        "level0": [
+          "Join local Buy Nothing or food sharing groups",
+          "Offer to share a meal with neighbors"
+        ],
+        "level1": [
+          "Register on Make Soil to share compost scraps",
+          "Bring a dish made from neighbor's gifted produce"
+        ],
+        "level2": [
+          "Organize neighborhood food swaps",
+          "Start or join a tool library for gardening equipment"
+        ],
+        "level3": [
+          "Help establish community gardens",
+          "Create local food distribution networks"
+        ]
+      }
+    },
+    "Knowledge": {
+      "summary": "Rebuild basic food skills that have been outsourced to corporations.",
+      "localizable": false,
+      "resources": [
+        {"label": "EPA Home Compost Guide", "url": "https://epa.gov/composting"},
+        {"label": "National Center for Home Food Preservation", "url": "https://nchfp.uga.edu"}
+      ],
+      "levels": {
+        "level0": [
+          "Learn to trust your senses while cooking instead of just following recipes",
+          "Understand which foods freeze well and how to store them"
+        ],
+        "level1": [
+          "Master batch cooking techniques: cook once, eat three times",
+          "Learn basic food preservation: freezing, drying, simple fermentation"
+        ],
+        "level2": [
+          "Develop intuitive cooking skills—listening to what food wants to do",
+          "Learn seasonal eating patterns for your region"
+        ],
+        "level3": [
+          "Study permaculture and regenerative growing methods",
+          "Master advanced preservation techniques: canning, smoking, root cellaring"
+        ]
+      }
+    },
+    "Narrative": {
+      "summary": "Shift from 'convenience culture' to understanding food as a pathway to sovereignty.",
+      "localizable": false,
+      "resources": [
+        {"label": "Cuba's Urban Agriculture Model", "url": "#"},
+        {"label": "Food Sovereignty Movement", "url": "#"}
+      ],
+      "levels": {
+        "level0": [
+          "Recognize that food dependency isn't accidental—it's by design",
+          "Understand that 'convenience' often means giving up control"
+        ],
+        "level1": [
+          "Reframe cooking from burden to act of resistance",
+          "See composting as transformation rather than waste management"
+        ],
+        "level2": [
+          "Embrace 'preparedness as dignity' rather than paranoia",
+          "Understand co-sufficiency as more powerful than self-sufficiency"
+        ],
+        "level3": [
+          "Develop a vision of food systems that serve communities, not corporations",
+          "Share stories that inspire others to reclaim food sovereignty"
+        ]
+      }
+    }
+  }
+}

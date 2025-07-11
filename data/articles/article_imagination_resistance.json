@@ -1,0 +1,52 @@
+{
+  "id": "article_imagination_resistance",
+  "title": "Imagination Was the First Thing They Took—Reclaiming it is How Resistance Begins",
+  "slug": "imagination-resistance-reclaiming-vision",
+  "summary": "Most people aren't resisting transformation—they're waiting for someone to show them what it looks like. Reclaiming imagination isn't optional, it's critical infrastructure for building the world we want to live in.",
+  "tags": ["Imagination", "Resistance", "Storytelling", "Vision", "Systems Change"],
+  "recommendedFor": ["Systems Thinker", "Community Organizer", "Creative", "Frustrated Professional"],
+  "domainActions": {
+    "Narrative": {
+      "summary": "Reclaim your ability to imagine and story different futures into being.",
+      "localizable": false,
+      "resources": [
+        {"label": "NeighborhoodShare", "url": "https://neighborhoodshare.app"},
+        {"label": "Collaborative Storytelling Tools", "url": "https://www.hylo.com"}
+      ],
+      "levels": {
+        "level0": ["Describe a day in your ideal community", "Ask family 'what would a perfect day look like?' instead of 'how was your day?'"],
+        "level1": ["Co-create a story with a friend or journal", "Sketch or describe your imagined life with someone else"],
+        "level2": ["Start collaborative storytelling with neighbors", "Create shared vision with 3-4 friends"],
+        "level3": ["Build storytelling infrastructure in your community", "Develop neighborhood vision and action plans"]
+      }
+    },
+    "Community": {
+      "summary": "Use shared imagination to build real connections and systems.",
+      "localizable": true,
+      "resources": [
+        {"label": "Tool Library Networks", "url": "https://neighborhoodshare.app"},
+        {"label": "Buy Nothing Groups", "url": "https://buynothingproject.org"}
+      ],
+      "levels": {
+        "level0": ["Find and follow a fringe thread - try something you'd normally dismiss"],
+        "level1": ["Share a vision exercise with neighbors", "Join or start a local imagination group"],
+        "level2": ["Create community spaces for visioning", "Organize neighborhood dreaming sessions"],
+        "level3": ["Build systems that reflect shared imagination", "Turn collective vision into infrastructure"]
+      }
+    },
+    "Knowledge": {
+      "summary": "Learn to see systems differently and practice imagining without permission.",
+      "localizable": false,
+      "resources": [
+        {"label": "Resilient Tomorrow Articles", "url": "https://resilienttomorrow.substack.com"},
+        {"label": "Systems Thinking Resources", "url": "https://www.systems-thinking.org"}
+      ],
+      "levels": {
+        "level0": ["Practice describing alternatives to current systems you use"],
+        "level1": ["Study examples of successful alternative systems", "Learn collaborative decision-making methods"],
+        "level2": ["Develop skills in facilitation and community organizing"],
+        "level3": ["Teach others to imagine and build alternative systems"]
+      }
+    }
+  }
+}

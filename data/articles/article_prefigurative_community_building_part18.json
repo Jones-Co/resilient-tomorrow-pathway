@@ -1,0 +1,68 @@
+{
+  "id": "article_prefigurative_community_building_part18",
+  "title": "Prefigurative Community Building (Part 18): Local Currencies & Mutual Credit - Reclaiming Value Through Collective Trust",
+  "slug": "prefigurative-community-building-part18-local-currencies",
+  "summary": "Develop local currencies and mutual credit networks as forms of economic self-determination. Shift economic power from banks back into relationships between neighbors through cooperative exchange systems.",
+  "tags": ["Local Currencies", "Mutual Credit", "Economic Democracy", "Alternative Finance", "Community Money"],
+  "recommendedFor": ["Economic Justice Advocate", "Community Organizer", "Alternative Economics Researcher", "Local Business Supporter"],
+  "domainActions": {
+    "Money": {
+      "summary": "Create alternative currency systems that serve community needs rather than extraction and accumulation.",
+      "localizable": true,
+      "resources": [
+        {"label": "Community Currency Starter Kit", "url": "https://www.socioeco.org/bdf_fiche-document-2620_en.html"},
+        {"label": "Credit Commons Protocol", "url": "https://www.creditcommons.net"},
+        {"label": "Open Credit Network Guide", "url": "https://opencredit.network"},
+        {"label": "CES Community Exchange System", "url": "https://www.community-exchange.org/home/"}
+      ],
+      "levels": {
+        "level0": ["Form core group of 3-8 people committed to community economic wellbeing", "Clarify purpose and scope - what is your currency/credit system for?"],
+        "level1": ["Choose model: local currency or mutual credit based on community needs", "Design governance using flat, participatory methods"],
+        "level2": ["Map and onboard participants - producers, service providers, individuals", "Launch pilot exchange round with transparent transactions"],
+        "level3": ["Sustain participation without centralizing control", "Build network of connected alternative currency systems"]
+      }
+    },
+    "Community": {
+      "summary": "Build economic relationships based on trust and cooperation rather than profit and competition.",
+      "localizable": true,
+      "resources": [
+        {"label": "Sardex Mutual Credit Sardinia", "url": "https://www.sardex.net"},
+        {"label": "Stroud Pound UK", "url": "https://www.stroudpound.org.uk"},
+        {"label": "Cooperation Humboldt", "url": "https://cooperationhumboldt.com"}
+      ],
+      "levels": {
+        "level0": ["Use consensus or modified consensus for all governance decisions"],
+        "level1": ["Avoid screening participants by income, background, or employment", "Design mechanisms to prevent large negative balances"],
+        "level2": ["Keep system co-created and governed by users - no owners or banks", "Use events and direct outreach to build participation"],
+        "level3": ["Create permanent infrastructure for community-controlled exchange", "Model cooperative economics for broader transformation"]
+      }
+    },
+    "Knowledge": {
+      "summary": "Learn alternative economics while sharing knowledge about community-controlled currency systems.",
+      "localizable": true,
+      "resources": [
+        {"label": "Sacred Economics by Charles Eisenstein", "url": "https://sacred-economics.com"},
+        {"label": "Reinventing Money by Bernard Lietaer", "url": "https://centerforneweconomics.org/publications/reinventing-money/"}
+      ],
+      "levels": {
+        "level0": ["Learn about local currency models and mutual credit systems", "Study successful community currency projects"],
+        "level1": ["Develop skills in participatory governance and system design", "Learn about trust mechanisms and default prevention"],
+        "level2": ["Teach others about economic democracy and community currencies", "Share knowledge about alternatives to state and corporate money"],
+        "level3": ["Become resource for community currency development", "Create educational materials about economic sovereignty"]
+      }
+    },
+    "Narrative": {
+      "summary": "Challenge dominant narratives about money and value toward community-controlled alternatives.",
+      "localizable": false,
+      "resources": [
+        {"label": "Asset-Based Community Development", "url": "https://resources.depaul.edu/abcd-institute/resources/Pages/tool-kit.aspx"}
+      ],
+      "levels": {
+        "level0": ["Practice understanding money as tool rather than measure of worth", "Challenge narratives about scarcity and competition"],
+        "level1": ["Share stories about successful community currencies", "Model cooperation over individual accumulation"],
+        "level2": ["Help others understand economic alternatives to capitalism", "Promote local economic sovereignty and democracy"],
+        "level3": ["Transform community understanding of value and exchange", "Build culture where cooperative economics is normalized"]
+      }
+    }
+  }
+}

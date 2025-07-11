@@ -1,0 +1,66 @@
+{
+  "id": "article_prefigurative_community_building_part20",
+  "title": "Prefigurative Community Building (Part 20): Worker Cooperatives as Transitional Formations - Building Power With in the Workplace",
+  "slug": "prefigurative-community-building-part20-worker-cooperatives",
+  "summary": "Start worker cooperatives as enterprises collectively owned and democratically managed by workers. Build transitional formations that redistribute power while prefiguring post-capitalist alternatives.",
+  "tags": ["Worker Cooperatives", "Workplace Democracy", "Economic Democracy", "Cooperative Enterprise", "Anti-Capitalism"],
+  "recommendedFor": ["Worker Organizer", "Cooperative Developer", "Economic Justice Advocate", "Small Business Owner"],
+  "domainActions": {
+    "Money": {
+      "summary": "Create enterprises that distribute ownership and profits among workers rather than external investors.",
+      "localizable": true,
+      "resources": [
+        {"label": "US Federation of Worker Cooperatives", "url": "https://www.usworker.coop"},
+        {"label": "Democracy at Work Institute", "url": "https://institute.coop"},
+        {"label": "Cooperative Development Toolkit", "url": "https://www.cooperation.coop"}
+      ],
+      "levels": {
+        "level0": ["Gather core group of 3-15 committed people with shared vision", "Choose enterprise type rooted in group's knowledge and community needs"],
+        "level1": ["Create legal structure as worker cooperative", "Develop business plan using consensus-based processes"],
+        "level2": ["Launch cooperative with shared ownership and democratic management", "Establish profit-sharing and decision-making systems"],
+        "level3": ["Build sustainable cooperative that models alternative to capitalist enterprise", "Support others in starting or converting to worker co-ops"]
+      }
+    },
+    "Power": {
+      "summary": "Redistribute workplace power from owners/managers to workers through democratic governance.",
+      "localizable": true,
+      "resources": [
+        {"label": "ChiFresh Kitchen Chicago", "url": "https://www.chifreshkitchen.com"},
+        {"label": "A Yard and a Half Landscaping", "url": "https://ayardandahalf.com"}
+      ],
+      "levels": {
+        "level0": ["Use consensus or consent-based processes for all key decisions", "Rotate facilitation and ensure all voices are heard"],
+        "level1": ["Create governance structure that prevents hierarchy and concentration of power", "Establish transparent decision-making and accountability systems"],
+        "level2": ["Practice workplace democracy in daily operations and long-term planning", "Address conflicts through restorative rather than punitive approaches"],
+        "level3": ["Model democratic workplace relations for broader economic transformation", "Demonstrate alternatives to boss-worker hierarchies"]
+      }
+    },
+    "Community": {
+      "summary": "Connect worker cooperatives to broader community needs and solidarity economy networks.",
+      "localizable": true,
+      "resources": [
+        {"label": "Cooperative Economics Alliance", "url": "https://www.cea.coop"},
+        {"label": "Solidarity Economy Network", "url": "https://solidarityeconomy.us"}
+      ],
+      "levels": {
+        "level0": ["Root enterprise in community relationships and shared values"],
+        "level1": ["Connect with local solidarity economy and cooperative networks", "Partner with other cooperatives and community organizations"],
+        "level2": ["Use cooperative to support broader community resilience and justice", "Share resources and knowledge with other cooperative enterprises"],
+        "level3": ["Build networks of connected cooperatives that support regional economic democracy", "Create infrastructure for post-capitalist economic relationships"]
+      }
+    },
+    "Narrative": {
+      "summary": "Challenge narratives about inevitable hierarchy in workplaces and demonstrate democratic alternatives.",
+      "localizable": false,
+      "resources": [
+        {"label": "Cooperative Movement History", "url": "https://www.ica.coop/en/cooperatives/history-cooperative-movement"}
+      ],
+      "levels": {
+        "level0": ["Practice seeing workers as capable of self-management and democratic decision-making"],
+        "level1": ["Share stories about successful worker cooperatives and workplace democracy", "Challenge myths about need for bosses and external ownership"],
+        "level2": ["Help others understand cooperatives as alternative to capitalist enterprise", "Model dignity and empowerment in work relationships"],
+        "level3": ["Transform community understanding of work from exploitation to cooperation", "Build culture where worker ownership and democracy are normalized"]
+      }
+    }
+  }
+}

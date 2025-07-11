@@ -1,0 +1,95 @@
+{
+  "id": "article_prefigurative_community_building_part26",
+  "title": "Prefigurative Community Building (Part 26): Growing Community Health Collectives - A Power With Guide to Peer-Led Healing",
+  "slug": "prefigurative-community-building-part26-health-collectives",
+  "summary": "Reclaim health as a collective practice through peer-organized healing networks that center traditional knowledge, mutual aid, and accessible care.",
+  "tags": ["Community Health", "Peer Support", "Herbal Medicine", "Collective Healing", "Health Justice", "Traditional Knowledge"],
+  "recommendedFor": ["Health Justice Advocate", "Herbalist", "Peer Support Worker", "Community Healer", "Mutual Aid Organizer"],
+  "domainActions": {
+    "Community": {
+      "summary": "Build peer-led health collectives that reclaim healing as shared community practice rather than commodity.",
+      "localizable": true,
+      "resources": [
+        {"label": "Fireweed Collective", "url": "https://fireweedcollective.org"},
+        {"label": "Solidarity Apothecary", "url": "https://solidarityapothecary.org"},
+        {"label": "Herbalists Without Borders", "url": "https://hwbglobal.org/community-apothecary.html"},
+        {"label": "Asset-Based Community Development Toolkit", "url": "https://resources.depaul.edu/abcd-institute/"}
+      ],
+      "levels": {
+        "level0": [
+          "Host conversations about community health needs and existing care skills",
+          "Start sharing herbal knowledge and simple remedies with neighbors",
+          "Organize peer support circles or listening sessions"
+        ],
+        "level1": [
+          "Form a small health collective with shared agreements and values",
+          "Host regular skillshares on somatic tools, herbs, and peer support",
+          "Organize one free community clinic or health fair"
+        ],
+        "level2": [
+          "Develop rotating coordination roles and accessible infrastructure",
+          "Build community apothecary and peer skill library",
+          "Connect with other health collectives for knowledge sharing"
+        ],
+        "level3": [
+          "Support formation of additional autonomous health collectives",
+          "Advocate for community-controlled health alternatives",
+          "Build lasting infrastructure for peer-led healing networks"
+        ]
+      }
+    },
+    "Knowledge": {
+      "summary": "Develop and share traditional healing knowledge, peer support skills, and health justice practices.",
+      "localizable": true,
+      "resources": [
+        {"label": "Free Peer Support Group Toolkit", "url": "https://fireweedcollective.org/peer-support-space-facilitation-guide/"},
+        {"label": "Harm Reduction Guide to Coming Off Psychiatric Drugs", "url": "https://fireweedcollective.org/download-the-harm-reduction-guide-to-coming-off-psychiatric-drugs/"},
+        {"label": "Seeds for Change Consensus Guide", "url": "https://seedsforchange.org.uk/consensus"}
+      ],
+      "levels": {
+        "level0": [
+          "Learn about traditional healing practices and herbal medicine",
+          "Study successful health collectives like Fireweed and Solidarity Apothecary"
+        ],
+        "level1": [
+          "Practice peer support and trauma-informed care approaches",
+          "Document traditional healing knowledge and community health practices"
+        ],
+        "level2": [
+          "Host workshops on starting health collectives and peer support groups",
+          "Create zines and resources about accessible community health"
+        ],
+        "level3": [
+          "Develop comprehensive community health organizing toolkits",
+          "Research and document impacts of peer-led vs institutional health care"
+        ]
+      }
+    },
+    "Narrative": {
+      "summary": "Challenge medical hierarchy narratives and promote stories of community-controlled healing.",
+      "localizable": true,
+      "resources": [
+        {"label": "The Care Manifesto", "url": "https://versobooks.com/products/1645-the-care-manifesto"},
+        {"label": "Sins Invalid Disability Justice Principles", "url": "https://sinsinvalid.org/blog/disability-justice-a-working-draft-by-patty-berne"}
+      ],
+      "levels": {
+        "level0": [
+          "Share stories of successful peer-led healing and community health",
+          "Challenge narratives that medicalize all health concerns"
+        ],
+        "level1": [
+          "Advocate for community-controlled rather than institutional health approaches",
+          "Write and share experiences of collective healing practices"
+        ],
+        "level2": [
+          "Lead community discussions about reclaiming health as commons",
+          "Create media highlighting traditional knowledge and peer support successes"
+        ],
+        "level3": [
+          "Contribute to cultural shift toward viewing community health as normal",
+          "Mentor others in articulating visions of healing justice and health sovereignty"
+        ]
+      }
+    }
+  }
+}

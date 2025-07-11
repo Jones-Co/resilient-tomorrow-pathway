@@ -1,0 +1,66 @@
+{
+  "id": "article_prefigurative_community_building_part7",
+  "title": "Prefigurative Community Building (Part 7): Foraging Guilds as Resistance - Building Power With Through Wild Food & Medicine",
+  "slug": "prefigurative-community-building-part7-foraging-guilds",
+  "summary": "Learn to forage and wildcraft together ethically and collectively as a form of rewilding autonomy. Build living networks that restore reciprocal relationships with local ecosystems while strengthening community trust.",
+  "tags": ["Foraging", "Wildcrafting", "Bioregionalism", "Food Medicine", "Land Stewardship"],
+  "recommendedFor": ["Environmental Activist", "Herbalist", "Bioregional Organizer", "Land Steward"],
+  "domainActions": {
+    "Food": {
+      "summary": "Decentralize food and medicine knowledge through ethical collective foraging and wildcrafting.",
+      "localizable": true,
+      "resources": [
+        {"label": "Falling Fruit", "url": "https://fallingfruit.org"},
+        {"label": "Wild Food Map", "url": "https://www.wildfoodmap.com"},
+        {"label": "Plants for a Future Database", "url": "https://pfaf.org"},
+        {"label": "United Plant Savers At-Risk List", "url": "https://unitedplantsavers.org/species-at-risk-list/"}
+      ],
+      "levels": {
+        "level0": ["Start with curiosity and consent - invite co-learners, not experts", "Map your bioregion together using community knowledge and resources"],
+        "level1": ["Develop shared ethics around abundant harvesting and reciprocal stewardship", "Host seasonal learning walks in safe, accessible areas"],
+        "level2": ["Share skills horizontally - honor everyone's knowledge and experience", "Practice tending more than taking - seed collection, invasive removal"],
+        "level3": ["Stay decentralized - create open resources others can copy and remix", "Build bioregional networks of foraging guilds"]
+      }
+    },
+    "Knowledge": {
+      "summary": "Build embodied knowledge of local ecosystems while practicing collective learning.",
+      "localizable": true,
+      "resources": [
+        {"label": "Radical Mycology Network", "url": "https://radicalmycology.com"},
+        {"label": "Bioregional Education Resources", "url": "https://www.bioregional.org"}
+      ],
+      "levels": {
+        "level0": ["Learn plant identification and seasonal rhythms together", "Study Indigenous knowledge when shared with proper consent"],
+        "level1": ["Document learnings in shared notebooks or digital folders", "Practice identifying toxic vs edible plants safely"],
+        "level2": ["Develop expertise in local medicinal and food plants", "Teach plant ID and ethics to new members"],
+        "level3": ["Become bioregional resource for ethical foraging practices", "Create educational materials and guides for community use"]
+      }
+    },
+    "Community": {
+      "summary": "Build trust and reciprocal relationships through shared land-based learning.",
+      "localizable": true,
+      "resources": [
+        {"label": "Woodbine Community Hub", "url": "https://woodbine.nyc"}
+      ],
+      "levels": {
+        "level0": ["Use consensus decision-making for all guild activities", "Create inclusive, accessible learning opportunities"],
+        "level1": ["Build trust through shared embodied experiences in nature", "Host story-sharing circles for intergenerational knowledge"],
+        "level2": ["Create medicine-making sessions and communal meals with harvests", "Support members in developing land-based relationships"],
+        "level3": ["Build permanent community infrastructure around land stewardship", "Model reciprocal relationship with more-than-human world"]
+      }
+    },
+    "Narrative": {
+      "summary": "Transform relationship with land from extraction to reciprocity and care.",
+      "localizable": false,
+      "resources": [
+        {"label": "Decolonizing Herbalism", "url": "https://decolonizingherbalism.com"}
+      ],
+      "levels": {
+        "level0": ["Practice seeing land as teacher rather than resource", "Learn ethics of reciprocal stewardship vs extraction"],
+        "level1": ["Share stories about connection to local ecosystems", "Challenge narratives of human separation from nature"],
+        "level2": ["Help others understand foraging as relationship-building", "Model consent-based approaches to land interaction"],
+        "level3": ["Transform community culture toward ecological reciprocity", "Build widespread understanding of humans as part of ecosystem"]
+      }
+    }
+  }
+}

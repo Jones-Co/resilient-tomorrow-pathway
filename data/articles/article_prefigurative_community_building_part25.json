@@ -1,0 +1,94 @@
+{
+  "id": "article_prefigurative_community_building_part25",
+  "title": "Prefigurative Community Building (Part 25): Consent-Based Conflict Transformation Circles - A Power With Approach to Healing Harm",
+  "slug": "prefigurative-community-building-part25-conflict-transformation",
+  "summary": "Non-hierarchical, non-punitive methods of responding to conflict and harm that center consent, accountability, healing, and collective responsibility.",
+  "tags": ["Transformative Justice", "Conflict Transformation", "Restorative Justice", "Consent Culture", "Community Accountability"],
+  "recommendedFor": ["Community Organizer", "Conflict Mediator", "Transformative Justice Advocate", "Community Care Coordinator"],
+  "domainActions": {
+    "Community": {
+      "summary": "Build capacity for non-punitive conflict resolution through consent-based healing circles.",
+      "localizable": true,
+      "resources": [
+        {"label": "Transforming Harm", "url": "https://transformharm.org"},
+        {"label": "Creative Interventions Toolkit", "url": "https://transformharm.org/creative-interventions-toolkit/"},
+        {"label": "Philly Stands Up Resources", "url": "https://phillystandsup.wordpress.com/resources/"},
+        {"label": "Spring Up", "url": "https://thelivingbody.online/"}
+      ],
+      "levels": {
+        "level0": [
+          "Study transformative justice principles and practices",
+          "Form a small trusted group to learn conflict transformation together",
+          "Practice active listening and non-violent communication"
+        ],
+        "level1": [
+          "Develop community agreements for handling conflict",
+          "Practice facilitating with low-stakes conflict scenarios",
+          "Create trauma-informed and accessible conflict processes"
+        ],
+        "level2": [
+          "Facilitate actual consent-based conflict transformation circles",
+          "Provide ongoing support and follow-up care for participants",
+          "Train others in transformative justice practices"
+        ],
+        "level3": [
+          "Build community-wide capacity for transformative justice",
+          "Support development of multiple autonomous conflict transformation circles",
+          "Advocate for transformative justice alternatives to punitive systems"
+        ]
+      }
+    },
+    "Knowledge": {
+      "summary": "Develop and share knowledge about transformative justice and consent-based conflict resolution.",
+      "localizable": false,
+      "resources": [
+        {"label": "AORTA's Conflict Resolution Tools", "url": "https://aorta.coop/portfolio_page/conflict-resolution-tools-for-radical-groups/"},
+        {"label": "The Relational Uprising Toolkit", "url": "https://therelationaluprising.org/resources"},
+        {"label": "Beyond Survival book", "url": "https://akpress.org/beyondsurvival.html"}
+      ],
+      "levels": {
+        "level0": [
+          "Learn about transformative justice vs punitive justice models",
+          "Study successful conflict transformation projects like Creative Interventions"
+        ],
+        "level1": [
+          "Practice consensus decision-making and consent culture",
+          "Document your conflict transformation processes and learning"
+        ],
+        "level2": [
+          "Host workshops on transformative justice and conflict transformation",
+          "Create resources about consent-based healing practices"
+        ],
+        "level3": [
+          "Develop comprehensive transformative justice organizing toolkits",
+          "Research and document alternatives to carceral responses to harm"
+        ]
+      }
+    },
+    "Narrative": {
+      "summary": "Challenge punitive justice narratives and promote stories of healing-centered accountability.",
+      "localizable": true,
+      "resources": [
+        {"label": "Building Accountable Communities Zine", "url": "https://transformharm.org/accountability-resources/"}
+      ],
+      "levels": {
+        "level0": [
+          "Share stories of successful transformative justice processes",
+          "Challenge narratives that equate justice with punishment"
+        ],
+        "level1": [
+          "Advocate for consent-based approaches to community conflict",
+          "Write and share experiences of healing-centered accountability"
+        ],
+        "level2": [
+          "Lead community discussions about alternatives to carceral logic",
+          "Create media highlighting transformative justice successes"
+        ],
+        "level3": [
+          "Contribute to cultural shift toward transformative rather than punitive justice",
+          "Mentor others in articulating visions of healing-centered community response"
+        ]
+      }
+    }
+  }
+}

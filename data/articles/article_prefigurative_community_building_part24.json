@@ -1,0 +1,94 @@
+{
+  "id": "article_prefigurative_community_building_part24",
+  "title": "Prefigurative Community Building (Part 24): Disability Justice Pods - A Power With Approach to Collective Care",
+  "slug": "prefigurative-community-building-part24-disability-justice-pods",
+  "summary": "Build peer-organized mutual aid groups centered on radical access, collective care, and the 10 Principles of Disability Justice.",
+  "tags": ["Disability Justice", "Collective Care", "Radical Access", "Mutual Aid", "Intersectionality", "Power With"],
+  "recommendedFor": ["Disability Justice Advocate", "Mutual Aid Organizer", "Community Care Coordinator", "Accessibility Organizer"],
+  "domainActions": {
+    "Community": {
+      "summary": "Create peer-led support networks that center disabled leadership and radical accessibility.",
+      "localizable": true,
+      "resources": [
+        {"label": "Sins Invalid – 10 Principles of Disability Justice", "url": "https://sinsinvalid.org/blog/10-principles-of-disability-justice"},
+        {"label": "Mutual Aid Pod Mapping Tool", "url": "https://docs.google.com/document/d/1fA4Th5Wy_3ER21UsyNrm5U5YvHbHZ7dHP9B0nNtJNlY/edit"},
+        {"label": "Disability Justice Culture Club", "url": "https://disabilityjusticecultureclub.com"},
+        {"label": "Project LETS", "url": "https://projectlets.org"}
+      ],
+      "levels": {
+        "level0": [
+          "Study the 10 Principles of Disability Justice with trusted friends",
+          "Start conversations about mutual support with disabled community members",
+          "Practice asking about access needs and preferences"
+        ],
+        "level1": [
+          "Form a small pod with 3-5 trusted people based on consent",
+          "Co-create flexible care agreements that can evolve",
+          "Establish accessible communication and meeting practices"
+        ],
+        "level2": [
+          "Rotate support roles to prevent burnout and hierarchy",
+          "Hold regular reflection sessions with diverse communication formats",
+          "Connect with other disability justice pods for solidarity"
+        ],
+        "level3": [
+          "Support formation of additional autonomous disability justice pods",
+          "Advocate for disability justice principles in broader organizing",
+          "Build lasting infrastructure for community-controlled accessibility"
+        ]
+      }
+    },
+    "Knowledge": {
+      "summary": "Develop and share knowledge about disability justice organizing and radical access practices.",
+      "localizable": false,
+      "resources": [
+        {"label": "Access-Centered Cultures – Mia Mingus", "url": "https://leavingevidence.wordpress.com/2017/11/10/access-centered-culture-the-value-of-accessibility-in-movement-building/"},
+        {"label": "Crip Emotional Support Zine", "url": "https://disabilityvisibilityproject.com/2021/02/14/crip-emotional-support-zine/"},
+        {"label": "Disability Intersectionality Summit Resources", "url": "https://disabilityintersectionalitysummit.com/resources/"}
+      ],
+      "levels": {
+        "level0": [
+          "Learn disability justice principles and history",
+          "Study existing models like Project LETS and Disability Justice Culture Club"
+        ],
+        "level1": [
+          "Practice creating access-centered meeting and event spaces",
+          "Document your pod's access practices and agreements"
+        ],
+        "level2": [
+          "Host workshops on disability justice organizing",
+          "Create resources about radical access and collective care"
+        ],
+        "level3": [
+          "Develop comprehensive disability justice organizing toolkits",
+          "Research and document impacts of peer-led vs institutional disability services"
+        ]
+      }
+    },
+    "Narrative": {
+      "summary": "Challenge ableist narratives and promote stories of disabled leadership and interdependence.",
+      "localizable": true,
+      "resources": [
+        {"label": "Disability Justice Mutual Aid Directory", "url": "https://disabilityjustice.org/mutual-aid/"}
+      ],
+      "levels": {
+        "level0": [
+          "Share stories of successful disability justice organizing",
+          "Challenge inspiration porn and charity models of disability"
+        ],
+        "level1": [
+          "Advocate for disability justice principles in community organizing",
+          "Write and share experiences of radical access practices"
+        ],
+        "level2": [
+          "Lead community discussions about ableism and liberation",
+          "Create media highlighting disabled leadership and collective care"
+        ],
+        "level3": [
+          "Contribute to cultural shift toward disability justice as central to all liberation",
+          "Mentor others in centering disability justice in organizing"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "id": "article_prefigurative_community_building_part34",
+  "title": "Prefigurative Community Building (Part 34): Bioregional Stewardship Networks - Governance Aligned with Living Systems",
+  "slug": "prefigurative-community-building-part34-bioregional-stewardship",
+  "summary": "A guide to creating watershed councils and bioregional networks that coordinate by ecological reality rather than political boundaries, using Power With principles.",
+  "tags": ["Bioregionalism", "Watershed Stewardship", "Ecological Governance", "Land Justice", "Environmental Organizing", "Power With"],
+  "recommendedFor": ["Land Steward", "Environmental Justice Organizer", "Bioregional Activist", "Water Protector", "Ecological Restoration Worker"],
+  "domainActions": {
+    "Community": {
+      "summary": "Build networks of communities coordinating around shared watersheds and bioregions for collective stewardship.",
+      "localizable": true,
+      "resources": [
+        {"label": "Salmon Nation", "url": "https://salmonnation.com"},
+        {"label": "Red Kunagua Colombia", "url": "https://kunagua.org"},
+        {"label": "Planet Drum Foundation", "url": "https://planetdrum.org"},
+        {"label": "Bioregional Congress Network", "url": "https://bioregionalcongress.org"}
+      ],
+      "levels": {
+        "level0": [
+          "Learn about your local watershed, bioregion, and ecological systems",
+          "Connect with neighbors who care about local land and water health",
+          "Practice collective observation and noticing of ecological patterns"
+        ],
+        "level1": [
+          "Form a bioregional stewardship circle with diverse community members",
+          "Map ecological flows, pressures, and gifts in your bioregion",
+          "Begin small regenerative projects using consensus decision-making"
+        ],
+        "level2": [
+          "Coordinate stewardship activities across multiple communities in the bioregion",
+          "Host bioregional gatherings and skill-shares for mutual learning",
+          "Practice horizontal coordination that respects local autonomy"
+        ],
+        "level3": [
+          "Build lasting networks of bioregional stewardship communities",
+          "Support formation of additional watershed councils and land networks",
+          "Advocate for governance structures that align with ecological boundaries"
+        ]
+      }
+    },
+    "Knowledge": {
+      "summary": "Develop and share knowledge about bioregional ecology, traditional stewardship, and ecological governance.",
+      "localizable": true,
+      "resources": [
+        {"label": "Bioregional Mapping Tools", "url": "https://bioregion.org"},
+        {"label": "Traditional Ecological Knowledge Resources", "url": "https://traditionalknowledge.org"}
+      ],
+      "levels": {
+        "level0": [
+          "Study your bioregion's ecological history and traditional stewardship practices",
+          "Learn about successful bioregional networks like Salmon Nation"
+        ],
+        "level1": [
+          "Practice participatory mapping and ecological assessment methods",
+          "Document local ecological knowledge and stewardship practices",
+          "Learn from Indigenous knowledge holders and traditional land stewards"
+        ],
+        "level2": [
+          "Host workshops on bioregional thinking and ecological governance",
+          "Create resources about watershed-based organizing and stewardship",
+          "Share knowledge across bioregional networks while respecting protocols"
+        ],
+        "level3": [
+          "Develop comprehensive bioregional stewardship organizing toolkits",
+          "Research and document impacts of bioregional vs political governance",
+          "Support policy changes that recognize bioregional governance systems"
+        ]
+      }
+    },
+    "Narrative": {
+      "summary": "Challenge political boundary narratives while promoting stories of ecological citizenship and bioregional belonging.",
+      "localizable": true,
+      "resources": [
+        {"label": "Kirkpatrick Sale Bioregionalism Resources", "url": "https://bioregionalism.org"},
+        {"label": "Doug Aberley Bioregional Mapping", "url": "https://bioregionalmapping.org"}
+      ],
+      "levels": {
+        "level0": [
+          "Share stories about the importance of ecological rather than political boundaries",
+          "Practice seeing yourself as part of local ecosystems and watersheds",
+          "Challenge narratives that separate humans from natural systems"
+        ],
+        "level1": [
+          "Document the benefits of bioregional thinking and watershed-based organizing",
+          "Challenge political systems that ignore ecological boundaries",
+          "Share stories of successful bioregional stewardship networks"
+        ],
+        "level2": [
+          "Lead community conversations about ecological citizenship and governance",
+          "Create media highlighting bioregional approaches to environmental challenges",
+          "Advocate for governance systems aligned with ecological reality"
+        ],
+        "level3": [
+          "Contribute to cultural shift toward bioregional consciousness and governance",
+          "Develop and share analysis of bioregionalism as decolonization practice",
+          "Support movements for ecological governance and land-based democracy"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "id": "article_prefigurative_community_building_part28",
+  "title": "Prefigurative Community Building (Part 28): Public Art Collaboratives as Power With - Reclaiming Space, Story, and Solidarity",
+  "slug": "prefigurative-community-building-part28-public-art-collaboratives",
+  "summary": "A guide to creating collaborative public art projects that reclaim space and amplify collective voice through horizontal coordination and shared authorship.",
+  "tags": ["Public Art", "Community Art", "Collaborative Creation", "Cultural Commons", "Placemaking", "Power With"],
+  "recommendedFor": ["Community Artist", "Cultural Organizer", "Neighborhood Leader", "Creative Activist", "Placemaking Advocate"],
+  "domainActions": {
+    "Community": {
+      "summary": "Use collaborative art-making to strengthen community bonds and reclaim public space for collective expression.",
+      "localizable": true,
+      "resources": [
+        {"label": "Trust Your Struggle Collective", "url": "https://trustyourstruggle.wordpress.com"},
+        {"label": "Spiral Q Community Arts", "url": "https://spiralq.org"},
+        {"label": "Community Arts Network", "url": "https://communityarts.net"},
+        {"label": "Mural Arts Toolkit", "url": "https://muralarts.org"}
+      ],
+      "levels": {
+        "level0": [
+          "Form a small group of neighbors and storytellers interested in creating together",
+          "Host story circles to identify what needs to be remembered or reclaimed",
+          "Practice collaborative decision-making in planning sessions"
+        ],
+        "level1": [
+          "Establish group agreements for shared authorship and decision-making",
+          "Identify meaningful sites for art intervention in your community",
+          "Build participatory design process involving community input"
+        ],
+        "level2": [
+          "Co-create public artworks with community participation at every stage",
+          "Host public unveiling events as community celebrations",
+          "Connect with other public art collaboratives for solidarity"
+        ],
+        "level3": [
+          "Support formation of additional autonomous art collaboratives",
+          "Build lasting infrastructure for community-controlled cultural expression",
+          "Advocate for policy changes supporting community-led public art"
+        ]
+      }
+    },
+    "Narrative": {
+      "summary": "Challenge dominant narratives about who gets to tell stories in public space and reclaim art as commons.",
+      "localizable": true,
+      "resources": [
+        {"label": "Community Story Project", "url": "https://communitystoryproject.org"},
+        {"label": "Just Seeds Cooperative", "url": "https://justseeds.org"}
+      ],
+      "levels": {
+        "level0": [
+          "Question who gets to tell stories in your public spaces",
+          "Practice seeing art as collective meaning-making rather than individual expression",
+          "Share stories about art that has moved or changed you"
+        ],
+        "level1": [
+          "Identify untold stories and marginalized voices in your community",
+          "Challenge narratives of public space as commodity rather than commons",
+          "Document the collaborative art-making process publicly"
+        ],
+        "level2": [
+          "Create public artworks that amplify community stories and resistance",
+          "Lead community conversations about art, space, and power",
+          "Share stories about collaborative creation with broader networks"
+        ],
+        "level3": [
+          "Contribute to cultural shift toward viewing public art as community commons",
+          "Develop and share comprehensive analysis of art as liberation practice",
+          "Mentor others in facilitating collaborative cultural work"
+        ]
+      }
+    },
+    "Knowledge": {
+      "summary": "Develop and share knowledge about collaborative art practices and community-controlled cultural expression.",
+      "localizable": false,
+      "resources": [
+        {"label": "Community Cultural Development Resources", "url": "https://ccdnetwork.org"},
+        {"label": "Alternate ROOTS", "url": "https://alternateroots.org"}
+      ],
+      "levels": {
+        "level0": [
+          "Learn about successful public art collaboratives like Trust Your Struggle",
+          "Study participatory art-making methods and community engagement practices"
+        ],
+        "level1": [
+          "Practice facilitating collaborative design processes",
+          "Document your art collaborative's methods and agreements",
+          "Learn about accessibility in community art practices"
+        ],
+        "level2": [
+          "Host workshops on starting public art collaboratives",
+          "Create resources about Power With approaches to community art",
+          "Share knowledge with other cultural organizers and artists"
+        ],
+        "level3": [
+          "Develop comprehensive toolkits for collaborative public art projects",
+          "Research and document impacts of community-controlled vs top-down public art",
+          "Train facilitators in horizontal cultural organizing methods"
+        ]
+      }
+    }
+  }
+}

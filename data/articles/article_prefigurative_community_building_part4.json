@@ -1,0 +1,69 @@
+{
+  "id": "article_prefigurative_community_building_part4",
+  "title": "Prefigurative Community Building (Part 4): Growing Power With - Democratic Food Co-ops",
+  "slug": "prefigurative-community-building-part4-food-coops",
+  "summary": "How to start a democratic food co-op without Power Over dynamics. A comprehensive guide to building community-owned grocery stores that center transparency, sustainability, and shared decision-making.",
+  "tags": ["Food Co-ops", "Democratic Economics", "Power With", "Food Justice", "Cooperative Development"],
+  "recommendedFor": ["Community Organizer", "Food Justice Advocate", "Cooperative Developer", "Economic Justice Advocate"],
+  "domainActions": {
+    "Money": {
+      "summary": "Create democratic, community-owned alternatives to corporate food systems.",
+      "localizable": true,
+      "resources": [
+        {"label": "Co-op Directory Service", "url": "https://www.coopdirectory.org"},
+        {"label": "Democracy at Work Institute", "url": "https://institute.coop"},
+        {"label": "US Federation of Worker Cooperatives", "url": "https://www.usworker.coop/start-a-co-op/"},
+        {"label": "Sustainable Economies Law Center", "url": "https://www.theselc.org/food_justice"}
+      ],
+      "levels": {
+        "level0": ["Gather core circle of 3-6 people with shared trust and values", "Define collective intention for why you're starting the co-op"],
+        "level1": ["Start with bulk-buying club to practice governance", "Learn from existing co-ops and food justice groups"],
+        "level2": ["Build shared infrastructure using non-hierarchical structure", "Incorporate as cooperative with democratic governance"],
+        "level3": ["Establish full-scale food co-op with community ownership", "Help other communities start their own co-ops"]
+      }
+    },
+    "Food": {
+      "summary": "Democratize access to ethical, local, and culturally relevant food.",
+      "localizable": true,
+      "resources": [
+        {"label": "Open Food Network", "url": "https://openfoodnetwork.org"},
+        {"label": "Loomio Collaborative Decision-making", "url": "https://www.loomio.org"}
+      ],
+      "levels": {
+        "level0": ["Research ethical suppliers and local farms", "Practice bulk ordering with small group"],
+        "level1": ["Stock culturally relevant and locally grown foods", "Accept EBT and offer sliding scale memberships"],
+        "level2": ["Build relationships with urban farms and mutual aid groups", "Create transparent pricing and markup policies"],
+        "level3": ["Become food sovereignty hub connecting multiple food justice projects"]
+      }
+    },
+    "Community": {
+      "summary": "Build shared ownership and democratic participation in essential services.",
+      "localizable": true,
+      "resources": [
+        {"label": "Seeds for Change Consensus Handbook", "url": "https://www.seedsforchange.org.uk/consensus"},
+        {"label": "AORTA Facilitation Toolkit", "url": "https://aorta.coop/portfolio_page/facilitation-tools/"},
+        {"label": "Restorative Practices Handbook", "url": "https://www.iirp.edu/defining-restorative/"}
+      ],
+      "levels": {
+        "level0": ["Use consensus or sociocratic methods for all decisions", "Rotate logistics roles to avoid centralizing power"],
+        "level1": ["Create onboarding rituals that pass on culture and values", "Develop shared conflict resolution processes"],
+        "level2": ["Expand participation while maintaining horizontal structure", "Partner with schools, tenant unions, and mutual aid groups"],
+        "level3": ["Model democratic economics for broader community transformation"]
+      }
+    },
+    "Knowledge": {
+      "summary": "Learn cooperative development while sharing democratic organizing skills.",
+      "localizable": false,
+      "resources": [
+        {"label": "People's Food Co-op Portland", "url": "https://peoples.coop"},
+        {"label": "ChiFresh Kitchen Chicago", "url": "https://www.chifreshkitchen.com"}
+      ],
+      "levels": {
+        "level0": ["Learn about cooperative legal structures and governance", "Study successful food co-ops and their practices"],
+        "level1": ["Develop skills in facilitation and consensus decision-making", "Learn financial transparency and democratic management"],
+        "level2": ["Teach others about cooperative economics and food justice", "Share knowledge about horizontal organizing"],
+        "level3": ["Become resource for cooperative development in your region"]
+      }
+    }
+  }
+}

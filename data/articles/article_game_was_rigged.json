@@ -1,0 +1,144 @@
+{
+  "id": "article_game_was_rigged",
+  "title": "The Game Was Rigged—So Why Are We Still Playing?",
+  "slug": "game-rigged-stop-playing",
+  "summary": "A systems analysis of how current economic and political structures are designed for extraction, not success. Provides concrete alternatives for breaking each of the 'five hidden rules' that keep people dependent.",
+  "tags": ["Systems Analysis", "Economic Critique", "Parallel Systems", "Local Resilience", "Economic Liberation"],
+  "recommendedFor": ["Systems Thinker", "Economic Justice Advocate", "Community Organizer", "Disillusioned Worker"],
+  "domainActions": {
+    "Narrative": {
+      "summary": "Understand that current systems are working as designed—for extraction, not human flourishing.",
+      "localizable": false,
+      "resources": [
+        {"label": "Economic System Analysis", "url": "#"},
+        {"label": "Alternative Economic Models", "url": "#"}
+      ],
+      "levels": {
+        "level0": [
+          "Recognize we're living as 'a society of teenagers'—wanting independence but expecting others to provide",
+          "Understand that systems extract value while giving just enough to prevent walking away"
+        ],
+        "level1": [
+          "See the five hidden rules that maintain dependency: debt, controlled essentials, suppressed wages, information control, political rigging",
+          "Recognize current institutional change as opportunity, not just chaos"
+        ],
+        "level2": [
+          "Frame community projects as 'growing up'—creating systems rather than waiting for them",
+          "Understand how parallel systems can influence larger structures"
+        ],
+        "level3": [
+          "Teach others to recognize extractive vs. generative system design",
+          "Lead narrative shifts from individual failure to systemic analysis"
+        ]
+      }
+    },
+    "Money": {
+      "summary": "Build local trade networks and alternative economic systems that reduce debt dependency.",
+      "localizable": true,
+      "resources": [
+        {"label": "Local Currency Systems", "url": "#"},
+        {"label": "Barter and Trade Networks", "url": "#"},
+        {"label": "Community Investment Models", "url": "#"}
+      ],
+      "levels": {
+        "level0": [
+          "Recognize money as one form of wealth, not the only form",
+          "Practice non-monetary exchanges—bartering, skill trades, gift economy"
+        ],
+        "level1": [
+          "Participate in or create local currency systems",
+          "Build community networks where things can be given freely for collective benefit"
+        ],
+        "level2": [
+          "Organize community investment pools and cooperative ownership",
+          "Create systems that keep wealth circulating locally rather than extracting to distant shareholders"
+        ],
+        "level3": [
+          "Design comprehensive alternative economic systems for communities",
+          "Connect local economic networks to regional resilience systems"
+        ]
+      }
+    },
+    "Food": {
+      "summary": "Create local food security that breaks dependence on controlled, corporate food systems.",
+      "localizable": true,
+      "resources": [
+        {"label": "Community Garden Planning", "url": "#"},
+        {"label": "Food Preservation Techniques", "url": "#"},
+        {"label": "Seed Saving Networks", "url": "#"}
+      ],
+      "levels": {
+        "level0": [
+          "Start any form of food growing—herbs on windowsill, small garden plot",
+          "Learn basic food preservation and storage techniques"
+        ],
+        "level1": [
+          "Join or create community gardens and food sharing networks",
+          "Practice seed saving and heritage variety cultivation"
+        ],
+        "level2": [
+          "Build community food systems that can operate independent of global supply chains",
+          "Develop food production that serves local needs rather than profit extraction"
+        ],
+        "level3": [
+          "Create comprehensive community food security systems",
+          "Teach others to build resilient local food networks"
+        ]
+      }
+    },
+    "Knowledge": {
+      "summary": "Create open knowledge sharing systems that challenge information paywalls and gatekeeping.",
+      "localizable": false,
+      "resources": [
+        {"label": "Open Educational Resources", "url": "#"},
+        {"label": "Economic Literacy Curricula", "url": "#"},
+        {"label": "Skill Sharing Networks", "url": "#"}
+      ],
+      "levels": {
+        "level0": [
+          "Share knowledge freely rather than hoarding professional expertise",
+          "Learn economic literacy that schools deliberately don't teach"
+        ],
+        "level1": [
+          "Organize skill-sharing workshops and community education",
+          "Create learning networks that bypass institutional gatekeeping"
+        ],
+        "level2": [
+          "Develop curricula that teach wealth-building, not just wage-earning",
+          "Build educational systems that serve community empowerment"
+        ],
+        "level3": [
+          "Create comprehensive knowledge-sharing systems that challenge corporate information control",
+          "Train others to become knowledge facilitators and community educators"
+        ]
+      }
+    },
+    "Community": {
+      "summary": "Build parallel community systems that make centralized control structures irrelevant.",
+      "localizable": true,
+      "resources": [
+        {"label": "Mutual Aid Organization Guide", "url": "#"},
+        {"label": "Cooperative Business Models", "url": "#"},
+        {"label": "Community Governance Systems", "url": "#"}
+      ],
+      "levels": {
+        "level0": [
+          "Join or create mutual aid groups and community support networks",
+          "Practice cooperative problem-solving rather than individual competition"
+        ],
+        "level1": [
+          "Organize community systems that provide alternatives to corporate services",
+          "Build local governance and decision-making processes"
+        ],
+        "level2": [
+          "Create comprehensive community support systems that reduce dependence on failing institutions",
+          "Connect local networks to broader movements for systemic change"
+        ],
+        "level3": [
+          "Design replicable models for community self-governance and mutual aid",
+          "Mentor other communities in building parallel systems"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "id": "article_building_resilience",
+  "title": "Building Resilience, One Good Idea at a Time",
+  "slug": "building-resilience-vision",
+  "summary": "A foundational manifesto for Resilient Tomorrow, sharing Mike's systems analysis background and personal journey from corporate extraction to community creation. Introduces the 'solarpunk' vision of technology serving communities rather than extracting from them.",
+  "tags": ["Vision", "Solarpunk", "Personal Journey", "Systems Analysis", "Manifesto"],
+  "recommendedFor": ["Beginner", "Frustrated Professional", "Systems Thinker", "Sustainability Advocate"],
+  "domainActions": {
+    "Narrative": {
+      "summary": "Shift from extraction-based systems to creation-based communities that serve human well-being.",
+      "localizable": false,
+      "resources": [
+        {"label": "Burning Man Airpusher Archive", "url": "#"},
+        {"label": "Donella Meadows - Thinking in Systems", "url": "#"}
+      ],
+      "levels": {
+        "level0": [
+          "Recognize 'maximum consumption' point—where maintaining possessions outweighs utility",
+          "Question the difference between money and true wealth"
+        ],
+        "level1": [
+          "Understand wealth as access through community, not just individual accumulation",
+          "See abundance vs. scarcity as choices we make, not fixed realities"
+        ],
+        "level2": [
+          "Embrace 'solarpunk' vision—technology serving communities rather than extracting from them",
+          "Practice creation over extraction in personal and professional choices"
+        ],
+        "level3": [
+          "Develop systems thinking to identify failure points and build resilient alternatives",
+          "Lead community transitions from dependency to co-sufficiency"
+        ]
+      }
+    },
+    "Community": {
+      "summary": "Build supportive local networks through shared projects that create abundance rather than scarcity.",
+      "localizable": true,
+      "resources": [
+        {"label": "Tool Library Planning Guide", "url": "#"},
+        {"label": "Community Garden Networks", "url": "#"}
+      ],
+      "levels": {
+        "level0": [
+          "Start conversations with neighbors about shared needs and resources"
+        ],
+        "level1": [
+          "Organize simple sharing projects—tool libraries, skill exchanges",
+          "Create neighborhood garden planning groups"
+        ],
+        "level2": [
+          "Establish ongoing community systems that reduce individual consumption",
+          "Build networks connecting multiple neighborhoods"
+        ],
+        "level3": [
+          "Create demonstration models that inspire broader community adoption",
+          "Share blueprints and lessons learned with other communities"
+        ]
+      }
+    },
+    "Knowledge": {
+      "summary": "Apply systems analysis thinking to identify vulnerabilities and build more resilient alternatives.",
+      "localizable": false,
+      "resources": [
+        {"label": "Systems Thinking Resources", "url": "#"},
+        {"label": "Process Improvement Frameworks", "url": "#"}
+      ],
+      "levels": {
+        "level0": [
+          "Learn to see systemic problems rather than individual failures",
+          "Understand how small inefficiencies accumulate into system breakdowns"
+        ],
+        "level1": [
+          "Practice identifying where systems extract value vs. create value",
+          "Study examples of successful community-based alternatives"
+        ],
+        "level2": [
+          "Develop skills in process analysis and continuous improvement",
+          "Learn to design systems that grow stronger with use rather than weaker"
+        ],
+        "level3": [
+          "Master systems design principles for community resilience",
+          "Teach others to identify and improve broken systems"
+        ]
+      }
+    },
+    "Power": {
+      "summary": "Generate own power systems and reduce dependency on centralized energy infrastructure.",
+      "localizable": true,
+      "resources": [
+        {"label": "Home Energy Independence Guide", "url": "#"},
+        {"label": "Microgrid Planning Resources", "url": "#"}
+      ],
+      "levels": {
+        "level0": [
+          "Audit current energy usage and identify reduction opportunities"
+        ],
+        "level1": [
+          "Install basic renewable energy systems—solar chargers, small wind",
+          "Learn energy storage basics and backup power systems"
+        ],
+        "level2": [
+          "Design home energy systems that reduce grid dependency",
+          "Connect with neighbors for shared energy projects"
+        ],
+        "level3": [
+          "Build neighborhood microgrids and energy sharing networks",
+          "Develop expertise to help others achieve energy independence"
+        ]
+      }
+    }
+  }
+}

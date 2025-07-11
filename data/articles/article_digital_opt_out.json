@@ -1,0 +1,127 @@
+{
+  "id": "article_digital_opt_out",
+  "title": "You Didn't Opt In—You Can Still Opt Out",
+  "slug": "digital-privacy-sovereignty",
+  "summary": "A practical guide to reclaiming digital sovereignty through simple, actionable steps. Exposes how convenience has become a currency we spend without thinking, and offers concrete tools to stop feeding systems that treat you like a product.",
+  "tags": ["Digital Privacy", "Off-Ramp", "Digital Sovereignty", "Beginner", "Tools"],
+  "recommendedFor": ["Frustrated Professional", "Privacy-Conscious", "Beginner", "Tech Worker"],
+  "domainActions": {
+    "Communication": {
+      "summary": "Replace extractive digital tools with privacy-respecting alternatives that serve you, not platforms.",
+      "localizable": false,
+      "resources": [
+        {"label": "Proton Mail", "url": "https://proton.me/mail"},
+        {"label": "Signal Messenger", "url": "https://signal.org"},
+        {"label": "Brave Browser", "url": "https://brave.com"},
+        {"label": "DuckDuckGo Search", "url": "https://duckduckgo.com"}
+      ],
+      "levels": {
+        "level0": [
+          "Switch your browser to Brave or Firefox",
+          "Download Signal and tell one friend",
+          "Change your search engine to DuckDuckGo",
+          "Audit one app's permissions on your phone"
+        ],
+        "level1": [
+          "Create your first email alias with Proton Mail",
+          "Set up unique passwords for each login",
+          "Review and limit app tracking permissions",
+          "Start using Signal for sensitive conversations"
+        ],
+        "level2": [
+          "Migrate from Gmail to Proton Mail completely",
+          "Set up anonymous logins for all new services",
+          "Use VPN for browsing and data protection",
+          "Create compartmentalized digital identities"
+        ],
+        "level3": [
+          "Build fully privacy-by-design digital workflow",
+          "Help friends and family implement digital sovereignty tools",
+          "Contribute to privacy-focused software projects"
+        ]
+      }
+    },
+    "Knowledge": {
+      "summary": "Understand how digital surveillance works and why privacy-by-design matters for personal sovereignty.",
+      "localizable": false,
+      "resources": [
+        {"label": "Carole Cadwalladr TED Talk", "url": "https://ted.com/talks/carole_cadwalladr"},
+        {"label": "Privacy Guides", "url": "https://privacyguides.org"},
+        {"label": "Electronic Frontier Foundation", "url": "https://eff.org"}
+      ],
+      "levels": {
+        "level0": [
+          "Understand that you didn't opt into surveillance—it was imposed",
+          "Learn how 'convenience' often means giving up control"
+        ],
+        "level1": [
+          "Study how data collection and selling actually works",
+          "Learn about privacy-by-design vs. privacy-by-accident"
+        ],
+        "level2": [
+          "Understand the broader implications of digital surveillance on democracy",
+          "Learn about alternative digital ecosystems and decentralized tools"
+        ],
+        "level3": [
+          "Develop expertise in digital security and privacy",
+          "Understand the economic models behind surveillance capitalism"
+        ]
+      }
+    },
+    "Narrative": {
+      "summary": "Shift from 'convenience culture' to understanding digital tools as either liberation or extraction.",
+      "localizable": false,
+      "resources": [
+        {"label": "7 Steps to Quietly Exit a System", "url": "#"},
+        {"label": "Digital Resistance Resources", "url": "#"}
+      ],
+      "levels": {
+        "level0": [
+          "Recognize that 'the coup already happened' through data control",
+          "Understand you're 'the designer of your experience,' not a passive user"
+        ],
+        "level1": [
+          "Learn to see convenience as a currency you can choose to spend or save",
+          "Understand that digital disobedience is necessary resistance"
+        ],
+        "level2": [
+          "Frame privacy tools as sovereignty tools, not paranoia",
+          "See yourself as walking away from extraction, toward liberation"
+        ],
+        "level3": [
+          "Help others understand digital sovereignty as part of broader system exit",
+          "Connect digital privacy to community resilience and mutual aid"
+        ]
+      }
+    },
+    "Power": {
+      "summary": "Reclaim control over your digital life and data as a form of personal sovereignty.",
+      "localizable": false,
+      "resources": [
+        {"label": "Data Deletion Guides", "url": "#"},
+        {"label": "Alternative Platform Directory", "url": "#"}
+      ],
+      "levels": {
+        "level0": [
+          "Stop clicking 'accept' without reading what you're agreeing to",
+          "Take one small action this week to reclaim digital control"
+        ],
+        "level1": [
+          "Delete or deactivate accounts you don't need",
+          "Stop feeding systems that treat you like a product",
+          "Choose one major platform to replace with a privacy-respecting alternative"
+        ],
+        "level2": [
+          "Build redundant systems that don't depend on Big Tech",
+          "Create multiple lines of digital defense and privacy",
+          "Develop skills to help others reclaim digital sovereignty"
+        ],
+        "level3": [
+          "Achieve comprehensive digital independence from surveillance systems",
+          "Support and fund privacy-respecting technology development",
+          "Build local networks that use sovereign digital tools"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "article_prefigurative_community_building_part15",
+  "title": "Prefigurative Community Building (Part 15): Power With Tenant Organizing - Building Collective Strength for Housing Justice",
+  "slug": "prefigurative-community-building-part15-tenant-unions",
+  "summary": "Organize tenant unions as networks of neighbors who coordinate without domination to resist housing exploitation. Build shared strength through collective action and mutual support.",
+  "tags": ["Tenant Unions", "Housing Justice", "Collective Action", "Anti-Eviction", "Renter Power"],
+  "recommendedFor": ["Tenant Organizer", "Housing Justice Advocate", "Renter", "Community Activist"],
+  "domainActions": {
+    "Power": {
+      "summary": "Build collective tenant power to resist landlord exploitation and housing injustice.",
+      "localizable": true,
+      "resources": [
+        {"label": "Tenants Together Organizing Guides", "url": "https://tenantstogether.org"},
+        {"label": "Los Angeles Tenants Union", "url": "https://latenantsunion.org/en/"},
+        {"label": "Crown Heights Tenant Union", "url": "https://crownheightstenantunion.org"}
+      ],
+      "levels": {
+        "level0": ["Start conversations with neighbors about shared housing concerns", "Identify specific, concrete issues to address collectively"],
+        "level1": ["Create working group using consensus decision-making", "Build your base through door-to-door organizing"],
+        "level2": ["Take collective action - petitions, group letters, protests", "Connect to wider tenant organizing movement"],
+        "level3": ["Build permanent tenant power infrastructure", "Support other neighborhoods in starting tenant unions"]
+      }
+    },
+    "Community": {
+      "summary": "Create solidarity networks that provide mutual support and collective resistance.",
+      "localizable": true,
+      "resources": [
+        {"label": "Right to the City Alliance", "url": "https://righttothecity.org"},
+        {"label": "Anti-Eviction Mapping Project", "url": "https://antievictionmap.com"}
+      ],
+      "levels": {
+        "level0": ["Use shared leadership and rotate responsibilities", "Make meetings accessible and transparent to all tenants"],
+        "level1": ["Practice accountability through transparency in all decisions", "Protect against co-optation by maintaining autonomy"],
+        "level2": ["Center voices of tenants facing eviction and harassment", "Build mutual aid networks for housing emergencies"],
+        "level3": ["Create lasting solidarity infrastructure", "Model Power With organizing for broader housing justice movement"]
+      }
+    },
+    "Knowledge": {
+      "summary": "Learn tenant rights and organizing skills while sharing knowledge horizontally.",
+      "localizable": true,
+      "resources": [
+        {"label": "Tenant Rights Resources", "url": "https://www.nolo.com/legal-encyclopedia/tenant-rights"},
+        {"label": "Popular Education for Organizing", "url": "https://www.popularEducation.org"}
+      ],
+      "levels": {
+        "level0": ["Learn local tenant rights and rent control laws", "Practice facilitation and consensus decision-making"],
+        "level1": ["Develop skills in door-to-door organizing and base building", "Learn conflict resolution and campaign strategy"],
+        "level2": ["Teach other tenants about their rights and organizing", "Share knowledge about horizontal organizing methods"],
+        "level3": ["Train new tenant organizers across multiple neighborhoods", "Create educational resources about tenant power building"]
+      }
+    },
+    "Narrative": {
+      "summary": "Challenge narratives that individualize housing struggles and promote collective solutions.",
+      "localizable": false,
+      "resources": [
+        {"label": "Housing as Human Right Framework", "url": "https://www.un.org/en/universal-declaration-human-rights/"}
+      ],
+      "levels": {
+        "level0": ["Practice framing housing as collective right, not individual commodity", "Share stories about successful tenant organizing"],
+        "level1": ["Challenge landlord narratives about property rights vs human rights", "Model solidarity over individual competition"],
+        "level2": ["Help others understand housing justice as community issue", "Promote tenant unity across difference"],
+        "level3": ["Transform community understanding of housing from commodity to commons", "Build culture where tenant organizing is normalized"]
+      }
+    }
+  }
+}

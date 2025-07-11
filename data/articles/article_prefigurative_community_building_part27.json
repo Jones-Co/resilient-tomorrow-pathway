@@ -1,0 +1,102 @@
+{
+  "id": "article_prefigurative_community_building_part27",
+  "title": "Prefigurative Community Building (Part 27): Liberation Study Groups as Power With Learning Circles",
+  "slug": "prefigurative-community-building-part27-liberation-study-groups",
+  "summary": "A guide to starting radical study groups that prioritize collective learning, shared inquiry, and transformative education without hierarchy or gatekeepers.",
+  "tags": ["Liberation Education", "Study Groups", "Political Education", "Collective Learning", "Power With", "Radical Pedagogy"],
+  "recommendedFor": ["Educator", "Community Organizer", "Political Activist", "Lifelong Learner", "Study Group Facilitator"],
+  "domainActions": {
+    "Knowledge": {
+      "summary": "Create horizontal learning spaces that connect study to action and challenge dominant educational models.",
+      "localizable": true,
+      "resources": [
+        {"label": "Abolition Study Group Resources", "url": "https://abolitionstudy.org"},
+        {"label": "Critical Resistance Study Guides", "url": "https://criticalresistance.org"},
+        {"label": "Project South Political Education", "url": "https://projectsouth.org"},
+        {"label": "Mayday Rooms Archives", "url": "https://maydayrooms.org"}
+      ],
+      "levels": {
+        "level0": [
+          "Gather 3-6 people interested in studying together around a shared question",
+          "Choose accessible materials like zines, podcasts, and oral histories",
+          "Start with simple check-ins and shared reading practices"
+        ],
+        "level1": [
+          "Establish collaborative agreements for how your group will learn together",
+          "Rotate facilitation and include diverse forms of knowledge",
+          "Create consistent rhythm for meetings with reflection time"
+        ],
+        "level2": [
+          "Connect study to action by implementing what you're learning",
+          "Document and share your group's methods with others",
+          "Host public teach-ins or community education events"
+        ],
+        "level3": [
+          "Support formation of additional autonomous study circles",
+          "Create a hub of interlinked learning communities",
+          "Develop comprehensive political education programs"
+        ]
+      }
+    },
+    "Community": {
+      "summary": "Build learning communities that strengthen relationships and collective capacity for transformation.",
+      "localizable": true,
+      "resources": [
+        {"label": "Popular Education Resources", "url": "https://populareducation.org"},
+        {"label": "Highlander Folk School Methods", "url": "https://highlandercenter.org"}
+      ],
+      "levels": {
+        "level0": [
+          "Form learning relationships based on curiosity rather than credentials",
+          "Practice collective meaning-making and shared inquiry",
+          "Create brave space for questioning and vulnerability"
+        ],
+        "level1": [
+          "Establish group agreements that prioritize collective care",
+          "Include space for feelings and personal reflection alongside analysis",
+          "Build accountability structures for showing up consistently"
+        ],
+        "level2": [
+          "Connect your study group with other learning communities",
+          "Host skill-shares and workshops for broader community",
+          "Practice conflict transformation within your learning space"
+        ],
+        "level3": [
+          "Build lasting infrastructure for community-controlled education",
+          "Mentor new study group facilitators",
+          "Create networks of liberation schools and learning hubs"
+        ]
+      }
+    },
+    "Narrative": {
+      "summary": "Challenge dominant narratives about education while developing critical consciousness and liberatory vision.",
+      "localizable": true,
+      "resources": [
+        {"label": "Paulo Freire Institute", "url": "https://freire.org"},
+        {"label": "Critical Media Literacy Resources", "url": "https://criticalmedia.org"}
+      ],
+      "levels": {
+        "level0": [
+          "Question what you've been taught about how learning should happen",
+          "Share stories about transformative learning experiences",
+          "Practice seeing education as collective rather than individual"
+        ],
+        "level1": [
+          "Analyze how power operates in traditional educational settings",
+          "Develop frameworks for understanding systemic oppression",
+          "Create new stories about what liberatory education looks like"
+        ],
+        "level2": [
+          "Challenge dominant narratives through public education work",
+          "Document and share stories of collective learning successes",
+          "Lead community conversations about education justice"
+        ],
+        "level3": [
+          "Contribute to cultural shift toward viewing education as liberation practice",
+          "Develop and share comprehensive analysis of educational transformation",
+          "Mentor others in articulating visions of liberatory learning"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "id": "article_prefigurative_community_building_part36",
+  "title": "Prefigurative Community Building (Part 36): Copwatch and Community Defense as Power With - A Guide to Collective Safety",
+  "slug": "prefigurative-community-building-part36-copwatch-community-defense",
+  "summary": "A guide to building nonviolent community defense projects that center horizontal coordination and collective safety rather than hierarchical force.",
+  "tags": ["Community Defense", "Copwatch", "Community Safety", "Abolition", "Mutual Protection", "Power With"],
+  "recommendedFor": ["Community Organizer", "Abolition Activist", "Community Safety Coordinator", "Street Medic", "Legal Observer"],
+  "domainActions": {
+    "Community": {
+      "summary": "Build networks of mutual protection and community safety that challenge state violence through collective action.",
+      "localizable": true,
+      "resources": [
+        {"label": "WeCopwatch", "url": "https://wecopwatch.org"},
+        {"label": "The Black Movement Law Project", "url": "https://blackmovementlaw.org"},
+        {"label": "Communities United Against Police Brutality", "url": "https://cuapb.org"},
+        {"label": "Know Your Rights Camp", "url": "https://knowyourrightscamp.com"}
+      ],
+      "levels": {
+        "level0": [
+          "Build trust within a small circle of people committed to community safety",
+          "Learn basic copwatch techniques and de-escalation skills",
+          "Practice safe documentation and bystander intervention in low-risk situations"
+        ],
+        "level1": [
+          "Form a community defense collective with clear agreements and rotating roles",
+          "Map local threats and existing community safety assets",
+          "Establish communication protocols and safety practices for collective action"
+        ],
+        "level2": [
+          "Organize regular copwatch activities and community safety trainings",
+          "Provide jail support and accompaniment for community members",
+          "Build relationships with other community defense and abolition groups"
+        ],
+        "level3": [
+          "Support formation of additional autonomous community defense collectives",
+          "Create lasting infrastructure for community-controlled safety and protection",
+          "Advocate for policies that reduce police presence and increase community resources"
+        ]
+      }
+    },
+    "Knowledge": {
+      "summary": "Develop and share knowledge about community defense, de-escalation, and alternatives to carceral safety systems.",
+      "localizable": false,
+      "resources": [
+        {"label": "Training for Change", "url": "https://trainingforchange.org"},
+        {"label": "Movement Strategy Center", "url": "https://movementstrategy.org"},
+        {"label": "Project NIA", "url": "https://project-nia.org"},
+        {"label": "Critical Resistance", "url": "https://criticalresistance.org"}
+      ],
+      "levels": {
+        "level0": [
+          "Learn about community defense principles and nonviolent intervention techniques",
+          "Study successful examples like WeCopwatch and community safety projects"
+        ],
+        "level1": [
+          "Practice de-escalation, documentation, and trauma-informed safety responses",
+          "Learn legal rights and responsibilities for community defense activities",
+          "Develop skills in collective decision-making under pressure"
+        ],
+        "level2": [
+          "Host workshops on copwatch techniques and community safety organizing",
+          "Create resources about alternatives to police-based safety systems",
+          "Share knowledge with other community defense and abolition organizers"
+        ],
+        "level3": [
+          "Develop comprehensive community defense organizing toolkits",
+          "Research and document impacts of community-controlled vs state safety systems",
+          "Train facilitators and organizers in other communities"
+        ]
+      }
+    },
+    "Power": {
+      "summary": "Challenge state violence and build community power through collective defense and mutual protection.",
+      "localizable": true,
+      "resources": [
+        {"label": "Transformative Justice Resources", "url": "https://transformharm.org"},
+        {"label": "Community Accountability Resources", "url": "https://communityaccountability.org"}
+      ],
+      "levels": {
+        "level0": [
+          "Practice community accountability and transformative justice principles",
+          "Challenge reliance on police and carceral systems for safety",
+          "Build analysis of how community defense relates to broader liberation struggles"
+        ],
+        "level1": [
+          "Organize community members to collectively respond to threats and violence",
+          "Practice nonviolent confrontation of harmful systems and actors",
+          "Build collective capacity to protect vulnerable community members"
+        ],
+        "level2": [
+          "Coordinate community defense activities with other social justice organizing",
+          "Challenge policy and systems that rely on state violence for social control",
+          "Build political power through grassroots organizing and collective action"
+        ],
+        "level3": [
+          "Contribute to broader movements for abolition and transformative justice",
+          "Advocate for systemic changes that address root causes of violence and harm",
+          "Build lasting infrastructure for community self-determination and protection"
+        ]
+      }
+    }
+  }
+}

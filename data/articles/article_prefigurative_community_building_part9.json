@@ -1,0 +1,51 @@
+{
+  "id": "article_prefigurative_community_building_part9",
+  "title": "Prefigurative Community Building (Part 9): Repair Cafés as Revolutionary Practice - Mending Objects and Social Fabric",
+  "slug": "prefigurative-community-building-part9-repair-cafes",
+  "summary": "Transform repair from individual burden to collective joy. Create spaces where neighbors learn to fix things together, building skills, trust, and resistance to throwaway culture through mutual aid.",
+  "tags": ["Repair Cafés", "Fix-it Clinics", "Skill Sharing", "Anti-Waste", "Community Learning"],
+  "recommendedFor": ["Sustainability Advocate", "Skill Sharer", "Community Organizer", "Environmental Activist"],
+  "domainActions": {
+    "Knowledge": {
+      "summary": "Democratize repair skills and technical knowledge through collaborative learning.",
+      "localizable": true,
+      "resources": [
+        {"label": "Fixit Clinic", "url": "https://fixitclinic.blogspot.com"},
+        {"label": "Restart Project", "url": "https://therestartproject.org"},
+        {"label": "Repair Café Foundation", "url": "https://www.repaircafe.org/en/"}
+      ],
+      "levels": {
+        "level0": ["Gather circle of people interested in repair and skill-sharing", "Pick accessible space that welcomes mess and connection"],
+        "level1": ["Create atmosphere where everyone teaches and learns", "Focus on collaborative learning rather than expert service"],
+        "level2": ["Build local 'Repair Wiki' documenting common fixes", "Host themed repair sessions for specific items or skills"],
+        "level3": ["Train others to facilitate repair events", "Create network of repair spaces across region"]
+      }
+    },
+    "Community": {
+      "summary": "Build social connections and mutual trust through shared practical problem-solving.",
+      "localizable": true,
+      "resources": [
+        {"label": "Community Facilitation Guides", "url": "https://www.seedsforchange.org.uk/facilitation"}
+      ],
+      "levels": {
+        "level0": ["Use horizontal coordination with rotating facilitation", "Create welcoming atmosphere for all skill levels"],
+        "level1": ["Build culture where mistakes and not-knowing are normalized", "Practice asking for and offering help across difference"],
+        "level2": ["Host regular gatherings that strengthen relationships over time", "Celebrate successful repairs and learning moments"],
+        "level3": ["Create permanent community infrastructure for ongoing skill sharing", "Model mutual aid through tangible collaborative action"]
+      }
+    },
+    "Narrative": {
+      "summary": "Challenge throwaway culture and learned helplessness through hands-on empowerment.",
+      "localizable": false,
+      "resources": [
+        {"label": "Right to Repair Movement", "url": "https://repair.org"}
+      ],
+      "levels": {
+        "level0": ["Practice believing things and people are worth keeping", "Challenge narratives about disposability"],
+        "level1": ["Share stories about successful repairs and collective learning", "Model alternatives to consumer helplessness"],
+        "level2": ["Help others see repair as resistance to planned obsolescence", "Promote right to repair and maintenance culture"],
+        "level3": ["Transform community understanding of waste and value", "Build culture where repair is normal and celebrated"]
+      }
+    }
+  }
+}

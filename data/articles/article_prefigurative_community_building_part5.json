@@ -1,0 +1,66 @@
+{
+  "id": "article_prefigurative_community_building_part5",
+  "title": "Prefigurative Community Building (Part 5): Feeding Each Other, Freeing Each Other - Free Fridges and Pantries",
+  "slug": "prefigurative-community-building-part5-free-fridges",
+  "summary": "How to start a Free Fridge or Pantry without Power Over dynamics. A guide to creating public food access points based on trust, dignity, and mutual support with no gatekeeping.",
+  "tags": ["Free Fridges", "Mutual Aid", "Food Access", "Community Care", "Direct Action"],
+  "recommendedFor": ["Mutual Aid Organizer", "Community Activist", "Neighborhood Leader", "Food Justice Advocate"],
+  "domainActions": {
+    "Food": {
+      "summary": "Create direct, no-barrier access to food through community-managed fridges and pantries.",
+      "localizable": true,
+      "resources": [
+        {"label": "Freedge Global Network", "url": "https://freedge.org/start-your-own-freedge/"},
+        {"label": "Little Free Pantry Guide", "url": "https://www.littlefreepantry.org"},
+        {"label": "Consensus Handbook", "url": "https://www.seedsforchange.org.uk/consensus"}
+      ],
+      "levels": {
+        "level0": ["Gather 2-5 people committed to food justice and mutual aid", "Identify need and location through neighborhood walking"],
+        "level1": ["Choose model (fridge, pantry, or both) based on climate and community needs", "Build or acquire materials with neighbor involvement"],
+        "level2": ["Establish fridge/pantry with 'take what you need, leave what you can' approach", "Create culture of shared care through rotating caretaking"],
+        "level3": ["Build network of multiple food access points across community", "Support others in starting their own fridges/pantries"]
+      }
+    },
+    "Community": {
+      "summary": "Build trust and shared responsibility through collective care infrastructure.",
+      "localizable": true,
+      "resources": [
+        {"label": "Love Fridge Chicago", "url": "https://www.thelovefridge.com"},
+        {"label": "Little Free Pantry Network", "url": "https://www.littlefreepantry.org"}
+      ],
+      "levels": {
+        "level0": ["Use consensus decision-making with no formal roles or hierarchy"],
+        "level1": ["Practice Power With by refusing policing of what people take", "Build relationships face-to-face before using social media"],
+        "level2": ["Rotate caretaking duties and encourage anonymous contributions", "Partner with mutual aid pods, schools, and clinics"],
+        "level3": ["Create decentralized network of community food access", "Model trust-based mutual aid for broader community"]
+      }
+    },
+    "Knowledge": {
+      "summary": "Learn practical skills for community care while teaching mutual aid principles.",
+      "localizable": true,
+      "resources": [
+        {"label": "Mutual Aid Toolkit", "url": "https://mutualaiddisasterrelief.org"},
+        {"label": "Community Fridge Best Practices", "url": "https://freedge.org"}
+      ],
+      "levels": {
+        "level0": ["Learn food safety and fridge maintenance basics", "Practice shared decision-making and conflict resolution"],
+        "level1": ["Develop skills in weatherproofing and basic construction", "Learn to facilitate community meetings without hierarchy"],
+        "level2": ["Teach others how to start fridges and pantries", "Share knowledge about trust-based organizing"],
+        "level3": ["Become regional resource for mutual aid food projects", "Train facilitators in Power With organizing methods"]
+      }
+    },
+    "Narrative": {
+      "summary": "Shift from charity model to solidarity and mutual aid understanding.",
+      "localizable": false,
+      "resources": [
+        {"label": "Mutual Aid vs Charity Analysis", "url": "https://mutualaiddisasterrelief.org/mutual-aid/"}
+      ],
+      "levels": {
+        "level0": ["Practice messaging around solidarity rather than charity"],
+        "level1": ["Help others understand dignity-based food access", "Share stories of community care and mutual support"],
+        "level2": ["Challenge narratives about deserving vs undeserving people", "Promote abundance mindset over scarcity thinking"],
+        "level3": ["Transform community understanding of food access as human right", "Build culture where mutual aid becomes normalized"]
+      }
+    }
+  }
+}

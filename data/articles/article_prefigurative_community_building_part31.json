@@ -1,0 +1,101 @@
+{
+  "id": "article_prefigurative_community_building_part31",
+  "title": "Prefigurative Community Building (Part 31): Telling Our Own Stories - How to Build a Community Media Platform as a Power With Project",
+  "slug": "prefigurative-community-building-part31-community-media",
+  "summary": "A guide to creating community-controlled media platforms that decentralize authorship, avoid gatekeeping, and center collective self-representation over extraction.",
+  "tags": ["Community Media", "Zines", "Independent Media", "Collective Storytelling", "Media Justice", "Power With"],
+  "recommendedFor": ["Media Organizer", "Zine Maker", "Community Journalist", "Cultural Worker", "Storyteller"],
+  "domainActions": {
+    "Communication": {
+      "summary": "Build community-controlled media platforms that amplify many voices and challenge dominant narratives.",
+      "localizable": true,
+      "resources": [
+        {"label": "Center for Story-Based Strategy Toolkit", "url": "https://storybasedstrategy.org/toolkit"},
+        {"label": "Transom.org Audio Tools", "url": "https://transom.org"},
+        {"label": "Youth Speaks", "url": "https://youthspeaks.org"},
+        {"label": "Allied Media Projects", "url": "https://alliedmedia.org"}
+      ],
+      "levels": {
+        "level0": [
+          "Listen to community members about what stories aren't being told",
+          "Start simple with zines, newsletters, or audio recordings",
+          "Host story circles to identify whose voices are missing"
+        ],
+        "level1": [
+          "Form a horizontal collective of co-editors and facilitators",
+          "Choose accessible mediums based on local resources and skills",
+          "Create group agreements for consensus-based decision making"
+        ],
+        "level2": [
+          "Publish regular community media using rotating roles and shared authorship",
+          "Host skill-shares for layout, audio editing, and storytelling techniques",
+          "Build networks with other community media collectives"
+        ],
+        "level3": [
+          "Support formation of additional autonomous media cells in other communities",
+          "Advocate for community media access and media justice policies",
+          "Create lasting infrastructure for grassroots media production"
+        ]
+      }
+    },
+    "Narrative": {
+      "summary": "Challenge dominant media representations by creating platforms for collective self-representation and community voice.",
+      "localizable": true,
+      "resources": [
+        {"label": "Solidarity Not Charity Toolkit", "url": "https://solidaritynotcharity.org"},
+        {"label": "Patterns for Decentralized Organizing", "url": "https://scuttlebutt.nz/assets/pdfs/decentralized-organizing-patterns.pdf"}
+      ],
+      "levels": {
+        "level0": [
+          "Question who controls the narrative about your community",
+          "Practice telling stories from community perspective rather than outsider extraction",
+          "Share examples of successful community-controlled media"
+        ],
+        "level1": [
+          "Document community stories that mainstream media ignores or misrepresents",
+          "Challenge extractive journalism practices in your area",
+          "Create counter-narratives through accessible community media"
+        ],
+        "level2": [
+          "Lead community conversations about media representation and power",
+          "Amplify marginalized voices through locally-controlled platforms",
+          "Share successful models of horizontal media organizing"
+        ],
+        "level3": [
+          "Contribute to broader media justice movements and policy advocacy",
+          "Develop and share analysis of community media as liberation practice",
+          "Mentor other communities in starting their own media collectives"
+        ]
+      }
+    },
+    "Knowledge": {
+      "summary": "Develop and share skills for community-controlled media production and horizontal organizing practices.",
+      "localizable": false,
+      "resources": [
+        {"label": "Community Media Handbook", "url": "https://communitymedia.org"},
+        {"label": "Zine Making Resources", "url": "https://zinelibraries.info"}
+      ],
+      "levels": {
+        "level0": [
+          "Learn about different community media formats and tools",
+          "Study successful examples like Youth Speaks and Lxs Grises"
+        ],
+        "level1": [
+          "Practice basic media production skills like layout, audio editing, and writing",
+          "Learn consensus decision-making and horizontal organizing methods",
+          "Develop skills in trauma-informed and accessibility-conscious media making"
+        ],
+        "level2": [
+          "Host workshops teaching community media production to others",
+          "Create open-source templates and resources for other collectives",
+          "Share knowledge about avoiding hierarchical media structures"
+        ],
+        "level3": [
+          "Develop comprehensive toolkits for community media organizing",
+          "Research and document best practices for horizontal media production",
+          "Train facilitators and organizers in other communities"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "article_prefigurative_community_building_part21",
+  "title": "Prefigurative Community Building (Part 21): Starting a Non-Monetary Exchange Hub - A Power With Approach to Degrowth",
+  "slug": "prefigurative-community-building-part21-exchange-hubs",
+  "summary": "Create non-monetary exchange hubs as degrowth-oriented infrastructure for mutual aid and resource sharing. Build coordination systems based on trust, abundance, and shared access rather than scarcity and ownership.",
+  "tags": ["Free Markets", "Swap Markets", "Degrowth", "Resource Liberation", "Gift Economy"],
+  "recommendedFor": ["Degrowth Advocate", "Sustainability Organizer", "Community Builder", "Anti-Consumption Activist"],
+  "domainActions": {
+    "Community": {
+      "summary": "Create spaces for sharing resources that build connection and challenge transactional thinking.",
+      "localizable": true,
+      "resources": [
+        {"label": "Really Really Free Market Network", "url": "https://rrfm.org"},
+        {"label": "Free Store Project Philadelphia", "url": "https://www.instagram.com/thefreestorephilly/"},
+        {"label": "Buy Nothing Project", "url": "https://buynothingproject.org"},
+        {"label": "ioby Guide to Finding Spaces", "url": "https://resources.ioby.org/resource/finding-space/"}
+      ],
+      "levels": {
+        "level0": ["Gather core circle of 3-5 people who share vision of collective resource-sharing", "Choose format - swap market, free market, or hybrid approach"],
+        "level1": ["Secure public, accessible space like park or community center", "Spread word through story-telling rather than sales pitch"],
+        "level2": ["Set culture of Power With - consent, non-hierarchy, mutual respect", "Co-create logistics like tables, signage, and flow together"],
+        "level3": ["Include more than stuff - food, skills, repair services", "Reflect and evolve based on community feedback"]
+      }
+    },
+    "Knowledge": {
+      "summary": "Learn and share skills around resource sharing, repair, and gift economy principles.",
+      "localizable": true,
+      "resources": [
+        {"label": "Consent-Based Decision Making", "url": "https://www.seedsforchange.org.uk/consensus"},
+        {"label": "Repair Café Foundation", "url": "https://repaircafe.org/en/"},
+        {"label": "Anarchist Principles for Collective Spaces", "url": "https://crimethinc.com/2009/07/10/the-anarchist-principles-of-collective-spaces"}
+      ],
+      "levels": {
+        "level0": ["Practice non-hierarchical organizing and shared decision-making"],
+        "level1": ["Learn skills in facilitation, conflict resolution, and space-holding", "Develop knowledge about repair, mending, and resource care"],
+        "level2": ["Teach others about gift economy and non-monetary exchange", "Share skills in sustainable living and degrowth practices"],
+        "level3": ["Become resource for community exchange organizing", "Create educational materials about alternatives to consumer culture"]
+      }
+    },
+    "Narrative": {
+      "summary": "Challenge consumer culture and demonstrate abundance through shared resources.",
+      "localizable": false,
+      "resources": [
+        {"label": "Amplifier Art Activism Toolkit", "url": "https://amplifier.org"}
+      ],
+      "levels": {
+        "level0": ["Practice seeing abundance in what already exists rather than needing more"],
+        "level1": ["Share stories about successful resource sharing and gift economy", "Challenge narratives about individual ownership and accumulation"],
+        "level2": ["Help others understand alternatives to consumer capitalism", "Model degrowth principles through community practice"],
+        "level3": ["Transform community culture from consumption to care and sharing", "Build widespread understanding of abundance through cooperation"]
+      }
+    }
+  }
+}

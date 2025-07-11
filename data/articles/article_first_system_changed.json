@@ -1,0 +1,88 @@
+{
+  "id": "article_first_system_changed",
+  "title": "The First System I Changed Was My Own",
+  "slug": "first-system-personal-trust",
+  "summary": "A vulnerable exploration of how rebuilding trust and authenticity in personal relationships became a prototype for community systems design. Connects personal growth to the NeighborhoodShare project and broader community trust-building.",
+  "tags": ["Personal Growth", "Trust Building", "Authentic Relationships", "NeighborhoodShare", "Systems Design"],
+  "recommendedFor": ["Relationship Builder", "Personal Development", "Community Designer", "Honest Communicator"],
+  "domainActions": {
+    "Narrative": {
+      "summary": "Understand that personal authenticity is the foundation for building trustworthy community systems.",
+      "localizable": false,
+      "resources": [
+        {"label": "Authentic Communication Resources", "url": "#"},
+        {"label": "Systems Thinking in Relationships", "url": "#"}
+      ],
+      "levels": {
+        "level0": [
+          "Recognize 'saying yes when you mean no' patterns in your own life",
+          "Practice saying 'Here's what's really going on for me' instead of avoiding conflict"
+        ],
+        "level1": [
+          "Stop treating disagreement as danger in personal relationships",
+          "Use voice to connect rather than dominate or defend"
+        ],
+        "level2": [
+          "Apply authentic communication principles to community organizing",
+          "See personal relationship skills as prototype for community systems"
+        ],
+        "level3": [
+          "Design community systems that reward honesty over compliance",
+          "Teach others how personal authenticity enables community trust"
+        ]
+      }
+    },
+    "Community": {
+      "summary": "Build community trust through platforms and systems designed for generosity and mutual support.",
+      "localizable": true,
+      "resources": [
+        {"label": "NeighborhoodShare Beta Application", "url": "#"},
+        {"label": "Trust-Building in Communities", "url": "#"}
+      ],
+      "levels": {
+        "level0": [
+          "Start small trust-building with neighbors—borrow/lend simple items",
+          "Practice generosity without expectation of direct reciprocation"
+        ],
+        "level1": [
+          "Use or help develop sharing platforms that prioritize relationships over transactions",
+          "Organize community activities that build personal connections"
+        ],
+        "level2": [
+          "Create systems that reward interdependence over silent resentment",
+          "Build community infrastructure based on mutual respect and shared effort"
+        ],
+        "level3": [
+          "Design and implement community systems that embody trust-building principles",
+          "Help other communities develop their own trust-based sharing systems"
+        ]
+      }
+    },
+    "Knowledge": {
+      "summary": "Apply systems design principles to both personal relationships and community technology.",
+      "localizable": false,
+      "resources": [
+        {"label": "Systems Design for Community", "url": "#"},
+        {"label": "Technology for Well-being vs Extraction", "url": "#"}
+      ],
+      "levels": {
+        "level0": [
+          "Understand how personal relationship patterns mirror larger system dynamics",
+          "Learn to design small systems (personal interactions) as prototypes for larger ones"
+        ],
+        "level1": [
+          "Study how software and platforms can either build or erode community trust",
+          "Practice iteration and improvement in both personal and community systems"
+        ],
+        "level2": [
+          "Apply user experience principles to community organizing and relationship building",
+          "Develop expertise in systems that serve human connection rather than extraction"
+        ],
+        "level3": [
+          "Create frameworks others can use to build trust-based community systems",
+          "Teach the connection between personal authenticity and community resilience"
+        ]
+      }
+    }
+  }
+}

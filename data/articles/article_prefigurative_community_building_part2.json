@@ -1,0 +1,114 @@
+{
+  "id": "article_prefigurative_community_building_part2",
+  "title": "Prefigurative Community Building (Part 2): 40 Projects to Start Building the New World",
+  "slug": "prefigurative-community-building-40-projects",
+  "summary": "We don't need permission to begin. We need each other. Here are 40 practical projects you can start or join to build Power With instead of Power Over, from community gardens to tool libraries to mutual aid networks.",
+  "tags": ["Prefigurative Politics", "Community Building", "Mutual Aid", "Direct Action", "Power With"],
+  "recommendedFor": ["Community Organizer", "Local Activist", "Practical Implementer", "Systems Thinker"],
+  "domainActions": {
+    "Food": {
+      "summary": "Build food sovereignty through collective cultivation and sharing.",
+      "localizable": true,
+      "resources": [
+        {"label": "Community Garden Resources", "url": "https://communitygarden.org"},
+        {"label": "Food Co-op Development", "url": "https://www.cdf.coop"},
+        {"label": "Foraging Guidelines", "url": "https://www.wildedible.com"}
+      ],
+      "levels": {
+        "level0": ["Start a free fridge or pantry in your neighborhood", "Join a local foraging walk or wildcrafting group"],
+        "level1": ["Organize a community garden or guerrilla gardening project", "Start neighborhood food circles or meal shares"],
+        "level2": ["Help establish a food co-op in your area", "Create foraging & wildcrafting guilds"],
+        "level3": ["Build comprehensive food sovereignty networks", "Coordinate multiple food projects across neighborhoods"]
+      }
+    },
+    "Community": {
+      "summary": "Create infrastructure for care, housing, and mutual support.",
+      "localizable": true,
+      "resources": [
+        {"label": "Mutual Aid Disaster Relief", "url": "https://mutualaiddisasterrelief.org"},
+        {"label": "Community Land Trust Network", "url": "https://cltnetwork.org"},
+        {"label": "Time Banking Resources", "url": "https://timebanks.org"}
+      ],
+      "levels": {
+        "level0": ["Join existing mutual aid networks", "Start a childcare or elder care collective"],
+        "level1": ["Organize tool libraries or seed libraries", "Create disability justice pods"],
+        "level2": ["Establish housing cooperatives or tenant unions", "Build community land trusts"],
+        "level3": ["Coordinate federated assemblies across neighborhoods", "Create comprehensive care networks"]
+      }
+    },
+    "Knowledge": {
+      "summary": "Share skills and create alternative education systems.",
+      "localizable": true,
+      "resources": [
+        {"label": "Popular Education Resources", "url": "https://www.populareducation.org"},
+        {"label": "Radical Study Groups", "url": "https://radicaleducation.org"},
+        {"label": "Permaculture Principles", "url": "https://permacultureprinciples.com"}
+      ],
+      "levels": {
+        "level0": ["Join or start radical study groups", "Participate in repair cafés or fix-it clinics"],
+        "level1": ["Organize skillshares or timebanks", "Create makerspaces oriented toward community resilience"],
+        "level2": ["Establish permaculture guilds", "Start liberation schools or alternative education"],
+        "level3": ["Build comprehensive skill-sharing networks", "Create educational infrastructure for movement building"]
+      }
+    },
+    "Power": {
+      "summary": "Build collective power through horizontal organizing and defense.",
+      "localizable": true,
+      "resources": [
+        {"label": "Copwatch Training", "url": "https://www.berkeleycopwatch.org"},
+        {"label": "Street Medic Collective", "url": "https://streetmedics.org"},
+        {"label": "Digital Security Guide", "url": "https://ssd.eff.org"}
+      ],
+      "levels": {
+        "level0": ["Learn digital security and help others protect their data", "Join or observe copwatch activities"],
+        "level1": ["Train as street medic for protests and emergencies", "Participate in community defense organizing"],
+        "level2": ["Help coordinate sanctuary networks", "Build crisis response collectives"],
+        "level3": ["Establish comprehensive community defense infrastructure", "Create networked resistance capacity"]
+      }
+    },
+    "Money": {
+      "summary": "Create alternative economies based on cooperation rather than extraction.",
+      "localizable": true,
+      "resources": [
+        {"label": "Solidarity Economy Association", "url": "https://solidarityeconomy.us"},
+        {"label": "Worker Cooperative Development", "url": "https://www.usworker.coop"},
+        {"label": "Local Currency Networks", "url": "https://www.complementarycurrency.org"}
+      ],
+      "levels": {
+        "level0": ["Join local currency or mutual credit networks", "Participate in gift circles"],
+        "level1": ["Help start worker cooperatives", "Organize clothing swaps and non-monetary exchanges"],
+        "level2": ["Create comprehensive timebanking systems", "Establish solidarity funds"],
+        "level3": ["Build integrated alternative economy networks", "Coordinate decapitalization efforts"]
+      }
+    },
+    "Communication": {
+      "summary": "Create independent media and storytelling infrastructure.",
+      "localizable": true,
+      "resources": [
+        {"label": "Community Media Resources", "url": "https://www.alliedmedia.org"},
+        {"label": "Zine Making Guides", "url": "https://www.zinebook.com"},
+        {"label": "Public Art Collectives", "url": "https://justseeds.org"}
+      ],
+      "levels": {
+        "level0": ["Join zine collectives or community media platforms", "Participate in storytelling circles"],
+        "level1": ["Create public art collaboratives", "Start oral history projects"],
+        "level2": ["Establish community media platforms", "Build cultural education infrastructure"],
+        "level3": ["Create comprehensive narrative and communication networks", "Build independent media ecosystem"]
+      }
+    },
+    "Narrative": {
+      "summary": "Shift from Power Over to Power With through lived experience of alternatives.",
+      "localizable": false,
+      "resources": [
+        {"label": "Prefigurative Politics Guide", "url": "https://theanarchistlibrary.org/library/paul-raekstad-and-eivind-dahl-prefigurative-politics"},
+        {"label": "Cooperation Jackson", "url": "https://cooperationjackson.org"}
+      ],
+      "levels": {
+        "level0": ["Practice consensus decision-making in small groups", "Learn about prefigurative politics"],
+        "level1": ["Help others understand Power With vs Power Over", "Model horizontal organizing"],
+        "level2": ["Build culture of cooperation and mutual aid", "Teach prefigurative organizing principles"],
+        "level3": ["Create widespread culture shift toward collaboration", "Establish prefigurative politics as dominant practice"]
+      }
+    }
+  }
+}

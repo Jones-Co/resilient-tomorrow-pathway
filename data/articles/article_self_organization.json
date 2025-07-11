@@ -1,0 +1,115 @@
+{
+  "id": "article_self_organization",
+  "title": "Self-Organization is Resistance",
+  "slug": "self-organization-resistance",
+  "summary": "A deep exploration of how building parallel systems serves as the most effective form of resistance. Shows how self-organizing communities can make centralized power structures irrelevant rather than fighting them directly.",
+  "tags": ["Self-Organization", "Resistance", "Parallel Systems", "Decentralization", "Community Power"],
+  "recommendedFor": ["Systems Thinker", "Political Activist", "Community Organizer", "Frustrated Professional"],
+  "domainActions": {
+    "Narrative": {
+      "summary": "Understand resistance as building alternatives rather than fighting existing systems.",
+      "localizable": false,
+      "resources": [
+        {"label": "Donella Meadows - Thinking in Systems", "url": "#"},
+        {"label": "Examples of Successful Self-Organization", "url": "#"}
+      ],
+      "levels": {
+        "level0": [
+          "Recognize that the most effective resistance makes old systems irrelevant",
+          "Understand self-organization as natural system behavior, not radical action"
+        ],
+        "level1": [
+          "See current moment of institutional change as opportunity, not just chaos",
+          "Frame local projects as resistance activities, not just lifestyle choices"
+        ],
+        "level2": [
+          "Develop vision of post-permission economy based on creation rather than extraction",
+          "Understand how parallel systems can influence larger structures"
+        ],
+        "level3": [
+          "Articulate and teach self-organization principles to broader audiences",
+          "Connect local resistance activities to global movements for change"
+        ]
+      }
+    },
+    "Communication": {
+      "summary": "Build decentralized communication networks that operate outside corporate surveillance platforms.",
+      "localizable": false,
+      "resources": [
+        {"label": "Federated Social Networks", "url": "#"},
+        {"label": "Mesh Networking Basics", "url": "#"}
+      ],
+      "levels": {
+        "level0": [
+          "Start using federated, open-source communication tools",
+          "Reduce dependence on corporate social media platforms"
+        ],
+        "level1": [
+          "Help neighbors set up privacy-respecting communication tools",
+          "Create local communication networks for community organizing"
+        ],
+        "level2": [
+          "Establish redundant communication systems for community resilience",
+          "Build skills in mesh networking and offline communication"
+        ],
+        "level3": [
+          "Create communication infrastructure that serves multiple communities",
+          "Teach others to build and maintain decentralized networks"
+        ]
+      }
+    },
+    "Community": {
+      "summary": "Create local networks that provide mutual aid and shared resources outside traditional market systems.",
+      "localizable": true,
+      "resources": [
+        {"label": "Tool Library Setup Guide", "url": "#"},
+        {"label": "Makerspace Planning Resources", "url": "#"},
+        {"label": "Community Garden Networks", "url": "#"}
+      ],
+      "levels": {
+        "level0": [
+          "Join or start neighborhood tool libraries",
+          "Participate in local Buy Nothing groups or skill shares"
+        ],
+        "level1": [
+          "Organize community gardens and local food networks",
+          "Create knowledge-sharing networks and peer-led education"
+        ],
+        "level2": [
+          "Establish makerspaces and shared workshop facilities",
+          "Build local energy solutions and resource sharing systems"
+        ],
+        "level3": [
+          "Connect multiple local networks into regional resilience systems",
+          "Mentor other communities in self-organization principles"
+        ]
+      }
+    },
+    "Knowledge": {
+      "summary": "Create open education systems that challenge institutional gatekeeping of information.",
+      "localizable": false,
+      "resources": [
+        {"label": "Open Educational Resources", "url": "#"},
+        {"label": "Peer Learning Networks", "url": "#"}
+      ],
+      "levels": {
+        "level0": [
+          "Share knowledge freely rather than hoarding professional expertise",
+          "Seek out peer-to-peer learning opportunities"
+        ],
+        "level1": [
+          "Organize skill-sharing workshops and community education",
+          "Contribute to open-source knowledge projects"
+        ],
+        "level2": [
+          "Create comprehensive learning networks that bypass traditional institutions",
+          "Develop curricula for practical resilience skills"
+        ],
+        "level3": [
+          "Build educational systems that serve community needs rather than corporate profits",
+          "Train others to become knowledge facilitators and community teachers"
+        ]
+      }
+    }
+  }
+}

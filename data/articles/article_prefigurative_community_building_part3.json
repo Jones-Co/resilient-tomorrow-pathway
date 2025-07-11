@@ -1,0 +1,67 @@
+{
+  "id": "article_prefigurative_community_building_part3",
+  "title": "Prefigurative Community Building (Part 3): Weaving Power With the Land",
+  "slug": "prefigurative-community-building-part3-power-with-land",
+  "summary": "How to start a community garden or guerrilla gardening project without reproducing Power Over dynamics. A practical guide to growing food together as an act of collective resistance and renewal.",
+  "tags": ["Community Gardens", "Guerrilla Gardening", "Power With", "Food Sovereignty", "Land Access"],
+  "recommendedFor": ["Community Organizer", "Environmental Activist", "Neighborhood Leader", "Practical Implementer"],
+  "domainActions": {
+    "Food": {
+      "summary": "Start community gardens that practice Power With instead of hierarchical organizing.",
+      "localizable": true,
+      "resources": [
+        {"label": "Consentful Garden Toolkit", "url": "https://docs.google.com/document/d/1D34Oj5TTG-iogQ-oqEJyrQ6m4ZnRERyKR23IzTI0DBA/edit?usp=sharing"},
+        {"label": "Guerrilla Gardening Guide", "url": "https://ronfinley.com/guerrilla-gardening/"},
+        {"label": "Falling Fruit Map", "url": "https://fallingfruit.org"},
+        {"label": "Seed Savers Exchange", "url": "https://www.seedsavers.org"}
+      ],
+      "levels": {
+        "level0": ["Form a core pod of 2-6 people who share interest and trust", "Host conversation about what kind of garden you want to build together"],
+        "level1": ["Find unused space or negotiate access to land", "Host regular open hours for planting and tending together"],
+        "level2": ["Create inclusive design with living maps and multi-language access", "Host seed swaps and material sourcing collectively"],
+        "level3": ["Establish permanent community garden with horizontal governance", "Create network of connected gardens across neighborhoods"]
+      }
+    },
+    "Community": {
+      "summary": "Build relationships through shared land stewardship and collective care.",
+      "localizable": true,
+      "resources": [
+        {"label": "Permaculture Principles", "url": "https://permacultureprinciples.com"},
+        {"label": "Beautiful Trouble - Constructive Conflict", "url": "https://beautifultrouble.org/toolbox/tool/constructive-conflict/"}
+      ],
+      "levels": {
+        "level0": ["Establish shared values like transparency, consent, and ecological respect"],
+        "level1": ["Use consensus or sociocratic methods for group decisions", "Create conflict culture based on listening and repair"],
+        "level2": ["Host celebrations, solstice meals, and harvest parties", "Invite neighbors to take cuttings and seeds"],
+        "level3": ["Build comprehensive community resilience through garden networks", "Establish permanent land stewardship practices"]
+      }
+    },
+    "Knowledge": {
+      "summary": "Learn ecological practices while sharing skills horizontally.",
+      "localizable": true,
+      "resources": [
+        {"label": "Seeds for Change Consensus Handbook", "url": "https://www.seedsforchange.org.uk/consensus"},
+        {"label": "TrashBackwards Upcycling", "url": "https://trashbackwards.com"}
+      ],
+      "levels": {
+        "level0": ["Learn about local ecology by observing site before planting", "Ask elders and neighbors about traditional crops"],
+        "level1": ["Practice permaculture design principles", "Learn consensus decision-making methods"],
+        "level2": ["Develop expertise in native species and pollinator plants", "Teach others horizontal organizing through gardening"],
+        "level3": ["Become regional resource for ecological land practices", "Train others in Power With gardening methods"]
+      }
+    },
+    "Narrative": {
+      "summary": "Transform relationship to land, each other, and systems of power.",
+      "localizable": false,
+      "resources": [
+        {"label": "South Central Farm Documentation", "url": "https://southcentralfarmers.com"}
+      ],
+      "levels": {
+        "level0": ["Practice seeing land as relationship rather than property"],
+        "level1": ["Document garden projects through collective storytelling", "Share stories of land reclamation and resistance"],
+        "level2": ["Help others understand Power With vs Power Over through gardening"],
+        "level3": ["Shift cultural narrative around land access and food sovereignty"]
+      }
+    }
+  }
+}

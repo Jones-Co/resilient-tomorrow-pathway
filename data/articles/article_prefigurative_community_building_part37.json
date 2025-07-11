@@ -1,0 +1,101 @@
+{
+  "id": "article_prefigurative_community_building_part37",
+  "title": "Prefigurative Community Building (Part 37): Street Medics and Crisis Response Collectives - A Power With Model of Care and Safety",
+  "slug": "prefigurative-community-building-part37-street-medics-crisis-response",
+  "summary": "A guide to building community-led street medic and crisis response teams that distribute knowledge, share responsibility, and coordinate through care rather than hierarchy.",
+  "tags": ["Street Medics", "Crisis Response", "Community Care", "Emergency Response", "Mutual Aid", "Power With"],
+  "recommendedFor": ["Street Medic", "Community Care Coordinator", "Crisis Response Organizer", "Protest Support Worker", "Community Safety Advocate"],
+  "domainActions": {
+    "Community": {
+      "summary": "Build networks of community-controlled emergency response and care that challenge state monopolies on safety.",
+      "localizable": true,
+      "resources": [
+        {"label": "North Carolina Street Medic Collective", "url": "https://ncstreetmedics.org"},
+        {"label": "Oakland Power Projects", "url": "https://criticalresistance.org/opp/"},
+        {"label": "Street Medic Training Manual", "url": "https://streetmedic.org/training-manual/"},
+        {"label": "Riot Medicine Guide", "url": "https://riotmedicine.net"}
+      ],
+      "levels": {
+        "level0": [
+          "Form a care circle with shared values around community care and consent",
+          "Get basic first aid and trauma-informed care training",
+          "Practice de-escalation and witnessing techniques in low-risk situations"
+        ],
+        "level1": [
+          "Identify local emergency response gaps and community safety needs",
+          "Build mobile first-aid kits and establish communication protocols",
+          "Train your team in scenario-based emergency response drills"
+        ],
+        "level2": [
+          "Provide street medic support at protests and community events",
+          "Embed with community networks and build relationships with other safety groups",
+          "Offer first aid trainings and safety workshops to broader community"
+        ],
+        "level3": [
+          "Support formation of additional autonomous street medic collectives",
+          "Build lasting infrastructure for community-controlled emergency response",
+          "Advocate for policies that reduce reliance on police-based emergency response"
+        ]
+      }
+    },
+    "Knowledge": {
+      "summary": "Share medical and safety knowledge horizontally while building community capacity for emergency response.",
+      "localizable": false,
+      "resources": [
+        {"label": "Community Emergency Response Training", "url": "https://cert.org"},
+        {"label": "Trauma-Informed Care Resources", "url": "https://traumainformed.org"}
+      ],
+      "levels": {
+        "level0": [
+          "Learn basic street medic skills like wound care, heat exhaustion, and psychological first aid",
+          "Study successful street medic collectives and community response projects"
+        ],
+        "level1": [
+          "Practice trauma-informed and consent-based medical care approaches",
+          "Document your collective's protocols and safety practices",
+          "Learn about legal rights and responsibilities for street medic work"
+        ],
+        "level2": [
+          "Host workshops on street medic skills and community emergency response",
+          "Create accessible resources about building crisis response collectives",
+          "Share knowledge with other medic collectives and safety organizers"
+        ],
+        "level3": [
+          "Develop comprehensive street medic organizing toolkits",
+          "Research and document impacts of community vs institutional emergency response",
+          "Train facilitators and organizers in other communities"
+        ]
+      }
+    },
+    "Power": {
+      "summary": "Challenge state monopolies on emergency response while building community power through collective care.",
+      "localizable": true,
+      "resources": [
+        {"label": "Community Defense Resources", "url": "https://communitydefense.org"},
+        {"label": "Abolition Medicine", "url": "https://abolitionmedicine.org"}
+      ],
+      "levels": {
+        "level0": [
+          "Practice community accountability and mutual aid principles in emergency response",
+          "Challenge reliance on police and carceral systems for community safety",
+          "Build analysis of how community care relates to broader liberation struggles"
+        ],
+        "level1": [
+          "Organize community members to collectively respond to crises and emergencies",
+          "Practice nonviolent intervention and de-escalation in conflict situations",
+          "Build collective capacity to protect and care for vulnerable community members"
+        ],
+        "level2": [
+          "Coordinate street medic activities with other social justice organizing",
+          "Challenge systems that criminalize community care and mutual aid",
+          "Build political power through grassroots safety and care organizing"
+        ],
+        "level3": [
+          "Contribute to broader movements for community-controlled safety and care",
+          "Advocate for policies that support community emergency response systems",
+          "Build lasting infrastructure for community self-determination and collective care"
+        ]
+      }
+    }
+  }
+}

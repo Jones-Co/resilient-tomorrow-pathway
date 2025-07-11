@@ -1,0 +1,54 @@
+{
+  "id": "article_power_energy_sovereignty",
+  "title": "Power to the People: Reclaiming Your Energy Sovereignty",
+  "slug": "power-energy-sovereignty",
+  "summary": "Step 2 in exiting systems of dependence: building backup power, creating energy options, and removing the threat of total dependence on a grid that was never built with your sovereignty in mind.",
+  "tags": ["Energy Sovereignty", "Power", "Solar", "Resilience", "Off-Ramp", "Step 2"],
+  "recommendedFor": ["Practical Implementer", "Prepper Curious", "Systems Thinker", "Homeowner"],
+  "domainActions": {
+    "Power": {
+      "summary": "Generate and store your own power to reduce grid dependence.",
+      "localizable": true,
+      "resources": [
+        {"label": "EG4 Inverters & Batteries", "url": "https://eg4electronics.com"},
+        {"label": "Solar Panel Resources", "url": "https://www.solar-electric.com"},
+        {"label": "Kill-a-Watt Meter", "url": "https://www.amazon.com/P3-P4400-Electricity-Usage-Monitor/dp/B00009MDBU"},
+        {"label": "California Solar Consumer Guide", "url": "https://www.cpuc.ca.gov/consumer-protection-and-safety-division/"}
+      ],
+      "levels": {
+        "level0": ["Audit home energy use with Kill-a-Watt meter", "Test powering one device for 24 hours with battery bank", "Install solar-powered outdoor lights"],
+        "level1": ["Buy portable power station (500-2000Wh)", "Learn to cook without grid (solar oven, propane, rocket stove)", "Power fridge or modem for 24 hours without grid"],
+        "level2": ["Install reclaimed solar panels with DIY inverter system", "Design modular system starting with one room", "Add battery storage for peak rate arbitrage"],
+        "level3": ["Build whole-home solar system with 3-5 days backup", "Create neighborhood energy sharing network", "Achieve energy independence from utility grid"]
+      }
+    },
+    "Knowledge": {
+      "summary": "Learn the skills and understanding needed for energy independence.",
+      "localizable": false,
+      "resources": [
+        {"label": "Solar Installation Guides", "url": "https://www.solar-electric.com/learning-center/"},
+        {"label": "DIY Solar Forums", "url": "https://diysolarforum.com"}
+      ],
+      "levels": {
+        "level0": ["Identify 1-2 critical systems to keep running during outages", "Learn about utility rate structures and peak hours"],
+        "level1": ["Research local solar incentives and regulations", "Learn basic electrical safety and wiring"],
+        "level2": ["Study inverter and battery system design", "Plan modular expansion approach"],
+        "level3": ["Master solar system installation and maintenance", "Teach others energy sovereignty skills"]
+      }
+    },
+    "Money": {
+      "summary": "Reduce energy costs and build wealth through energy independence.",
+      "localizable": true,
+      "resources": [
+        {"label": "Solar Cost Calculators", "url": "https://www.energysage.com/solar/calculator/"},
+        {"label": "Bulk Panel Sourcing", "url": "https://www.ebay.com/sch/i.html?_nkw=solar+panels+pallet"}
+      ],
+      "levels": {
+        "level0": ["Reduce vampire loads with smart plugs and power strips"],
+        "level1": ["Source reclaimed solar panels at $35-60 each", "Calculate payback period for solar investment"],
+        "level2": ["Join neighborhood bulk purchasing for solar equipment", "Use time-of-use rates to save money"],
+        "level3": ["Achieve energy cost independence", "Help neighbors access affordable solar solutions"]
+      }
+    }
+  }
+}

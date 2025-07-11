@@ -1,0 +1,67 @@
+{
+  "id": "article_prefigurative_community_building_part17",
+  "title": "Prefigurative Community Building (Part 17): Timebanks and Skillshares - Reclaiming Reciprocity Through Collective Exchange",
+  "slug": "prefigurative-community-building-part17-timebanks-skillshares",
+  "summary": "Create ecosystems of mutual aid through timebanks and skillshares that trade services using time as currency. Build Power With by coordinating around shared needs and gifts rather than imposed scarcity.",
+  "tags": ["Timebanks", "Skillshares", "Reciprocity", "Alternative Economics", "Mutual Aid"],
+  "recommendedFor": ["Community Organizer", "Mutual Aid Organizer", "Alternative Economics Advocate", "Skill Sharer"],
+  "domainActions": {
+    "Money": {
+      "summary": "Create alternative exchange systems that value everyone's time and contributions equally.",
+      "localizable": true,
+      "resources": [
+        {"label": "TimeBanks USA Manual", "url": "https://timebanks.org/wp-content/uploads/2016/04/TimeBank_Manual.pdf"},
+        {"label": "Community Weaver Software", "url": "https://timebanks.org/community-weaver/"},
+        {"label": "hOurworld Network", "url": "https://www.hourworld.org"}
+      ],
+      "levels": {
+        "level0": ["Build founding circle of 3-10 people who trust each other", "Define shared principles like equality of time and non-monetary exchange"],
+        "level1": ["Choose platform for exchanges - online or analog", "Map local needs and offerings through surveys or gatherings"],
+        "level2": ["Launch pilot round with small batch of exchanges", "Facilitate ongoing coordination through meetings and shared calendars"],
+        "level3": ["Sustain pattern without centralization - keep peer-driven and flexible", "Build network of connected timebanks across region"]
+      }
+    },
+    "Community": {
+      "summary": "Build networks that recognize and validate labor that capitalism often ignores.",
+      "localizable": true,
+      "resources": [
+        {"label": "Onion River Exchange Vermont", "url": "https://www.orexchange.org"},
+        {"label": "Barcelona Time Bank Network", "url": "https://bancdeltemps.org"},
+        {"label": "Art of Hosting Resources", "url": "https://www.artofhosting.org"}
+      ],
+      "levels": {
+        "level0": ["Prioritize diversity of age, background, and skills in founding group"],
+        "level1": ["Use social media and community spaces to attract participants", "Encourage storytelling as form of community visibility"],
+        "level2": ["Host skillshare potlucks and community gatherings", "Let new members shape evolution of the system"],
+        "level3": ["Create lasting culture of reciprocity and mutual support", "Model non-transactional relationships in community"]
+      }
+    },
+    "Knowledge": {
+      "summary": "Share skills and knowledge horizontally without formal credentials or hierarchy.",
+      "localizable": true,
+      "resources": [
+        {"label": "Liberating Structures", "url": "http://www.liberatingstructures.com"},
+        {"label": "Mutual Aid Toolkit", "url": "https://bigdoorbrigade.com/toolkit/"}
+      ],
+      "levels": {
+        "level0": ["Acknowledge all skills as valuable - not just professional or academic ones"],
+        "level1": ["Create directory of offerings and requests", "Use group meetings and facilitation to deepen connection"],
+        "level2": ["Rotate facilitators and avoid centralized leadership", "Document and share experiences publicly"],
+        "level3": ["Build comprehensive skill-sharing infrastructure", "Teach others how to start timebanks and skillshares"]
+      }
+    },
+    "Narrative": {
+      "summary": "Shift from transactional to reciprocal understanding of value and exchange.",
+      "localizable": false,
+      "resources": [
+        {"label": "Reinventing Organizations", "url": "https://www.reinventingorganizations.com"}
+      ],
+      "levels": {
+        "level0": ["Practice seeing everyone's time as equally valuable", "Challenge narratives about professional vs personal skills"],
+        "level1": ["Share stories about successful skill exchanges and mutual support", "Model gift economy principles in daily interactions"],
+        "level2": ["Help others understand reciprocity as alternative to market exchange", "Promote culture of mutual aid over charity"],
+        "level3": ["Transform community understanding toward interdependence", "Build widespread culture of reciprocity and care"]
+      }
+    }
+  }
+}

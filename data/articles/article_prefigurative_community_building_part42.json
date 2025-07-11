@@ -1,0 +1,56 @@
+{
+  "id": "article_prefigurative_community_building_part42",
+  "title": "Prefigurative Community Building (Part 42): Solidarity Economy Convergences - Building Collective Power Across Sectors",
+  "slug": "prefigurative-community-building-part42-solidarity-economy-convergences",
+  "summary": "A guide to hosting multi-sectoral gatherings that build relational infrastructure across movements without homogenizing or centralizing them.",
+  "tags": ["Solidarity Economy", "Movement Convergences", "Cross-Sector Organizing", "Collective Power", "Movement Building", "Power With"],
+  "recommendedFor": ["Movement Convener", "Solidarity Economy Organizer", "Cross-Movement Facilitator", "Coalition Builder", "Network Weaver"],
+  "domainActions": {
+    "Community": {
+      "summary": "Create gatherings that build relationships and coordination across different sectors of the solidarity economy and social movements.",
+      "localizable": true,
+      "resources": [
+        {"label": "Cooperation Humboldt Convergences", "url": "https://cooperationhumboldt.com"},
+        {"label": "RIPESS Intercontinental Forums", "url": "https://ripess.org"},
+        {"label": "Allied Media Conference Principles", "url": "https://alliedmedia.org/about/principles"},
+        {"label": "People's Movement Assembly Toolkit", "url": "https://movementassembly.org"}
+      ],
+      "levels": {
+        "level0": [
+          "Gather a core convening team representing multiple sectors and communities",
+          "Define intentional principles for inclusive, anti-oppressive gathering",
+          "Map the landscape of local solidarity economy and movement groups"
+        ],
+        "level1": [
+          "Extend personal invitations to diverse projects and informal networks",
+          "Design convergence format that reflects shared power and horizontal coordination",
+          "Create interweaving opportunities for different sectors to find each other"
+        ],
+        "level2": [
+          "Host convergences that prioritize relationship-building over content delivery",
+          "Fund gatherings through reciprocity and mutual aid rather than corporate sponsorship",
+          "Archive and share learnings through community-controlled documentation"
+        ],
+        "level3": [
+          "Support others in hosting their own locally-rooted convergences",
+          "Build networks of convergence organizers for mutual support and learning",
+          "Create lasting infrastructure for cross-movement relationship and coordination"
+        ]
+      }
+    },
+    "Knowledge": {
+      "summary": "Develop and share knowledge about movement convergence organizing and cross-sector collaboration.",
+      "localizable": false,
+      "resources": [
+        {"label": "Art of Convening Resources", "url": "https://centerforspaciousness.com"},
+        {"label": "Beautiful Solutions Library", "url": "https://solutions.thischangeseverything.org"},
+        {"label": "Resource Generation", "url": "https://resourcegeneration.org"},
+        {"label": "Interference Archive Zine Library", "url": "https://interferencearchive.org"}
+      ],
+      "levels": {
+        "level0": [
+          "Learn about successful movement convergences and solidarity economy gatherings",
+          "Study facilitation methods for large group horizontal decision-making"
+        ],
+        "level1": [
+          "Practice facilitating cross-movement dialogue and relationship-building

@@ -1,0 +1,103 @@
+{
+  "id": "article_prefigurative_community_building_part40",
+  "title": "Prefigurative Community Building (Part 40): Federated Assemblies & Popular Councils - A Power With Framework for Collective Governance",
+  "slug": "prefigurative-community-building-part40-federated-assemblies",
+  "summary": "A guide to creating horizontal decision-making structures that link local groups across regions while preserving autonomy and avoiding hierarchical control.",
+  "tags": ["Federated Assemblies", "Popular Councils", "Democratic Governance", "Collective Decision-Making", "Political Organization", "Power With"],
+  "recommendedFor": ["Community Organizer", "Political Activist", "Democratic Governance Advocate", "Federation Builder", "Grassroots Leader"],
+  "domainActions": {
+    "Power": {
+      "summary": "Build horizontal governance structures that coordinate across communities while preserving local autonomy and avoiding centralized control.",
+      "localizable": true,
+      "resources": [
+        {"label": "Federation of Egalitarian Communities", "url": "https://thefec.org"},
+        {"label": "Zapatista Governance Resources", "url": "https://zapatistas.org"},
+        {"label": "Seeds for Change Consensus Guide", "url": "https://seedsforchange.org.uk/consensus"},
+        {"label": "Sociocracy for All", "url": "https://sociocracyforall.org"}
+      ],
+      "levels": {
+        "level0": [
+          "Form strong local base units with consensus decision-making practices",
+          "Define clear purpose for why broader coordination is needed",
+          "Practice delegate rotation and accountability to base groups"
+        ],
+        "level1": [
+          "Design federation structures that respect local autonomy",
+          "Establish norms for consent-based decision-making and rotating facilitation",
+          "Build working circles rather than permanent committees or hierarchies"
+        ],
+        "level2": [
+          "Connect federation work to concrete campaigns and projects",
+          "Develop clear communication systems across network nodes",
+          "Hold regular reflection and iteration sessions to improve coordination"
+        ],
+        "level3": [
+          "Support formation of additional autonomous federation nodes",
+          "Build lasting infrastructure for horizontal multi-community governance",
+          "Advocate for policies that support grassroots democratic participation"
+        ]
+      }
+    },
+    "Community": {
+      "summary": "Strengthen relationships between local communities through federated decision-making and mutual support.",
+      "localizable": true,
+      "resources": [
+        {"label": "People's Movement Assembly", "url": "https://movementassembly.org"},
+        {"label": "Cooperation Jackson Resources", "url": "https://cooperationjackson.org"},
+        {"label": "Creative Interventions Toolkit", "url": "https://transformharm.org/creative-interventions-toolkit/"}
+      ],
+      "levels": {
+        "level0": [
+          "Build trust and shared agreements within local organizing groups",
+          "Practice transparent communication and collective accountability",
+          "Identify shared challenges that would benefit from broader coordination"
+        ],
+        "level1": [
+          "Send rotating delegates to federation meetings based on local processes",
+          "Ensure accessibility and inclusion in all federation activities",
+          "Create systems for sharing resources and knowledge across communities"
+        ],
+        "level2": [
+          "Coordinate mutual aid and solidarity activities across federation nodes",
+          "Host inter-community gatherings and relationship-building events",
+          "Practice conflict resolution and accountability across community boundaries"
+        ],
+        "level3": [
+          "Build lasting networks of mutual support between autonomous communities",
+          "Create infrastructure for ongoing collaboration without centralizing control",
+          "Model horizontal governance for other communities and movements"
+        ]
+      }
+    },
+    "Knowledge": {
+      "summary": "Develop and share knowledge about horizontal governance, federation building, and collective decision-making.",
+      "localizable": false,
+      "resources": [
+        {"label": "Beautiful Trouble Group Culture Tools", "url": "https://beautifultrouble.org"},
+        {"label": "Microsolidarity Community Building", "url": "https://microsolidarity.cc"},
+        {"label": "Patterns for Decentralized Organizing", "url": "https://hackmd.io/@decentralisation/patterns"}
+      ],
+      "levels": {
+        "level0": [
+          "Learn about successful federation models like FEC and Zapatista councils",
+          "Study consensus decision-making and sociocratic governance methods"
+        ],
+        "level1": [
+          "Practice facilitating horizontal decision-making in diverse groups",
+          "Document your federation's processes and governance agreements",
+          "Learn about delegate accountability and rotating representation systems"
+        ],
+        "level2": [
+          "Host workshops on federation building and horizontal governance",
+          "Create resources about Power With approaches to collective decision-making",
+          "Share knowledge with other federation builders and governance organizers"
+        ],
+        "level3": [
+          "Develop comprehensive federation organizing toolkits",
+          "Research and document impacts of horizontal vs hierarchical governance",
+          "Train facilitators in other communities starting federation processes"
+        ]
+      }
+    }
+  }
+}

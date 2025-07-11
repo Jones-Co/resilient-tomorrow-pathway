@@ -1,0 +1,64 @@
+{
+  "id": "article_prefigurative_community_building_part8",
+  "title": "Prefigurative Community Building (Part 8): Sharing What We Need - Tool & Seed Libraries as Power With in Action",
+  "slug": "prefigurative-community-building-part8-tool-seed-libraries",
+  "summary": "Create prefigurative systems of mutual support by sharing tools and seeds collectively. Break consumer dependency while building relational infrastructure that reinforces trust and care.",
+  "tags": ["Tool Libraries", "Seed Libraries", "Resource Sharing", "Mutual Aid", "Community Infrastructure"],
+  "recommendedFor": ["Community Organizer", "Sustainability Advocate", "Mutual Aid Organizer", "Neighborhood Leader"],
+  "domainActions": {
+    "Community": {
+      "summary": "Build shared resource infrastructure that creates connection and reduces individual dependency.",
+      "localizable": true,
+      "resources": [
+        {"label": "Little Free Libraries Model", "url": "https://littlefreelibrary.org"},
+        {"label": "Richmond Grows Seed Library", "url": "https://www.richmondgrows.org"},
+        {"label": "Berkeley Tool Lending Library", "url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library"}
+      ],
+      "levels": {
+        "level0": ["Start small and local with a few interested people", "Choose accessible location like garage, community garden, or shared space"],
+        "level1": ["Build culture of trust rather than surveillance - use community agreements", "Keep structure horizontal with rotated roles and consensus decisions"],
+        "level2": ["Design for use not perfection - focus on function over fancy systems", "Invite contribution without pressure - let people offer what feels meaningful"],
+        "level3": ["Make it gathering point with seasonal events and skill shares", "Create sustainable model others can replicate"]
+      }
+    },
+    "Knowledge": {
+      "summary": "Share practical skills and build collective capacity for self-reliance.",
+      "localizable": true,
+      "resources": [
+        {"label": "Patterns for Decentralized Organizing", "url": "https://www.seedsforchange.org.uk/organising"}
+      ],
+      "levels": {
+        "level0": ["Map existing tools and seeds in community", "Learn basic maintenance and organization skills"],
+        "level1": ["Host tool sharpening and repair workshops", "Organize seed saving and garden planning sessions"],
+        "level2": ["Teach others how to start their own libraries", "Share knowledge about horizontal organizing methods"],
+        "level3": ["Become regional resource for community sharing infrastructure", "Develop comprehensive skill-sharing networks"]
+      }
+    },
+    "Money": {
+      "summary": "Reduce individual costs while creating abundance through shared resources.",
+      "localizable": true,
+      "resources": [
+        {"label": "Community Wealth Building Resources", "url": "https://democracycollaborative.org"}
+      ],
+      "levels": {
+        "level0": ["Break cycle of individual tool and seed purchasing", "Start with what community already has available"],
+        "level1": ["Organize tool donation drives and repair of existing items", "Create systems for sharing costs of new shared resources"],
+        "level2": ["Calculate community savings from shared vs individual ownership", "Reinvest savings into expanding shared infrastructure"],
+        "level3": ["Model alternative economy based on sharing rather than accumulation", "Support other communities in reducing costs through sharing"]
+      }
+    },
+    "Narrative": {
+      "summary": "Shift from ownership and scarcity to sharing and abundance mindset.",
+      "localizable": false,
+      "resources": [
+        {"label": "Commons Theory Resources", "url": "https://www.onthecommons.org"}
+      ],
+      "levels": {
+        "level0": ["Practice sharing resources without tracking or punishment", "Challenge myths about scarcity and individual ownership"],
+        "level1": ["Share stories about community abundance through cooperation", "Model trust-based systems for resource access"],
+        "level2": ["Help others understand tools and seeds as community wealth", "Promote sharing economy principles in neighborhood"],
+        "level3": ["Transform community culture toward abundance and generosity", "Build widespread understanding of commons as alternative to capitalism"]
+      }
+    }
+  }
+}

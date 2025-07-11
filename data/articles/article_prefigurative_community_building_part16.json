@@ -1,0 +1,54 @@
+{
+  "id": "article_prefigurative_community_building_part16",
+  "title": "Prefigurative Community Building (Part 16): Stewardship Commons - Rewilding Land through Collective Care",
+  "slug": "prefigurative-community-building-part16-stewardship-commons",
+  "summary": "Create Stewardship Commons where land is held, restored, and cared for collectively without ownership. Practice rewilding as participatory process that interweaves ecological and social healing.",
+  "tags": ["Land Stewardship", "Rewilding", "Commons", "Ecological Restoration", "Land Justice"],
+  "recommendedFor": ["Land Steward", "Environmental Justice Activist", "Bioregional Organizer", "Community Ecologist"],
+  "domainActions": {
+    "Community": {
+      "summary": "Build collective land stewardship that heals both ecology and social relationships.",
+      "localizable": true,
+      "resources": [
+        {"label": "Community Land Trust Network", "url": "https://cltnetwork.org.uk"},
+        {"label": "Regenerative Land Trusts via Agrarian Trust", "url": "https://agrariantrust.org"},
+        {"label": "CELDF Legal Tools", "url": "https://celdf.org"},
+        {"label": "Native Land Map", "url": "https://native-land.ca"}
+      ],
+      "levels": {
+        "level0": ["Identify degraded or underutilized land for potential stewardship", "Assemble circle of care with diverse community connections"],
+        "level1": ["Learn from the land and its history through observation and research", "Co-create principles of stewardship together"],
+        "level2": ["Develop light-touch rewilding plan that lets land lead", "Structure participation through shared roles and seasonal workdays"],
+        "level3": ["Formalize collective land care through appropriate legal structures", "Build networks of connected stewardship commons"]
+      }
+    },
+    "Knowledge": {
+      "summary": "Share ecological and traditional knowledge while learning collective land care practices.",
+      "localizable": true,
+      "resources": [
+        {"label": "Earthseed Land Collective", "url": "https://earthseedlandcollective.org"},
+        {"label": "Sogorea Te' Land Trust", "url": "https://sogoreate-landtrust.org"},
+        {"label": "Braiding Sweetgrass by Robin Wall Kimmerer", "url": "https://milkweed.org/book/braiding-sweetgrass"}
+      ],
+      "levels": {
+        "level0": ["Learn what grows naturally and what has been lost or extracted", "Study Indigenous land relationships and responsibilities"],
+        "level1": ["Practice ecological observation and adaptive land tending", "Share knowledge horizontally between all participants"],
+        "level2": ["Develop expertise in native species restoration and permaculture", "Validate lived experience and ancestral wisdom equally"],
+        "level3": ["Become bioregional resource for collective land stewardship", "Teach others about Power With approaches to land care"]
+      }
+    },
+    "Narrative": {
+      "summary": "Transform relationship with land from ownership and extraction to reciprocity and care.",
+      "localizable": false,
+      "resources": [
+        {"label": "Common Cause Handbook on Shared Values", "url": "https://valuesandframes.org/resources/the-common-cause-handbook/"}
+      ],
+      "levels": {
+        "level0": ["Practice seeing land as relationship rather than property", "Learn principles of reciprocity with more-than-human world"],
+        "level1": ["Share stories about collective land stewardship and restoration", "Challenge narratives of human separation from nature"],
+        "level2": ["Help others understand land as commons rather than commodity", "Model regenerative relationship with place"],
+        "level3": ["Transform community understanding toward ecological interdependence", "Build culture where land stewardship is collective responsibility"]
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "id": "article_prefigurative_community_building_part32",
+  "title": "Prefigurative Community Building (Part 32): Permaculture Guilds as Power With Ecological Coordination",
+  "slug": "prefigurative-community-building-part32-permaculture-guilds",
+  "summary": "A guide to forming permaculture guilds that center interdependence and shared stewardship while avoiding expert gatekeeping and hierarchical patterns.",
+  "tags": ["Permaculture", "Ecological Design", "Land Stewardship", "Community Gardens", "Sustainable Agriculture", "Power With"],
+  "recommendedFor": ["Gardener", "Land Steward", "Permaculture Practitioner", "Environmental Organizer", "Community Builder"],
+  "domainActions": {
+    "Food": {
+      "summary": "Create collaborative food growing systems based on ecological principles and community stewardship.",
+      "localizable": true,
+      "resources": [
+        {"label": "L.A. Eco-Village", "url": "https://laecovillage.org"},
+        {"label": "Huerto Tlatelolco", "url": "https://huertotlatelolco.org"},
+        {"label": "Permaculture Design Manual", "url": "https://permacultureprinciples.com"},
+        {"label": "Gaia Education Resources", "url": "https://gaiaeducation.org"}
+      ],
+      "levels": {
+        "level0": [
+          "Start small food gardens using permaculture principles",
+          "Share seeds, tools, and knowledge with neighbors",
+          "Practice companion planting and natural pest management"
+        ],
+        "level1": [
+          "Form a local permaculture learning circle with diverse participants",
+          "Create shared garden spaces using consensus decision-making",
+          "Develop water harvesting and soil building projects together"
+        ],
+        "level2": [
+          "Establish food forests and perennial polycultures as community spaces",
+          "Host skill-shares on permaculture design and ecological principles",
+          "Connect with other permaculture guilds for knowledge exchange"
+        ],
+        "level3": [
+          "Support formation of additional autonomous permaculture guilds",
+          "Create bioregional networks of ecological stewardship",
+          "Advocate for policy changes supporting community land access"
+        ]
+      }
+    },
+    "Community": {
+      "summary": "Build relationships and shared responsibility through collaborative land stewardship and ecological learning.",
+      "localizable": true,
+      "resources": [
+        {"label": "Transition Network", "url": "https://transitionnetwork.org"},
+        {"label": "Regenerative Communities Network", "url": "https://regenerativecommunities.org"}
+      ],
+      "levels": {
+        "level0": [
+          "Gather diverse neighbors interested in land care and food growing",
+          "Host potlucks and informal meetings to discuss shared ecological values",
+          "Practice working together on small garden projects"
+        ],
+        "level1": [
+          "Establish group agreements for shared decision-making and land stewardship",
+          "Create accessible and inclusive participation in all garden activities",
+          "Develop systems for sharing labor, tools, and knowledge equitably"
+        ],
+        "level2": [
+          "Build lasting relationships through seasonal rhythms and shared harvests",
+          "Host community events that celebrate ecological and social connections",
+          "Practice conflict resolution and mutual accountability in land work"
+        ],
+        "level3": [
+          "Mentor new permaculture guilds and share organizing knowledge",
+          "Build networks of ecological communities for mutual support",
+          "Create lasting infrastructure for community-controlled land stewardship"
+        ]
+      }
+    },
+    "Knowledge": {
+      "summary": "Share ecological knowledge horizontally while learning from traditional and Indigenous land practices.",
+      "localizable": true,
+      "resources": [
+        {"label": "Indigenous Permaculture Resources", "url": "https://indigenouspermaculture.org"},
+        {"label": "Decolonizing Permaculture", "url": "https://decolonizingpermaculture.com"}
+      ],
+      "levels": {
+        "level0": [
+          "Learn permaculture ethics and principles through hands-on practice",
+          "Study local Indigenous land management practices and traditional knowledge"
+        ],
+        "level1": [
+          "Practice observational skills and ecological design thinking",
+          "Document and share permaculture experiments and learning",
+          "Learn from elders and traditional knowledge holders in your area"
+        ],
+        "level2": [
+          "Host workshops on permaculture design and ecological restoration",
+          "Create open-source resources about local ecological practices",
+          "Share knowledge with other guilds while respecting cultural protocols"
+        ],
+        "level3": [
+          "Develop comprehensive permaculture education programs",
+          "Research and document impacts of community-controlled ecological design",
+          "Support policy changes that protect traditional ecological knowledge"
+        ]
+      }
+    }
+  }
+}

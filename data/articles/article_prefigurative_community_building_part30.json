@@ -1,0 +1,102 @@
+{
+  "id": "article_prefigurative_community_building_part30",
+  "title": "Prefigurative Community Building (Part 30): Restoring Our Tongues - A Power With Guide to Decolonial Language Revitalization",
+  "slug": "prefigurative-community-building-part30-language-revitalization",
+  "summary": "A guide to community-led language revitalization that centers collective ownership, dignity, and belonging while avoiding hierarchical curriculum approaches.",
+  "tags": ["Language Revitalization", "Decolonization", "Cultural Preservation", "Indigenous Knowledge", "Community Learning", "Power With"],
+  "recommendedFor": ["Cultural Worker", "Language Learner", "Indigenous Organizer", "Community Educator", "Heritage Speaker"],
+  "domainActions": {
+    "Knowledge": {
+      "summary": "Reclaim ancestral and Indigenous languages through collective learning circles that honor lived experience and cultural continuity.",
+      "localizable": true,
+      "resources": [
+        {"label": "FirstVoices Dictionary Platform", "url": "https://firstvoices.com"},
+        {"label": "Wikitongues Language Archive", "url": "https://wikitongues.org"},
+        {"label": "Indigenous Language Institute", "url": "https://ilinative.org"},
+        {"label": "Advocates for Indigenous California Language Survival", "url": "https://aicls.org"}
+      ],
+      "levels": {
+        "level0": [
+          "Listen to elders and heritage speakers about the language's current role",
+          "Form a small language learning circle with peers",
+          "Create simple learning materials together like flashcards or labels"
+        ],
+        "level1": [
+          "Support elder leadership while learning collectively with peers",
+          "Develop communal learning materials using consensus and shared authorship",
+          "Practice gentle approaches that normalize forgetting and remembering"
+        ],
+        "level2": [
+          "Host public celebration events like language open mic nights",
+          "Create open-source learning materials for other communities",
+          "Form networks with other language revitalization circles"
+        ],
+        "level3": [
+          "Support formation of additional autonomous learning circles",
+          "Share power and avoid centralizing language expertise",
+          "Contribute to broader movements for linguistic justice"
+        ]
+      }
+    },
+    "Community": {
+      "summary": "Strengthen community bonds and cultural identity through shared language learning and celebration.",
+      "localizable": true,
+      "resources": [
+        {"label": "Idle No More Language Camps", "url": "https://idlenomore.ca"},
+        {"label": "Native Youth Language Projects", "url": "https://ncai.org/policy-research-center/initiatives/education/native-language-revitalization"}
+      ],
+      "levels": {
+        "level0": [
+          "Begin language learning in homes and kitchens, not classrooms",
+          "Include multiple generations in learning circles",
+          "Practice speaking in low-pressure, supportive environments"
+        ],
+        "level1": [
+          "Form horizontal learning circles where everyone teaches and learns",
+          "Create rituals for healing language trauma and shame",
+          "Use the language in daily life through signage and conversation"
+        ],
+        "level2": [
+          "Host community events that celebrate the language publicly",
+          "Connect with other communities working on language revitalization",
+          "Support intergenerational transmission through storytelling and song"
+        ],
+        "level3": [
+          "Build lasting infrastructure for community-controlled language education",
+          "Advocate for language rights and community autonomy",
+          "Create networks of mutual support between language communities"
+        ]
+      }
+    },
+    "Narrative": {
+      "summary": "Challenge colonial narratives about language loss while reclaiming cultural identity and resistance.",
+      "localizable": true,
+      "resources": [
+        {"label": "Decolonizing Language Revitalization Resources", "url": "https://decolonizinglanguage.org"},
+        {"label": "Nuestro Idioma es Resistencia Documentary", "url": "https://youtu.be/9LQ1RmRRxkI"}
+      ],
+      "levels": {
+        "level0": [
+          "Share stories about the power and beauty of ancestral languages",
+          "Challenge narratives that view some languages as more valuable than others",
+          "Practice seeing language as living ecosystem rather than academic subject"
+        ],
+        "level1": [
+          "Document the ongoing vitality and resistance of your language community",
+          "Challenge extractive academic approaches to language preservation",
+          "Share stories of successful community-led revitalization efforts"
+        ],
+        "level2": [
+          "Lead community conversations about language, identity, and healing",
+          "Create media that showcases language as tool of resistance and connection",
+          "Advocate for community-controlled rather than institutional language programs"
+        ],
+        "level3": [
+          "Contribute to movements for linguistic justice and Indigenous sovereignty",
+          "Develop and share analysis of language as decolonization practice",
+          "Support policy changes that protect community language rights"
+        ]
+      }
+    }
+  }
+}

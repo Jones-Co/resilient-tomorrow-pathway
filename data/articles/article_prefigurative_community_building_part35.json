@@ -1,0 +1,102 @@
+{
+  "id": "article_prefigurative_community_building_part35",
+  "title": "Prefigurative Community Building (Part 35): Mycorrhizal Mutualism and Rewilding as Power With Coordination",
+  "slug": "prefigurative-community-building-part35-mycorrhizal-rewilding",
+  "summary": "A guide to ecosystem restoration that mirrors forest coordination patterns, centering reciprocity with more-than-human life through Power With principles.",
+  "tags": ["Rewilding", "Ecosystem Restoration", "Mycorrhizal Networks", "Interspecies Collaboration", "Ecological Healing", "Power With"],
+  "recommendedFor": ["Ecological Restoration Worker", "Land Steward", "Environmental Scientist", "Permaculture Designer", "Bioregional Organizer"],
+  "domainActions": {
+    "Community": {
+      "summary": "Build human communities that mirror mycorrhizal networks through reciprocal relationships and distributed coordination.",
+      "localizable": true,
+      "resources": [
+        {"label": "MycoRise Up!", "url": "https://mycoriseup.org"},
+        {"label": "Pollinator Corridor Project", "url": "https://pollinatorcorridor.org"},
+        {"label": "Society for Ecological Restoration", "url": "https://ser.org"},
+        {"label": "Suzanne Simard Research", "url": "https://mothertreeproject.org"}
+      ],
+      "levels": {
+        "level0": [
+          "Form small diverse circles of co-stewards interested in ecosystem restoration",
+          "Practice observing and listening to local ecosystems and land",
+          "Begin simple restoration activities like invasive species removal"
+        ],
+        "level1": [
+          "Establish consensus-based decision making that includes land as collaborator",
+          "Choose micro-sites for restoration using participatory design processes",
+          "Create shared infrastructure for restoration work and knowledge sharing"
+        ],
+        "level2": [
+          "Coordinate restoration across multiple sites using mycorrhizal network principles",
+          "Host skill-shares on fungal inoculation, native plant propagation, and restoration techniques",
+          "Build connections between restoration projects for mutual support"
+        ],
+        "level3": [
+          "Support formation of additional autonomous restoration circles",
+          "Create bioregional networks of ecosystem restoration projects",
+          "Advocate for policies that support community-controlled land healing"
+        ]
+      }
+    },
+    "Knowledge": {
+      "summary": "Learn and share knowledge about ecological restoration, mycorrhizal relationships, and interspecies collaboration.",
+      "localizable": true,
+      "resources": [
+        {"label": "Mycoremediation Resources", "url": "https://fungi.com/pages/mycoremediation"},
+        {"label": "Native Plant Propagation", "url": "https://nativeplants.org"},
+        {"label": "Traditional Ecological Knowledge", "url": "https://traditionalknowledge.org"}
+      ],
+      "levels": {
+        "level0": [
+          "Learn about mycorrhizal networks and forest communication systems",
+          "Study local ecology and traditional restoration practices"
+        ],
+        "level1": [
+          "Practice ecological observation and assessment techniques",
+          "Learn fungal cultivation and inoculation for ecosystem restoration",
+          "Document restoration processes and ecological changes over time"
+        ],
+        "level2": [
+          "Host workshops on mycorrhizal restoration and ecological partnership",
+          "Create resources about interspecies collaboration and ecosystem healing",
+          "Share knowledge with other restoration projects and researchers"
+        ],
+        "level3": [
+          "Develop comprehensive ecological restoration organizing toolkits",
+          "Research and document impacts of Power With vs Power Over restoration approaches",
+          "Train facilitators in other communities starting restoration projects"
+        ]
+      }
+    },
+    "Narrative": {
+      "summary": "Challenge human supremacist narratives while promoting stories of interspecies collaboration and ecological partnership.",
+      "localizable": true,
+      "resources": [
+        {"label": "Robin Wall Kimmerer Writings", "url": "https://robinwallkimmerer.com"},
+        {"label": "Anna Tsing Mushroom Books", "url": "https://press.princeton.edu/books/paperback/9780691178325/the-mushroom-at-the-end-of-the-world"}
+      ],
+      "levels": {
+        "level0": [
+          "Share stories about the intelligence and agency of forests and fungi",
+          "Practice seeing humans as part of rather than separate from ecosystems",
+          "Challenge narratives that position humans as managers of nature"
+        ],
+        "level1": [
+          "Document examples of successful interspecies collaboration and restoration",
+          "Challenge extractive approaches to conservation and land management",
+          "Share stories of ecological healing and regeneration"
+        ],
+        "level2": [
+          "Lead community conversations about interspecies relationships and ecological citizenship",
+          "Create media highlighting mycorrhizal principles in human organizing",
+          "Advocate for land management that centers ecological agency"
+        ],
+        "level3": [
+          "Contribute to cultural shift toward seeing humans as ecological partners",
+          "Develop and share analysis of restoration as interspecies collaboration",
+          "Support movements for rights of nature and ecological democracy"
+        ]
+      }
+    }
+  }
+}

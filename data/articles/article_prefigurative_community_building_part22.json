@@ -1,0 +1,94 @@
+{
+  "id": "article_prefigurative_community_building_part22",
+  "title": "Prefigurative Community Building (Part 22): Mutual Aid Networks as Power With Coordination Patterns",
+  "slug": "prefigurative-community-building-part22-mutual-aid-networks",
+  "summary": "A step-by-step guide to starting horizontal mutual aid networks based on cooperation, not charity, emphasizing replication over scale.",
+  "tags": ["Mutual Aid", "Power With", "Community Networks", "Horizontal Organizing", "Solidarity"],
+  "recommendedFor": ["Community Organizer", "Mutual Aid Organizer", "Neighborhood Leader", "Solidarity Activist"],
+  "domainActions": {
+    "Community": {
+      "summary": "Build horizontal networks of mutual care and support through non-hierarchical organizing.",
+      "localizable": true,
+      "resources": [
+        {"label": "Mutual Aid 101 Guide – Big Door Brigade", "url": "https://bigdoorbrigade.com"},
+        {"label": "The People's Solidarity Hub Mutual Aid Toolkit", "url": "https://peoplessolidarityhub.org"},
+        {"label": "CrimethInc's Mutual Aid Infrastructure Guide", "url": "https://crimethinc.com"},
+        {"label": "Seeds for Change Consensus Toolkit", "url": "https://seedsforchange.org.uk/consensus"}
+      ],
+      "levels": {
+        "level0": [
+          "Form a core circle of 3-7 trusted neighbors or friends",
+          "Start a group chat to coordinate simple mutual aid exchanges",
+          "Deliver groceries or share meals with neighbors"
+        ],
+        "level1": [
+          "Survey your community to identify needs and offers",
+          "Organize regular mutual aid exchanges",
+          "Create accessible communication systems for your network"
+        ],
+        "level2": [
+          "Establish non-hierarchical decision-making structures",
+          "Host reflection circles to evolve your practices",
+          "Connect with other mutual aid networks for solidarity"
+        ],
+        "level3": [
+          "Document and share your organizing model with other communities",
+          "Support others in starting their own autonomous mutual aid networks",
+          "Build lasting infrastructure for community resilience"
+        ]
+      }
+    },
+    "Knowledge": {
+      "summary": "Develop and share organizing knowledge through horizontal learning and documentation.",
+      "localizable": false,
+      "resources": [
+        {"label": "Mutual Aid Meditations – Dean Spade", "url": "https://deanspade.net"},
+        {"label": "Beautiful Trouble's Mutual Aid Page", "url": "https://beautifultrouble.org"}
+      ],
+      "levels": {
+        "level0": [
+          "Learn about mutual aid principles vs charity models",
+          "Study existing mutual aid networks like Bed-Stuy Strong"
+        ],
+        "level1": [
+          "Practice consensus decision-making in your core group",
+          "Document your mutual aid processes and agreements"
+        ],
+        "level2": [
+          "Host workshops on mutual aid organizing for others",
+          "Create zines or newsletters sharing successes and challenges"
+        ],
+        "level3": [
+          "Develop comprehensive toolkits for mutual aid network formation",
+          "Facilitate training exchanges between different mutual aid networks"
+        ]
+      }
+    },
+    "Narrative": {
+      "summary": "Shift narratives from charity and service to solidarity and interdependence.",
+      "localizable": true,
+      "resources": [
+        {"label": "Bed-Stuy Strong", "url": "https://bedstuystrong.com"},
+        {"label": "Mutual Aid Disaster Relief", "url": "https://mutualaiddisasterrelief.org"}
+      ],
+      "levels": {
+        "level0": [
+          "Practice talking about mutual aid as natural cooperation, not radical charity",
+          "Share stories of successful horizontal organizing in your networks"
+        ],
+        "level1": [
+          "Challenge charity-based language in community organizing",
+          "Frame care as liberation, not management"
+        ],
+        "level2": [
+          "Lead community conversations about solidarity vs saviorism",
+          "Write and share stories about the power of horizontal organizing"
+        ],
+        "level3": [
+          "Contribute to broader cultural shift toward mutual aid as default community practice",
+          "Mentor others in articulating Power With principles"
+        ]
+      }
+    }
+  }
+}

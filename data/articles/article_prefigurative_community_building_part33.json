@@ -1,0 +1,101 @@
+{
+  "id": "article_prefigurative_community_building_part33",
+  "title": "Prefigurative Community Building (Part 33): Community Composting as Power With Nutrient Cycling",
+  "slug": "prefigurative-community-building-part33-community-composting",
+  "summary": "A guide to creating community composting collectives that repair ecological relationships while building shared infrastructure through horizontal coordination.",
+  "tags": ["Composting", "Waste Reduction", "Soil Health", "Community Infrastructure", "Ecological Restoration", "Power With"],
+  "recommendedFor": ["Environmental Organizer", "Community Gardener", "Sustainability Advocate", "Waste Justice Activist", "Neighborhood Leader"],
+  "domainActions": {
+    "Community": {
+      "summary": "Build shared composting infrastructure that strengthens neighborhood relationships and ecological awareness.",
+      "localizable": true,
+      "resources": [
+        {"label": "LA Compost", "url": "https://lacompost.org"},
+        {"label": "BK ROT", "url": "https://www.brooklynrot.org"},
+        {"label": "BioCycle Composting Resources", "url": "https://biocycle.net"},
+        {"label": "Kiss the Ground", "url": "https://kisstheground.com"}
+      ],
+      "levels": {
+        "level0": [
+          "Start neighborhood conversations about food waste and soil health",
+          "Begin small-scale composting in backyards or community spaces",
+          "Map local sources of organic waste and potential composting sites"
+        ],
+        "level1": [
+          "Form a composting collective with shared agreements and rotating roles",
+          "Set up collection routes using bikes, carts, or walking routes",
+          "Establish simple composting systems using accessible, low-tech methods"
+        ],
+        "level2": [
+          "Create community composting hubs that serve multiple neighborhoods",
+          "Host workshops and skill-shares on composting and soil building",
+          "Connect finished compost with local gardens and food growing projects"
+        ],
+        "level3": [
+          "Support formation of additional autonomous composting collectives",
+          "Build networks of community-controlled waste and nutrient cycling",
+          "Advocate for policy changes supporting community composting infrastructure"
+        ]
+      }
+    },
+    "Knowledge": {
+      "summary": "Share practical composting knowledge while building understanding of ecological cycles and systems.",
+      "localizable": true,
+      "resources": [
+        {"label": "Rodale Institute Compost Guide", "url": "https://rodaleinstitute.org/science/compost/"},
+        {"label": "Compost Tea Brewing Manual", "url": "https://soilfoodweb.com"}
+      ],
+      "levels": {
+        "level0": [
+          "Learn basic composting methods and soil science principles",
+          "Study successful community composting projects like LA Compost and BK ROT"
+        ],
+        "level1": [
+          "Practice different composting techniques and troubleshoot problems collectively",
+          "Document your composting process and share learning with others",
+          "Learn about waste streams and nutrient cycles in your bioregion"
+        ],
+        "level2": [
+          "Host workshops on composting, soil health, and waste reduction",
+          "Create accessible resources about community composting methods",
+          "Share knowledge with other composting collectives and gardening groups"
+        ],
+        "level3": [
+          "Develop comprehensive community composting toolkits and curricula",
+          "Research and document impacts of community-controlled vs municipal composting",
+          "Train facilitators and organizers in other communities"
+        ]
+      }
+    },
+    "Narrative": {
+      "summary": "Challenge waste culture narratives while promoting stories of regeneration and ecological relationship.",
+      "localizable": true,
+      "resources": [
+        {"label": "Story of Stuff Project", "url": "https://storyofstuff.org"},
+        {"label": "Cradle to Cradle Resources", "url": "https://c2ccertified.org"}
+      ],
+      "levels": {
+        "level0": [
+          "Share stories about the beauty and importance of soil and composting",
+          "Challenge narratives that treat organic matter as 'waste'",
+          "Practice seeing composting as relationship repair rather than chore"
+        ],
+        "level1": [
+          "Document the community benefits of shared composting infrastructure",
+          "Challenge extractive waste management systems in your area",
+          "Share stories of successful community composting and soil regeneration"
+        ],
+        "level2": [
+          "Lead community conversations about waste, consumption, and ecological cycles",
+          "Create media highlighting community composting as resistance to waste culture",
+          "Advocate for community-controlled rather than corporate waste management"
+        ],
+        "level3": [
+          "Contribute to cultural shift toward viewing waste as resource",
+          "Develop and share analysis of composting as ecological and social practice",
+          "Support broader movements for waste justice and ecological restoration"
+        ]
+      }
+    }
+  }
+}

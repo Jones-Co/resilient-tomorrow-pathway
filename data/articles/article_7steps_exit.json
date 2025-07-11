@@ -1,0 +1,234 @@
+{
+  "id": "article_7steps_exit",
+  "title": "7 Steps to Quietly Exit a System That Wants You Dependent",
+  "slug": "7-steps-to-exit",
+  "summary": "A foundational guide to reclaiming sovereignty system-by-system. Each step offers a small, doable action that helps you become less dependent on centralized structures and more aligned with resilient, community-rooted alternatives.",
+  "tags": [
+    "Offramp",
+    "Starter",
+    "Resilience"
+  ],
+  "recommendedFor": [
+    "Beginner",
+    "Frustrated Professional",
+    "Parent",
+    "Prepper Curious"
+  ],
+  "domainActions": {
+    "Food": {
+      "summary": "Reclaim your autonomy by growing, preserving, and sharing food.",
+      "localizable": true,
+      "resources": [
+        {
+          "label": "National Center for Home Food Preservation",
+          "url": "https://nchfp.uga.edu/"
+        },
+        {
+          "label": "Seed Library Toolkit (PDF)",
+          "url": "https://resilienttomorrow.org/downloads/seed-library-toolkit.pdf"
+        },
+        {
+          "label": "USDA Plant Hardiness Zones",
+          "url": "https://planthardiness.ars.usda.gov/"
+        }
+      ],
+      "levels": {
+        "level0": [
+          "Grow something (herbs, sprouts, or vegetables)",
+          "Preserve food (dehydrate, can, ferment)",
+          "Replace one grocery item with something homegrown or traded"
+        ],
+        "level1": [
+          "Join or start a garden trade network",
+          "Start a compost pile or worm bin"
+        ],
+        "level2": [
+          "Preserve a seasonal harvest for winter",
+          "Learn and practice seed saving"
+        ],
+        "level3": [
+          "Design a year-round food plan",
+          "Convert lawn to productive growing space"
+        ]
+      }
+    },
+    "Power": {
+      "summary": "Build resilience through small-scale backups and off-grid cooking.",
+      "localizable": true,
+      "resources": [
+        {
+          "label": "Rewiring America Solar 101",
+          "url": "https://www.rewiringamerica.org/solar-101"
+        }
+      ],
+      "levels": {
+        "level0": [
+          "Buy a battery pack or small backup power station",
+          "Cook one meal without electricity (solar oven, camp stove, etc.)",
+          "Track your household energy usage"
+        ],
+        "level1": [
+          "Install a solar charger for devices",
+          "Switch to LED bulbs"
+        ],
+        "level2": [
+          "Install backup battery storage",
+          "Switch to a green energy provider"
+        ],
+        "level3": [
+          "Design a partial solar system for your home",
+          "Run a critical load panel for essential circuits"
+        ]
+      }
+    },
+    "Money": {
+      "summary": "Redefine security as access, not accumulation.",
+      "localizable": false,
+      "resources": [],
+      "levels": {
+        "level0": [
+          "Cancel unused subscriptions",
+          "Track monthly expenses and reduce fixed costs"
+        ],
+        "level1": [
+          "Barter for goods or services with neighbors",
+          "Create a wishlist of tools to share or co-own"
+        ],
+        "level2": [
+          "Host a barter night or resource swap",
+          "Build a shared tool lending spreadsheet"
+        ],
+        "level3": [
+          "Launch a formal neighborhood barter system",
+          "Prototype a local mutual credit model"
+        ]
+      }
+    },
+    "Community": {
+      "summary": "Mutual support is infrastructure\u2014start building it now.",
+      "localizable": true,
+      "resources": [
+        {
+          "label": "NeighborhoodShare (Beta)",
+          "url": "https://neighborhoodshare.org"
+        }
+      ],
+      "levels": {
+        "level0": [
+          "Introduce yourself to one neighbor",
+          "Ask a friend to join you in this journey"
+        ],
+        "level1": [
+          "Start a text thread for your street",
+          "Host a small gathering or resilience dinner"
+        ],
+        "level2": [
+          "Form a local skill-share group",
+          "Start a tool-sharing group using NeighborhoodShare"
+        ],
+        "level3": [
+          "Launch a mutual aid network",
+          "Coordinate with others to map your block\u2019s strengths and needs"
+        ]
+      }
+    },
+    "Communication": {
+      "summary": "Choose tools that serve you\u2014not those that track you.",
+      "localizable": false,
+      "resources": [
+        {
+          "label": "Signal Private Messenger",
+          "url": "https://signal.org"
+        },
+        {
+          "label": "Brave Browser",
+          "url": "https://brave.com"
+        },
+        {
+          "label": "DuckDuckGo Search Engine",
+          "url": "https://duckduckgo.com"
+        }
+      ],
+      "levels": {
+        "level0": [
+          "Switch to Signal for secure messaging",
+          "Try Brave or DuckDuckGo for private browsing"
+        ],
+        "level1": [
+          "Start using email aliasing (e.g., via Proton)",
+          "Audit app permissions and revoke excess access"
+        ],
+        "level2": [
+          "Help a friend or family member make one privacy switch",
+          "Build a personal toolkit for offline comms"
+        ],
+        "level3": [
+          "Prototype a local mesh network or SMS alert system",
+          "Create a guide or workshop for digital offboarding"
+        ]
+      }
+    },
+    "Knowledge": {
+      "summary": "Learn enough to act. Teach enough to multiply impact.",
+      "localizable": false,
+      "resources": [],
+      "levels": {
+        "level0": [
+          "Watch one tutorial video for a new skill",
+          "Ask a neighbor or elder to show you something they know"
+        ],
+        "level1": [
+          "Teach someone else a skill you\u2019ve gained",
+          "Join or start a local learning circle"
+        ],
+        "level2": [
+          "Host a knowledge exchange day",
+          "Document your offramp progress in a shared folder or blog"
+        ],
+        "level3": [
+          "Build a local skill school or maker co-op",
+          "Start a podcast or publication documenting your community\u2019s wisdom"
+        ]
+      }
+    },
+    "Narrative": {
+      "summary": "Change the story. Normalize resilience.",
+      "localizable": false,
+      "resources": [],
+      "levels": {
+        "level0": [
+          "Talk about offramping with a friend or family member",
+          "Post one story of progress or hope publicly"
+        ],
+        "level1": [
+          "Write or record a piece about your motivation to change",
+          "Host a \u2018resilience movie night\u2019 or storytelling circle"
+        ],
+        "level2": [
+          "Run a campaign highlighting local offramp successes",
+          "Design posters, memes, or flyers for awareness"
+        ],
+        "level3": [
+          "Build a local media channel or zine",
+          "Launch a storytelling or documentary project for your area"
+        ]
+      }
+    }
+  },
+  "relatedSteps": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "linkedSolutions": [
+    "NeighborhoodShare",
+    "Seed Library Toolkit",
+    "Local Power Backup Guide",
+    "Privacy Starter Pack"
+  ],
+  "sourceURL": "https://resilienttomorrow.substack.com/p/7-steps-to-quietly-exit-a-system"
+}

@@ -1,0 +1,101 @@
+{
+  "id": "article_prefigurative_community_building_part29",
+  "title": "Prefigurative Community Building (Part 29): Intergenerational Storytelling and Oral History as Power With Practice",
+  "slug": "prefigurative-community-building-part29-storytelling-oral-history",
+  "summary": "A guide to creating community storytelling and oral history projects that center Power With principles, emphasizing stories told by and for the community rather than extracted by outsiders.",
+  "tags": ["Oral History", "Storytelling", "Intergenerational", "Cultural Preservation", "Community Memory", "Power With"],
+  "recommendedFor": ["Community Historian", "Elder", "Cultural Organizer", "Storyteller", "Memory Keeper"],
+  "domainActions": {
+    "Community": {
+      "summary": "Build intergenerational relationships and strengthen social fabric through shared storytelling and memory work.",
+      "localizable": true,
+      "resources": [
+        {"label": "The Black Memory Workers Project", "url": "https://blackmemoryworkers.org"},
+        {"label": "StoryCenter", "url": "https://storycenter.org"},
+        {"label": "Community Story Project", "url": "https://communitystoryproject.org"},
+        {"label": "Oral History Association", "url": "https://oralhistory.org"}
+      ],
+      "levels": {
+        "level0": [
+          "Host a community meal or story circle to identify local storytellers",
+          "Pair elders with youth for informal storytelling exchanges",
+          "Create simple audio recordings of family or neighborhood stories"
+        ],
+        "level1": [
+          "Form a core group through relational invitation rather than recruitment",
+          "Establish consent-based agreements for how stories will be shared and archived",
+          "Train community members in deep listening and respectful documentation"
+        ],
+        "level2": [
+          "Organize local story exhibitions in churches, schools, or community spaces",
+          "Facilitate regular intergenerational storytelling sessions",
+          "Create accessible archives that remain community-controlled"
+        ],
+        "level3": [
+          "Host skill-sharing workshops so other communities can start their own projects",
+          "Build networks of autonomous storytelling circles",
+          "Advocate for community-controlled memory preservation practices"
+        ]
+      }
+    },
+    "Knowledge": {
+      "summary": "Preserve and share traditional knowledge, lived experience, and community wisdom through horizontal documentation practices.",
+      "localizable": true,
+      "resources": [
+        {"label": "Digital Storytelling Toolkit", "url": "https://digitalstorytelling.coe.uh.edu"},
+        {"label": "Participatory Research Methods", "url": "https://participatoryresearch.org"}
+      ],
+      "levels": {
+        "level0": [
+          "Learn about ethical storytelling and consent practices",
+          "Practice active listening and respectful interviewing techniques"
+        ],
+        "level1": [
+          "Develop skills in community-controlled documentation methods",
+          "Create simple tools for story collection and preservation",
+          "Learn about trauma-informed approaches to memory work"
+        ],
+        "level2": [
+          "Train others in Power With storytelling and oral history methods",
+          "Document local knowledge systems and cultural practices",
+          "Create accessible formats for sharing stories across generations"
+        ],
+        "level3": [
+          "Develop comprehensive toolkits for community storytelling projects",
+          "Research and share best practices for ethical memory preservation",
+          "Mentor facilitators in other communities starting similar projects"
+        ]
+      }
+    },
+    "Narrative": {
+      "summary": "Challenge dominant narratives by centering community voices and reclaiming the power to tell our own stories.",
+      "localizable": true,
+      "resources": [
+        {"label": "Center for Story-Based Strategy", "url": "https://storybasedstrategy.org"},
+        {"label": "Allied Media Projects", "url": "https://alliedmedia.org"}
+      ],
+      "levels": {
+        "level0": [
+          "Question who gets to tell your community's story in mainstream media",
+          "Share examples of community-controlled storytelling and memory work",
+          "Practice seeing stories as sacred rather than content to extract"
+        ],
+        "level1": [
+          "Document untold stories and marginalized voices in your community",
+          "Challenge extractive approaches to oral history and cultural documentation",
+          "Create counter-narratives to dominant representations of your community"
+        ],
+        "level2": [
+          "Lead community conversations about memory, power, and representation",
+          "Amplify community stories through locally-controlled platforms",
+          "Share successful models of Power With storytelling practices"
+        ],
+        "level3": [
+          "Contribute to cultural shift toward community-controlled memory work",
+          "Develop and share analysis of storytelling as liberation practice",
+          "Advocate for policies supporting community-controlled cultural preservation"
+        ]
+      }
+    }
+  }
+}

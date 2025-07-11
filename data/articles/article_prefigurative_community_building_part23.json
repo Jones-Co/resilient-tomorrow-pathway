@@ -1,0 +1,92 @@
+{
+  "id": "article_prefigurative_community_building_part23",
+  "title": "Prefigurative Community Building (Part 23): Childcare and Elder Care Collectives as Power With Coordination Patterns",
+  "slug": "prefigurative-community-building-part23-care-collectives",
+  "summary": "Reclaim care as shared community responsibility through horizontal childcare and elder care collectives that reject atomization and commodification.",
+  "tags": ["Care Collectives", "Childcare", "Elder Care", "Intergenerational", "Mutual Care", "Power With"],
+  "recommendedFor": ["Parent", "Elder", "Caregiver", "Community Builder", "Mutual Aid Organizer"],
+  "domainActions": {
+    "Community": {
+      "summary": "Build reciprocal care systems that support children, elders, and caregivers through collective responsibility.",
+      "localizable": true,
+      "resources": [
+        {"label": "Kairos Fellowship Detroit", "url": "https://kairosdetroit.org"},
+        {"label": "Familia Adelante Portland", "url": "https://familiaadelante.org"},
+        {"label": "Mutual Aid Pod Mapping Tool", "url": "https://docs.google.com/document/d/1fA4Th5Wy_3ER21UsyNrm5U5YvHbHZ7dHP9B0nNtJNlY/edit"}
+      ],
+      "levels": {
+        "level0": [
+          "Start conversations with other parents/caregivers about mutual support",
+          "Organize informal childcare swaps with trusted neighbors",
+          "Share meals across generations in your community"
+        ],
+        "level1": [
+          "Form a care pod of 4-10 households for regular support",
+          "Create care calendars and resource sharing systems",
+          "Develop collective agreements around safety and inclusion"
+        ],
+        "level2": [
+          "Establish rotating coordination roles to prevent hierarchy",
+          "Hold regular reflection circles to adjust care rhythms",
+          "Connect with other care collectives for knowledge sharing"
+        ],
+        "level3": [
+          "Support formation of additional autonomous care pods",
+          "Advocate for policy changes supporting collective care models",
+          "Build lasting infrastructure for community-controlled care"
+        ]
+      }
+    },
+    "Knowledge": {
+      "summary": "Develop and share knowledge about cooperative caregiving and intergenerational support.",
+      "localizable": false,
+      "resources": [
+        {"label": "Care Collective Resources", "url": "https://carecollective.net"},
+        {"label": "Community Care Toolkit", "url": "https://communitycare.network"}
+      ],
+      "levels": {
+        "level0": [
+          "Learn about cooperative care models vs nuclear family isolation",
+          "Study successful care collectives like Kairos Fellowship"
+        ],
+        "level1": [
+          "Practice participatory mapping of community care skills and needs",
+          "Document your care collective's agreements and processes"
+        ],
+        "level2": [
+          "Host workshops on forming care collectives",
+          "Create resources about rotating care responsibilities"
+        ],
+        "level3": [
+          "Develop comprehensive guides for cooperative care organizing",
+          "Research and document impacts of collective vs individual care"
+        ]
+      }
+    },
+    "Narrative": {
+      "summary": "Challenge narratives of individualized care and promote stories of collective responsibility.",
+      "localizable": true,
+      "resources": [
+        {"label": "Care Manifesto", "url": "https://versobooks.com/products/1645-the-care-manifesto"}
+      ],
+      "levels": {
+        "level0": [
+          "Share stories about the benefits of collective caregiving",
+          "Challenge myths about nuclear family being 'natural' or optimal"
+        ],
+        "level1": [
+          "Advocate for community-centered rather than institution-centered care",
+          "Write and share experiences of cooperative care practices"
+        ],
+        "level2": [
+          "Lead community discussions about reimagining care as shared responsibility",
+          "Create media highlighting successful intergenerational care models"
+        ],
+        "level3": [
+          "Contribute to cultural shift toward viewing collective care as normal",
+          "Mentor others in articulating visions of community-controlled care"
+        ]
+      }
+    }
+  }
+}

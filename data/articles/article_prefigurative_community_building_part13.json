@@ -1,0 +1,54 @@
+{
+  "id": "article_prefigurative_community_building_part13",
+  "title": "Prefigurative Community Building (Part 13): Reclaiming Shelter Together - Building Community Land Trusts as a Power With Strategy",
+  "slug": "prefigurative-community-building-part13-community-land-trusts",
+  "summary": "Create Community Land Trusts that ensure permanently affordable housing by separating land ownership from housing ownership. Build democratic land stewardship that serves the common good.",
+  "tags": ["Community Land Trusts", "Permanent Affordability", "Land Justice", "Democratic Ownership", "Anti-Speculation"],
+  "recommendedFor": ["Land Justice Advocate", "Housing Organizer", "Community Developer", "Anti-Displacement Activist"],
+  "domainActions": {
+    "Community": {
+      "summary": "Build community-controlled land ownership that prevents displacement and speculation.",
+      "localizable": true,
+      "resources": [
+        {"label": "People's Action Housing Justice Guide", "url": "https://peoplesaction.org/housing-justice-2021/"},
+        {"label": "Grounded Solutions CLT Technical Manual", "url": "https://groundedsolutions.org/tools-for-success/resource-library/community-land-trusts"},
+        {"label": "NECLT Sample Documents", "url": "https://neclt.org/resources/"},
+        {"label": "Designing Justice + Designing Spaces", "url": "https://designingjustice.org"}
+      ],
+      "levels": {
+        "level0": ["Start with listening and mapping housing displacement in your area", "Form seed group committed to Power With values"],
+        "level1": ["Study legal frameworks and identify potential land for acquisition", "Create legal entity with mission for community-controlled housing"],
+        "level2": ["Raise funding while maintaining community autonomy", "Acquire land collectively through pooled resources or advocacy"],
+        "level3": ["Design housing with and for the community", "Implement governance that shares power democratically"]
+      }
+    },
+    "Power": {
+      "summary": "Transform land from commodity to commons through collective stewardship.",
+      "localizable": true,
+      "resources": [
+        {"label": "Champlain Housing Trust Vermont", "url": "https://www.getahome.org"},
+        {"label": "Sogorea Te' Land Trust California", "url": "https://sogoreate-landtrust.org"},
+        {"label": "Democracy Collaborative CLT Resources", "url": "https://democracycollaborative.org"}
+      ],
+      "levels": {
+        "level0": ["Use sociocracy or consensus methods to prevent Power Over dynamics", "Center voices of unhoused, renters, and precariously housed"],
+        "level1": ["Create tripartite boards with residents, community, and public representation", "Use participatory governance over efficiency"],
+        "level2": ["Include housing-insecure people as stewards and leaders, not just clients", "Implement assemblies that include both residents and non-residents"],
+        "level3": ["Build federated networks of CLTs for regional land justice", "Model democratic land ownership for broader community"]
+      }
+    },
+    "Knowledge": {
+      "summary": "Learn community land development while sharing organizing and governance skills.",
+      "localizable": true,
+      "resources": [
+        {"label": "National CLT Network UK", "url": "https://www.communitylandtrusts.org.uk"}
+      ],
+      "levels": {
+        "level0": ["Learn about zoning laws, land ownership, and community development", "Study successful CLT models and their governance structures"],
+        "level1": ["Develop skills in participatory planning and consensus decision-making", "Learn legal and financial tools for community land ownership"],
+        "level2": ["Host workshops and educational events about CLTs", "Share knowledge about democratic land stewardship"],
+        "level3": ["Become regional resource for community land trust development", "Train others in Power With land organizing"]
+      }
+    }
+  }
+}

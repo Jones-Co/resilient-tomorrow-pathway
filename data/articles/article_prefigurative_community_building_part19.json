@@ -1,0 +1,67 @@
+{
+  "id": "article_prefigurative_community_building_part19",
+  "title": "Prefigurative Community Building (Part 19): Building Solidarity Through Gift Circles and Mutual Aid Funds",
+  "slug": "prefigurative-community-building-part19-gift-circles",
+  "summary": "Create Gift Circles and Solidarity Funds as grassroots tools for sharing resources based on trust, reciprocity, and need. Build horizontal redistribution systems that work through mutual coordination, not domination.",
+  "tags": ["Gift Circles", "Solidarity Funds", "Mutual Aid", "Resource Sharing", "Community Care"],
+  "recommendedFor": ["Mutual Aid Organizer", "Community Care Coordinator", "Solidarity Economy Advocate", "Neighborhood Organizer"],
+  "domainActions": {
+    "Money": {
+      "summary": "Create democratic, transparent funds that redistribute resources based on need rather than worthiness.",
+      "localizable": true,
+      "resources": [
+        {"label": "Mutual Aid Medford Group Guide", "url": "https://mutualaidmedford.org/start-a-group/"},
+        {"label": "Original Gift Circle Guide", "url": "https://www.shareable.net/how-to-start-a-gift-circle/"},
+        {"label": "Open Collective Platform", "url": "https://opencollective.com"},
+        {"label": "Solidarity Not Charity Toolkit", "url": "https://bigdoorbrigade.com/resources/mutual-aid/"}
+      ],
+      "levels": {
+        "level0": ["Gather circle of 5-15 people you trust who want to build mutual support", "Host gift circle meeting with simple format of sharing needs and offers"],
+        "level1": ["Seed solidarity fund through shared digital wallet or mutual pledge", "Create agreements together about how fund operates"],
+        "level2": ["Distribute based on self-disclosed need, not worthiness tests", "Use transparent platforms to manage and distribute funds"],
+        "level3": ["Build permanent infrastructure for community resource sharing", "Support others in starting their own gift circles and funds"]
+      }
+    },
+    "Community": {
+      "summary": "Build trust and mutual care through regular practice of giving and receiving support.",
+      "localizable": true,
+      "resources": [
+        {"label": "Boston Ujima Project", "url": "https://www.ujimaboston.com"},
+        {"label": "Solidarity St. Louis", "url": "https://solidaritystl.org"},
+        {"label": "Loomio Collaborative Platform", "url": "https://www.loomio.org"}
+      ],
+      "levels": {
+        "level0": ["Start from relationships, not rules - participation is voluntary"],
+        "level1": ["Use sociocratic decision-making or consensus practices", "Avoid gatekeeping or surveillance in resource distribution"],
+        "level2": ["Meet regularly to reflect and adapt based on group feedback", "Rotate facilitation roles and keep meetings welcoming"],
+        "level3": ["Create lasting culture of mutual care and resource sharing", "Model horizontal coordination for broader community"]
+      }
+    },
+    "Knowledge": {
+      "summary": "Learn skills of facilitation, consensus building, and mutual aid organizing.",
+      "localizable": true,
+      "resources": [
+        {"label": "Sociocracy for All", "url": "https://www.sociocracyforall.org"}
+      ],
+      "levels": {
+        "level0": ["Learn basic facilitation and circle-keeping skills", "Practice sharing needs and offers without shame or judgment"],
+        "level1": ["Develop skills in consensus decision-making and conflict resolution", "Learn transparent fund management and democratic distribution"],
+        "level2": ["Teach others how to start gift circles and solidarity funds", "Share knowledge about mutual aid organizing principles"],
+        "level3": ["Become resource for community care and mutual aid development", "Train facilitators in Power With organizing methods"]
+      }
+    },
+    "Narrative": {
+      "summary": "Shift from charity model to solidarity and mutual aid understanding of support.",
+      "localizable": false,
+      "resources": [
+        {"label": "Mutual Aid vs Charity Analysis", "url": "https://mutualaid.org"}
+      ],
+      "levels": {
+        "level0": ["Practice seeing support as reciprocal rather than one-directional", "Challenge narratives about deserving vs undeserving people"],
+        "level1": ["Share stories about successful mutual aid and community care", "Model abundance mindset over scarcity thinking"],
+        "level2": ["Help others understand solidarity as alternative to charity", "Promote mutual aid principles in community organizing"],
+        "level3": ["Transform community culture toward mutual care and interdependence", "Build widespread understanding of support as collective responsibility"]
+      }
+    }
+  }
+}

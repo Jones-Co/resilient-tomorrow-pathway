@@ -1,0 +1,66 @@
+{
+  "id": "article_prefigurative_community_building_part6",
+  "title": "Prefigurative Community Building (Part 6): Cooking Together is Revolutionary - Neighborhood Food Circles",
+  "slug": "prefigurative-community-building-part6-food-circles",
+  "summary": "How to start a Neighborhood Food Circle as a Power With project. A guide to creating rotating meal shares that build community, reduce costs, and practice collective care through shared cooking.",
+  "tags": ["Food Circles", "Meal Sharing", "Community Cooking", "Mutual Aid", "Neighborhood Organizing"],
+  "recommendedFor": ["Community Builder", "Neighbor Organizer", "Parent", "Mutual Aid Organizer"],
+  "domainActions": {
+    "Food": {
+      "summary": "Create rotating meal shares that reduce costs while building community through shared cooking.",
+      "localizable": true,
+      "resources": [
+        {"label": "Seeds for Change Facilitation Guide", "url": "https://www.seedsforchange.org.uk/facilitation"},
+        {"label": "Little Kitchen Academy Community Model", "url": "https://littlekitchenacademy.com"},
+        {"label": "People's Kitchen Collective", "url": "https://www.peopleskitchencollective.com"}
+      ],
+      "levels": {
+        "level0": ["Start with one conversation among 3-6 trusted neighbors", "Design agreements together using consensus-based decisions"],
+        "level1": ["Choose coordination method without hierarchy (shared calendar, group chat)", "Start sharing meals through rotation or potlucks"],
+        "level2": ["Make sharing mutual rather than measured - let people contribute how they can", "Partner with community gardens or grow food together"],
+        "level3": ["Expand gently through personal connection to new members", "Offer meal shares to elders, new parents, or neighbors in need"]
+      }
+    },
+    "Community": {
+      "summary": "Build relationships and mutual trust through the ritual of shared meals.",
+      "localizable": true,
+      "resources": [
+        {"label": "Queer Food Share LA", "url": "https://www.instagram.com/queerfoodshare/"},
+        {"label": "Spiral Collective Minneapolis", "url": "http://spiralcollective.org"},
+        {"label": "Mutual Aid Medford & Somerville Toolkit", "url": "https://docs.google.com/document/d/1aKwr_UqL_2o-R1r3DR4UsZmLnHEgxRG7Of6dK_Y7s3g/edit"}
+      ],
+      "levels": {
+        "level0": ["Practice consensus decision-making around food preferences and scheduling"],
+        "level1": ["Rotate communication duties and avoid having a 'coordinator'", "Create flexible roles that people can opt into"],
+        "level2": ["Build culture where people can skip weeks without guilt or judgment", "Develop shared rituals around meal preparation and eating"],
+        "level3": ["Create permanent food-sharing infrastructure that supports community resilience"]
+      }
+    },
+    "Knowledge": {
+      "summary": "Learn cooking skills while practicing horizontal organizing and mutual aid.",
+      "localizable": true,
+      "resources": [
+        {"label": "Community Cooking Resources", "url": "https://www.peopleskitchencollective.com"}
+      ],
+      "levels": {
+        "level0": ["Share recipes and cooking techniques informally", "Learn consensus decision-making through food planning"],
+        "level1": ["Develop skills in group facilitation and conflict resolution", "Practice cultural exchange through diverse food traditions"],
+        "level2": ["Teach others how to start food circles", "Learn about food justice and cooperative economics"],
+        "level3": ["Become resource for community cooking and food sharing projects", "Train others in mutual aid organizing through food"]
+      }
+    },
+    "Narrative": {
+      "summary": "Transform understanding of food from individual consumption to collective nourishment.",
+      "localizable": false,
+      "resources": [
+        {"label": "Community Meal Philosophy", "url": "https://www.peopleskitchencollective.com"}
+      ],
+      "levels": {
+        "level0": ["Practice seeing meals as sites of connection rather than just consumption"],
+        "level1": ["Share stories about how food brings people together", "Challenge individualistic approaches to daily needs"],
+        "level2": ["Help others understand food sharing as resistance to capitalism", "Model how abundance is created through cooperation"],
+        "level3": ["Transform community culture around food from scarcity to abundance", "Build widespread understanding of food as collective good"]
+      }
+    }
+  }
+}

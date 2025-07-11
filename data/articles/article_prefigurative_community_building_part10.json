@@ -1,0 +1,51 @@
+{
+  "id": "article_prefigurative_community_building_part10",
+  "title": "Prefigurative Community Building (Part 10): Building Power With - Community Makerspaces for Resilience and Repair",
+  "slug": "prefigurative-community-building-part10-makerspaces",
+  "summary": "Transform makerspaces from tech-elite domains into grassroots hubs for autonomy and communal care. Create shared workshops that foster local resilience, solidarity, and post-capitalist infrastructure.",
+  "tags": ["Makerspaces", "Community Workshops", "Collective Infrastructure", "DIY Culture", "Skill Liberation"],
+  "recommendedFor": ["Maker", "Community Organizer", "Tech Justice Advocate", "Practical Implementer"],
+  "domainActions": {
+    "Knowledge": {
+      "summary": "Democratize technical skills and tools through collective learning and making.",
+      "localizable": true,
+      "resources": [
+        {"label": "Sociocracy for All Toolkit", "url": "https://www.sociocracyforall.org/toolkit/"},
+        {"label": "FIXIT Clinic Resources", "url": "https://fixitclinic.blogspot.com"},
+        {"label": "Repair Café Foundation", "url": "https://www.repaircafe.org/en/"}
+      ],
+      "levels": {
+        "level0": ["Start with listening to community needs and capacities", "Find or share accessible space for collaborative making"],
+        "level1": ["Create horizontal organizing structure with consensus decision-making", "Collect tools through community reclamation rather than purchasing"],
+        "level2": ["Build culture of skill-sharing rather than expertism", "Make repair and reuse central to space mission"],
+        "level3": ["Build relational infrastructure that sustains long-term collaboration", "Support others in starting their own community makerspaces"]
+      }
+    },
+    "Community": {
+      "summary": "Create shared infrastructure for collective problem-solving and creative collaboration.",
+      "localizable": true,
+      "resources": [
+        {"label": "Repaired Futures UK", "url": "https://www.repaircafewales.org"}
+      ],
+      "levels": {
+        "level0": ["Use working groups based on capacity and interest, not credentials", "Host regular workshops taught by community volunteers"],
+        "level1": ["Make space welcoming to all identities and skill levels", "Create multilingual signage and visual instruction materials"],
+        "level2": ["Host recurring repair cafés and fix-it events", "Document successful projects in community repair wiki"],
+        "level3": ["Become community hub for mutual aid infrastructure building", "Create network of connected makerspaces across region"]
+      }
+    },
+    "Narrative": {
+      "summary": "Reclaim making and repair as community practices rather than individual consumption.",
+      "localizable": false,
+      "resources": [
+        {"label": "Critical Making Resources", "url": "https://criticalmaking.com"}
+      ],
+      "levels": {
+        "level0": ["Challenge tech-elite culture in traditional maker spaces", "Practice seeing making as collective rather than individual achievement"],
+        "level1": ["Share stories about community-controlled technology and tools", "Model alternatives to startup culture and tech evangelism"],
+        "level2": ["Help others understand makerspaces as civic infrastructure", "Promote repair culture over consumption and disposal"],
+        "level3": ["Transform understanding of technology toward community ownership", "Build culture where collective making serves liberation not profit"]
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "article_prefigurative_community_building_part11",
+  "title": "Prefigurative Community Building (Part 11): Building Power With - Clothing Swaps and Mending Circles for Community Resilience",
+  "slug": "prefigurative-community-building-part11-clothing-swaps",
+  "summary": "Organize clothing swaps and mending circles as acts of collective resistance to fast fashion. Build community resilience through collaborative creativity, skill-sharing, and textile care.",
+  "tags": ["Clothing Swaps", "Mending Circles", "Textile Justice", "Anti-Fast Fashion", "Community Care"],
+  "recommendedFor": ["Community Organizer", "Sustainability Advocate", "Textile Artist", "Anti-Consumption Activist"],
+  "domainActions": {
+    "Community": {
+      "summary": "Create spaces for sharing skills, resources, and care through collaborative textile practices.",
+      "localizable": true,
+      "resources": [
+        {"label": "Repair Café Foundation", "url": "https://repaircafe.org/en/"},
+        {"label": "Textile Exchange", "url": "https://textileexchange.org"},
+        {"label": "Sewing.org Resources", "url": "https://www.sewing.org"},
+        {"label": "Sew Together London", "url": "https://sewtogetherlondon.org"}
+      ],
+      "levels": {
+        "level0": ["Gather community through local networks and casual meetups", "Find accessible, welcoming space for textile sharing"],
+        "level1": ["Define shared values through consensus around respect and consent", "Organize clothing swap with gift economy principles"],
+        "level2": ["Host mending circles with skill-sharing and mutual encouragement", "Build community beyond events through food and relationship"],
+        "level3": ["Create regular gatherings that deepen relationships and skills", "Support network of textile justice activities"]
+      }
+    },
+    "Knowledge": {
+      "summary": "Share mending and textile skills while building collective capacity for repair and creativity.",
+      "localizable": true,
+      "resources": [
+        {"label": "Clothes Swap Project", "url": "https://www.clothesswapproject.org"}
+      ],
+      "levels": {
+        "level0": ["Create culture where skill sharing happens naturally", "Invite experienced makers to guide beginners without hierarchy"],
+        "level1": ["Share techniques and tips openly", "Celebrate all attempts regardless of skill level"],
+        "level2": ["Foster patience and mutual encouragement in learning", "Teach textile heritage as resistance to fast fashion"],
+        "level3": ["Build comprehensive textile education infrastructure", "Train others to facilitate mending and swapping events"]
+      }
+    },
+    "Narrative": {
+      "summary": "Challenge fast fashion culture through practices of care, repair, and collective abundance.",
+      "localizable": false,
+      "resources": [
+        {"label": "Fashion Revolution", "url": "https://www.fashionrevolution.org"}
+      ],
+      "levels": {
+        "level0": ["Practice seeing clothes as worthy of care and longevity", "Challenge disposability culture through mending"],
+        "level1": ["Share stories about textile heritage and traditional skills", "Model alternatives to fast fashion consumption"],
+        "level2": ["Help others understand clothing swaps as resistance to exploitation", "Promote gift economy principles over market exchange"],
+        "level3": ["Transform community understanding of textiles and value", "Build culture where mending and sharing are celebrated"]
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "article_prefigurative_community_building_part12",
+  "title": "Prefigurative Community Building (Part 12): Shelter in Solidarity - Starting a Housing Cooperative as a Power With Coordination Pattern",
+  "slug": "prefigurative-community-building-part12-housing-cooperatives",
+  "summary": "Build housing cooperatives that resist exploitation through democratic participation, shared stewardship, and mutual care. Transform shelter from commodity to shared good using Power With principles.",
+  "tags": ["Housing Cooperatives", "Housing Justice", "Cooperative Living", "Democratic Housing", "Anti-Displacement"],
+  "recommendedFor": ["Housing Justice Advocate", "Community Organizer", "Cooperative Developer", "Tenant Organizer"],
+  "domainActions": {
+    "Community": {
+      "summary": "Create democratic housing that builds Power With through shared ownership and collective care.",
+      "localizable": true,
+      "resources": [
+        {"label": "Grounded Solutions Network CLT Directory", "url": "https://groundedsolutions.org/affordable-housing-directory"},
+        {"label": "Sociocracy for All", "url": "https://www.sociocracyforall.org"},
+        {"label": "Homes for All - Right to the City", "url": "https://homesforall.org"},
+        {"label": "Seed Commons Cooperative Finance", "url": "https://seedcommons.org"}
+      ],
+      "levels": {
+        "level0": ["Form founding circle grounded in shared need and trust", "Decide what kind of housing project you're creating together"],
+        "level1": ["Identify and secure land or property through collective action", "Create governance structure based on Power With principles"],
+        "level2": ["Ensure housing is accessible to unhoused and at-risk people", "Secure funding without surrendering community autonomy"],
+        "level3": ["Document and share your model for others to replicate", "Create permanent affordable housing infrastructure"]
+      }
+    },
+    "Power": {
+      "summary": "Shift housing from commodity to community control through democratic ownership.",
+      "localizable": true,
+      "resources": [
+        {"label": "East Bay Permanent Real Estate Cooperative", "url": "https://ebprec.org"},
+        {"label": "Sun Housing Co-op London", "url": "https://sun-coop.github.io"}
+      ],
+      "levels": {
+        "level0": ["Use consensus or sociocracy for all group decisions", "Distribute roles based on availability, not hierarchy"],
+        "level1": ["Avoid background checks and income requirements that exclude marginalized people", "Create transparent feedback loops and accountability practices"],
+        "level2": ["Partner with mutual aid groups to identify people in urgent housing need", "Use shared agreements instead of rigid rules"],
+        "level3": ["Build housing justice networks that challenge speculative real estate", "Model democratic control over essential community resources"]
+      }
+    },
+    "Money": {
+      "summary": "Create alternative funding models that prioritize community control over profit.",
+      "localizable": true,
+      "resources": [
+        {"label": "Cooperative Development Funding", "url": "https://institute.coop"}
+      ],
+      "levels": {
+        "level0": ["Pool small amounts through mutual aid and grassroots fundraising", "Explore partnership with existing land trusts or nonprofits"],
+        "level1": ["Work with cooperative banks and credit unions", "Seek grants from aligned foundations"],
+        "level2": ["Advocate for municipal support without bureaucratic capture", "Use community bonds and local investment"],
+        "level3": ["Create permanent affordability through limited-equity models", "Build cooperative finance infrastructure for housing justice"]
+      }
+    }
+  }
+}
