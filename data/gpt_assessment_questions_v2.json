@@ -1,0 +1,122 @@
+{
+  "assessment": [
+    {
+      "id": "email",
+      "type": "email",
+      "question": "What's your email address?",
+      "description": "We'll use this to match your Resilient Tomorrow subscription and send you your dashboard. We never sell or track your data."
+    },
+    {
+      "id": "available_time",
+      "type": "multiple_choice",
+      "question": "How much time do you think you could dedicate to offramping each week?",
+      "options": [
+        "15 minutes a week",
+        "1\u20132 hours a week",
+        "A few hours when I can",
+        "This is my main focus right now"
+      ]
+    },
+    {
+      "id": "income_range",
+      "type": "multiple_choice",
+      "question": "Is there any monthly budget you'd be willing to invest in this journey?",
+      "options": [
+        "$0",
+        "$10\u201325",
+        "$25\u2013100",
+        "$100+"
+      ]
+    },
+    {
+      "id": "preferred_action_style",
+      "type": "multiple_choice",
+      "question": "What kind of plan delivery works best for you?",
+      "options": [
+        "Bite-sized nudges",
+        "Weekly action plans",
+        "Big-picture guidance"
+      ]
+    },
+    {
+      "id": "skills_have",
+      "type": "multi_select",
+      "question": "Which skills do you already have?",
+      "options": [
+        "Gardening or food growing",
+        "Fixing/building things",
+        "Organizing people",
+        "Cooking or preserving food",
+        "Using tools or doing deliveries",
+        "Writing, designing, or storytelling",
+        "Research or systems thinking"
+      ]
+    },
+    {
+      "id": "skills_enjoy",
+      "type": "multi_select",
+      "question": "Which of these do you enjoy doing?",
+      "options": [
+        "Hands-on tinkering",
+        "Hosting or organizing",
+        "Quiet work behind the scenes",
+        "Making things more beautiful",
+        "Planning and systems",
+        "Helping people learn",
+        "Working independently"
+      ]
+    },
+    {
+      "id": "motivations",
+      "type": "multi_select",
+      "question": "What motivates you most?",
+      "options": [
+        "Feeling useful",
+        "Helping others",
+        "Solving practical problems",
+        "Learning new things",
+        "Protecting the people I love",
+        "Being part of something bigger"
+      ]
+    },
+    {
+      "id": "social_support",
+      "type": "multiple_choice",
+      "question": "Do you have others to do this with?",
+      "options": [
+        "Yes, I have friends/family I\u2019d share this with",
+        "I belong to a local group that could help",
+        "Not yet, but I\u2019m open to finding others",
+        "I\u2019d rather do this solo for now"
+      ]
+    },
+    {
+      "id": "priority_domains",
+      "type": "multi_select",
+      "question": "Which domains feel most important to you right now?",
+      "options": [
+        "Food",
+        "Power",
+        "Money",
+        "Community",
+        "Communication",
+        "Knowledge",
+        "Narrative"
+      ]
+    },
+    {
+      "id": "focus_domain",
+      "type": "single_select",
+      "question": "Is there one domain you'd like to start with first?",
+      "options": [
+        "Food",
+        "Power",
+        "Money",
+        "Community",
+        "Communication",
+        "Knowledge",
+        "Narrative"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,497 @@
+[
+  {
+    "id": "article_7steps_exit",
+    "title": "7 Steps to Quietly Exit a System That Wants You Dependent",
+    "slug": "7-steps-to-exit",
+    "tags": [
+      "Offramp",
+      "Starter",
+      "Resilience"
+    ],
+    "domains": [
+      "Food",
+      "Power",
+      "Money",
+      "Community",
+      "Communication",
+      "Knowledge",
+      "Narrative"
+    ],
+    "recommendedFor": [
+      "Beginner",
+      "Frustrated Professional",
+      "Parent",
+      "Prepper Curious"
+    ],
+    "source": "articles/article_7steps_exit.json"
+],
+  {
+    "id": "article_break_free_food",
+    "title": "You've Been Trained to Depend on the System for Survival—Here's How to Break Free",
+    "slug": "break-free-food-sovereignty",
+    "tags": ["Food Sovereignty", "Off-Ramp", "Beginner"],
+    "domains": ["Food", "Community", "Knowledge", "Narrative"],
+    "recommendedFor": ["Beginner"],
+    "source": "articles/article_break_free_food.json"
+  },
+  {
+    "id": "article_digital_opt_out",
+    "title": "You Didn't Opt In—You Can Still Opt Out",
+    "slug": "digital-privacy-sovereignty",
+    "tags": ["Digital Privacy", "Off-Ramp", "Digital Sovereignty"],
+    "domains": ["Communication", "Knowledge", "Narrative", "Power"],
+    "recommendedFor": ["Frustrated Professional", "Privacy-Conscious", "Beginner"],
+    "source": "articles/article_digital_opt_out.json"
+  },
+  {
+    "id": "article_building_resilience",
+    "title": "Building Resilience, One Good Idea at a Time",
+    "slug": "building-resilience-vision",
+    "tags": ["Vision", "Solarpunk", "Personal Journey"],
+    "domains": ["Narrative", "Community", "Knowledge", "Power"],
+    "recommendedFor": ["Beginner", "Frustrated Professional", "Systems Thinker"],
+    "source": "articles/article_building_resilience.json"
+  },
+  {
+    "id": "article_self_organization",
+    "title": "Self-Organization is Resistance",
+    "slug": "self-organization-resistance",
+    "tags": ["Self-Organization", "Resistance", "Parallel Systems"],
+    "domains": ["Narrative", "Communication", "Community", "Knowledge"],
+    "recommendedFor": ["Systems Thinker", "Political Activist", "Community Organizer"],
+    "source": "articles/article_self_organization.json"
+  },
+  {
+    "id": "article_stop_waiting_heroes",
+    "title": "Stop Waiting for Heroes: How to Build a Resilient Community Before You Need One",
+    "slug": "stop-waiting-heroes-community",
+    "tags": ["Community Building", "Local Action", "Practical Resilience"],
+    "domains": ["Community", "Power", "Knowledge", "Narrative"],
+    "recommendedFor": ["Community Organizer", "Neighborhood Leader", "Practical Implementer"],
+    "source": "articles/article_stop_waiting_heroes.json"
+  },
+  {
+    "id": "article_first_system_changed",
+    "title": "The First System I Changed Was My Own",
+    "slug": "first-system-personal-trust",
+    "tags": ["Personal Growth", "Trust Building", "Authentic Relationships"],
+    "domains": ["Narrative", "Community", "Knowledge"],
+    "recommendedFor": ["Relationship Builder", "Personal Development", "Community Designer"],
+    "source": "articles/article_first_system_changed.json"
+  },
+  {
+    "id": "article_game_was_rigged",
+    "title": "The Game Was Rigged—So Why Are We Still Playing?",
+    "slug": "game-rigged-stop-playing",
+    "tags": ["Systems Analysis", "Economic Critique", "Parallel Systems"],
+    "domains": ["Narrative", "Money", "Food", "Knowledge", "Community"],
+    "recommendedFor": ["Systems Thinker", "Economic Justice Advocate", "Community Organizer"],
+    "source": "articles/article_game_was_rigged.json"
+  },
+  {
+    "id": "article_imagination_resistance",
+    "title": "Imagination Was the First Thing They Took—Reclaiming it is How Resistance Begins",
+    "slug": "imagination-resistance-reclaiming-vision",
+    "tags": ["Imagination", "Resistance", "Storytelling", "Vision", "Systems Change"],
+    "domains": ["Narrative", "Community", "Knowledge"],
+    "recommendedFor": ["Systems Thinker", "Community Organizer", "Creative", "Frustrated Professional"],
+    "source": "articles/article_imagination_resistance.json"
+  },
+  {
+    "id": "article_power_energy_sovereignty",
+    "title": "Power to the People: Reclaiming Your Energy Sovereignty",
+    "slug": "power-energy-sovereignty",
+    "tags": ["Energy Sovereignty", "Power", "Solar", "Resilience", "Off-Ramp", "Step 2"],
+    "domains": ["Power", "Knowledge", "Money"],
+    "recommendedFor": ["Practical Implementer", "Prepper Curious", "Systems Thinker", "Homeowner"],
+    "source": "articles/article_power_energy_sovereignty.json"
+  },
+  {
+    "id": "article_convenience_cage_wealth",
+    "title": "Convenience Is the Cage: Why Redefining Wealth Is the First Step to Freedom",
+    "slug": "convenience-cage-redefining-wealth",
+    "tags": ["Wealth Redefinition", "Access", "Mutual Aid", "Post-Permission Systems", "Step 3"],
+    "domains": ["Money", "Community", "Knowledge", "Narrative"],
+    "recommendedFor": ["Beginner", "Frustrated Professional", "Systems Thinker", "Community Builder"],
+    "source": "articles/article_convenience_cage_wealth.json"
+  },
+  {
+    "id": "article_prefigurative_community_building_part2",
+    "title": "Prefigurative Community Building (Part 2): 40 Projects to Start Building the New World",
+    "slug": "prefigurative-community-building-40-projects",
+    "tags": ["Prefigurative Politics", "Community Building", "Mutual Aid", "Direct Action", "Power With"],
+    "domains": ["Food", "Community", "Knowledge", "Power", "Money", "Communication", "Narrative"],
+    "recommendedFor": ["Community Organizer", "Local Activist", "Practical Implementer", "Systems Thinker"],
+    "source": "articles/article_prefigurative_community_building_part2.json"
+  },
+  {
+    "id": "article_prefigurative_community_building_part3",
+    "title": "Prefigurative Community Building (Part 3): Weaving Power With the Land",
+    "slug": "prefigurative-community-building-part3-power-with-land",
+    "tags": ["Community Gardens", "Guerrilla Gardening", "Power With", "Food Sovereignty", "Land Access"],
+    "domains": ["Food", "Community", "Knowledge", "Narrative"],
+    "recommendedFor": ["Community Organizer", "Environmental Activist", "Neighborhood Leader", "Practical Implementer"],
+    "source": "articles/article_prefigurative_community_building_part3.json"
+  },
+  {
+    "id": "article_prefigurative_community_building_part4",
+    "title": "Prefigurative Community Building (Part 4): Growing Power With - Democratic Food Co-ops",
+    "slug": "prefigurative-community-building-part4-food-coops",
+    "tags": ["Food Co-ops", "Democratic Economics", "Power With", "Food Justice", "Cooperative Development"],
+    "domains": ["Money", "Food", "Community", "Knowledge"],
+    "recommendedFor": ["Community Organizer", "Food Justice Advocate", "Cooperative Developer", "Economic Justice Advocate"],
+    "source": "articles/article_prefigurative_community_building_part4.json"
+  },
+  {
+    "id": "article_prefigurative_community_building_part5",
+    "title": "Prefigurative Community Building (Part 5): Feeding Each Other, Freeing Each Other - Free Fridges and Pantries",
+    "slug": "prefigurative-community-building-part5-free-fridges",
+    "tags": ["Free Fridges", "Mutual Aid", "Food Access", "Community Care", "Direct Action"],
+    "domains": ["Food", "Community", "Knowledge", "Narrative"],
+    "recommendedFor": ["Mutual Aid Organizer", "Community Activist", "Neighborhood Leader", "Food Justice Advocate"],
+    "source": "articles/article_prefigurative_community_building_part5.json"
+  },
+  {
+    "id": "article_prefigurative_community_building_part6",
+    "title": "Prefigurative Community Building (Part 6): Cooking Together is Revolutionary - Neighborhood Food Circles",
+    "slug": "prefigurative-community-building-part6-food-circles",
+    "tags": ["Food Circles", "Meal Sharing", "Community Cooking", "Mutual Aid", "Neighborhood Organizing"],
+    "domains": ["Food", "Community", "Knowledge", "Narrative"],
+    "recommendedFor": ["Community Builder", "Neighbor Organizer", "Parent", "Mutual Aid Organizer"],
+    "source": "articles/article_prefigurative_community_building_part6.json"
+  },
+  {
+    "id": "article_prefigurative_community_building_part7",
+    "title": "Prefigurative Community Building (Part 7): Foraging Guilds as Resistance - Building Power With Through Wild Food & Medicine",
+    "slug": "prefigurative-community-building-part7-foraging-guilds",
+    "tags": ["Foraging", "Wildcrafting", "Bioregionalism", "Food Medicine", "Land Stewardship"],
+    "domains": ["Food", "Knowledge", "Community", "Narrative"],
+    "recommendedFor": ["Environmental Activist", "Herbalist", "Bioregional Organizer", "Land Steward"],
+    "source": "articles/article_prefigurative_community_building_part7.json"
+  },
+  {
+    "id": "article_prefigurative_community_building_part8",
+    "title": "Prefigurative Community Building (Part 8): Sharing What We Need - Tool & Seed Libraries as Power With in Action",
+    "slug": "prefigurative-community-building-part8-tool-seed-libraries",
+    "tags": ["Tool Libraries", "Seed Libraries", "Resource Sharing", "Mutual Aid", "Community Infrastructure"],
+    "domains": ["Community", "Knowledge", "Money", "Narrative"],
+    "recommendedFor": ["Community Organizer", "Sustainability Advocate", "Mutual Aid Organizer", "Neighborhood Leader"],
+    "source": "articles/article_prefigurative_community_building_part8.json"
+  },
+  {
+    "id": "article_prefigurative_community_building_part9",
+    "title": "Prefigurative Community Building (Part 9): Repair Cafés as Revolutionary Practice - Mending Objects and Social Fabric",
+    "slug": "prefigurative-community-building-part9-repair-cafes",
+    "tags": ["Repair Cafés", "Fix-it Clinics", "Skill Sharing", "Anti-Waste", "Community Learning"],
+    "domains": ["Knowledge", "Community", "Narrative"],
+    "recommendedFor": ["Sustainability Advocate", "Skill Sharer", "Community Organizer", "Environmental Activist"],
+    "source": "articles/article_prefigurative_community_building_part9.json"
+  },
+  {
+    "id": "article_prefigurative_community_building_part10",
+    "title": "Prefigurative Community Building (Part 10): Building Power With - Community Makerspaces for Resilience and Repair",
+    "slug": "prefigurative-community-building-part10-makerspaces",
+    "tags": ["Makerspaces", "Community Workshops", "Collective Infrastructure", "DIY Culture", "Skill Liberation"],
+    "domains": ["Knowledge", "Community", "Narrative"],
+    "recommendedFor": ["Maker", "Community Organizer", "Tech Justice Advocate", "Practical Implementer"],
+    "source": "articles/article_prefigurative_community_building_part10.json"
+  },
+  {
+    "id": "article_prefigurative_community_building_part11",
+    "title": "Prefigurative Community Building (Part 11): Building Power With - Clothing Swaps and Mending Circles for Community Resilience",
+    "slug": "prefigurative-community-building-part11-clothing-swaps",
+    "tags": ["Clothing Swaps", "Mending Circles", "Textile Justice", "Anti-Fast Fashion", "Community Care"],
+    "domains": ["Community", "Knowledge", "Narrative"],
+    "recommendedFor": ["Community Organizer", "Sustainability Advocate", "Textile Artist", "Anti-Consumption Activist"],
+    "source": "articles/article_prefigurative_community_building_part11.json"
+  },
+  {
+    "id": "article_prefigurative_community_building_part12",
+    "title": "Prefigurative Community Building (Part 12): Shelter in Solidarity - Starting a Housing Cooperative as a Power With Coordination Pattern",
+    "slug": "prefigurative-community-building-part12-housing-cooperatives",
+    "tags": ["Housing Cooperatives", "Housing Justice", "Cooperative Living", "Democratic Housing", "Anti-Displacement"],
+    "domains": ["Community", "Power", "Money"],
+    "recommendedFor": ["Housing Justice Advocate", "Community Organizer", "Cooperative Developer", "Tenant Organizer"],
+    "source": "articles/article_prefigurative_community_building_part12.json"
+  },
+  {
+    "id": "article_prefigurative_community_building_part13",
+    "title": "Prefigurative Community Building (Part 13): Reclaiming Shelter Together - Building Community Land Trusts as a Power With Strategy",
+    "slug": "prefigurative-community-building-part13-community-land-trusts",
+    "tags": ["Community Land Trusts", "Permanent Affordability", "Land Justice", "Democratic Ownership", "Anti-Speculation"],
+    "domains": ["Community", "Power", "Knowledge"],
+    "recommendedFor": ["Land Justice Advocate", "Housing Organizer", "Community Developer", "Anti-Displacement Activist"],
+    "source": "articles/article_prefigurative_community_building_part13.json"
+  },
+  {
+    "id": "article_prefigurative_community_building_part14",
+    "title": "Prefigurative Community Building (Part 14): Building Homes Together - Tiny House Villages and Ecovillages as Power With Solutions",
+    "slug": "prefigurative-community-building-part14-tiny-villages",
+    "tags": ["Tiny House Villages", "Ecovillages", "Cooperative Living", "Alternative Housing", "Community Building"],
+    "domains": ["Community", "Knowledge", "Narrative"],
+    "recommendedFor": ["Alternative Living Advocate", "Community Builder", "Housing Justice Organizer", "Sustainability Activist"],
+    "source": "articles/article_prefigurative_community_building_part14.json"
+  },
+  {
+    "id": "article_prefigurative_community_building_part15",
+    "title": "Prefigurative Community Building (Part 15): Power With Tenant Organizing - Building Collective Strength for Housing Justice",
+    "slug": "prefigurative-community-building-part15-tenant-unions",
+    "tags": ["Tenant Unions", "Housing Justice", "Collective Action", "Anti-Eviction", "Renter Power"],
+    "domains": ["Power", "Community", "Knowledge", "Narrative"],
+    "recommendedFor": ["Tenant Organizer", "Housing Justice Advocate", "Renter", "Community Activist"],
+    "source": "articles/article_prefigurative_community_building_part15.json"
+  },
+  {
+    "id": "article_prefigurative_community_building_part16",
+    "title": "Prefigurative Community Building (Part 16): Stewardship Commons - Rewilding Land through Collective Care",
+    "slug": "prefigurative-community-building-part16-stewardship-commons",
+    "tags": ["Land Stewardship", "Rewilding", "Commons", "Ecological Restoration", "Land Justice"],
+    "domains": ["Community", "Knowledge", "Narrative"],
+    "recommendedFor": ["Land Steward", "Environmental Justice Activist", "Bioregional Organizer", "Community Ecologist"],
+    "source": "articles/article_prefigurative_community_building_part16.json"
+  },
+  {
+    "id": "article_prefigurative_community_building_part17",
+    "title": "Prefigurative Community Building (Part 17): Timebanks and Skillshares - Reclaiming Reciprocity Through Collective Exchange",
+    "slug": "prefigurative-community-building-part17-timebanks-skillshares",
+    "tags": ["Timebanks", "Skillshares", "Reciprocity", "Alternative Economics", "Mutual Aid"],
+    "domains": ["Money", "Community", "Knowledge", "Narrative"],
+    "recommendedFor": ["Community Organizer", "Mutual Aid Organizer", "Alternative Economics Advocate", "Skill Sharer"],
+    "source": "articles/article_prefigurative_community_building_part17.json"
+  },
+  {
+    "id": "article_prefigurative_community_building_part18",
+    "title": "Prefigurative Community Building (Part 18): Local Currencies & Mutual Credit - Reclaiming Value Through Collective Trust",
+    "slug": "prefigurative-community-building-part18-local-currencies",
+    "tags": ["Local Currencies", "Mutual Credit", "Economic Democracy", "Alternative Finance", "Community Money"],
+    "domains": ["Money", "Community", "Knowledge", "Narrative"],
+    "recommendedFor": ["Economic Justice Advocate", "Community Organizer", "Alternative Economics Researcher", "Local Business Supporter"],
+    "source": "articles/article_prefigurative_community_building_part18.json"
+  },
+  {
+    "id": "article_prefigurative_community_building_part19",
+    "title": "Prefigurative Community Building (Part 19): Building Solidarity Through Gift Circles and Mutual Aid Funds",
+    "slug": "prefigurative-community-building-part19-gift-circles",
+    "tags": ["Gift Circles", "Solidarity Funds", "Mutual Aid", "Resource Sharing", "Community Care"],
+    "domains": ["Money", "Community", "Knowledge", "Narrative"],
+    "recommendedFor": ["Mutual Aid Organizer", "Community Care Coordinator", "Solidarity Economy Advocate", "Neighborhood Organizer"],
+    "source": "articles/article_prefigurative_community_building_part19.json"
+  },
+  {
+    "id": "article_prefigurative_community_building_part20",
+    "title": "Prefigurative Community Building (Part 20): Worker Cooperatives as Transitional Formations - Building Power With in the Workplace",
+    "slug": "prefigurative-community-building-part20-worker-cooperatives",
+    "tags": ["Worker Cooperatives", "Workplace Democracy", "Economic Democracy", "Cooperative Enterprise", "Anti-Capitalism"],
+    "domains": ["Money", "Power", "Community", "Narrative"],
+    "recommendedFor": ["Worker Organizer", "Cooperative Developer", "Economic Justice Advocate", "Small Business Owner"],
+    "source": "articles/article_prefigurative_community_building_part20.json"
+  },
+  {
+    "id": "article_prefigurative_community_building_part21",
+    "title": "Prefigurative Community Building (Part 21): Starting a Non-Monetary Exchange Hub - A Power With Approach to Degrowth",
+    "slug": "prefigurative-community-building-part21-exchange-hubs",
+    "tags": ["Free Markets", "Swap Markets", "Degrowth", "Resource Liberation", "Gift Economy"],
+    "domains": ["Community", "Knowledge", "Narrative"],
+    "recommendedFor": ["Degrowth Advocate", "Sustainability Organizer", "Community Builder", "Anti-Consumption Activist"],
+    "source": "articles/article_prefigurative_community_building_part21.json"
+  },
+  {
+    "id": "article_prefigurative_community_building_part22",
+    "title": "Prefigurative Community Building (Part 22): Mutual Aid Networks as Power With Coordination Patterns",
+    "slug": "prefigurative-community-building-part22-mutual-aid-networks",
+    "tags": ["Mutual Aid", "Power With", "Community Networks", "Horizontal Organizing", "Solidarity"],
+    "domains": ["Community", "Knowledge", "Narrative"],
+    "recommendedFor": ["Community Organizer", "Mutual Aid Organizer", "Neighborhood Leader", "Solidarity Activist"],
+    "source": "articles/article_prefigurative_community_building_part22.json"
+  },
+  {
+    "id": "article_prefigurative_community_building_part23",
+    "title": "Prefigurative Community Building (Part 23): Childcare and Elder Care Collectives as Power With Coordination Patterns",
+    "slug": "prefigurative-community-building-part23-care-collectives",
+    "tags": ["Care Collectives", "Childcare", "Elder Care", "Intergenerational", "Mutual Care", "Power With"],
+    "domains": ["Community", "Knowledge", "Narrative"],
+    "recommendedFor": ["Parent", "Elder", "Caregiver", "Community Builder", "Mutual Aid Organizer"],
+    "source": "articles/article_prefigurative_community_building_part23.json"
+  },
+  {
+    "id": "article_prefigurative_community_building_part24",
+    "title": "Prefigurative Community Building (Part 24): Disability Justice Pods - A Power With Approach to Collective Care",
+    "slug": "prefigurative-community-building-part24-disability-justice-pods",
+    "tags": ["Disability Justice", "Collective Care", "Radical Access", "Mutual Aid", "Intersectionality", "Power With"],
+    "domains": ["Community", "Knowledge", "Narrative"],
+    "recommendedFor": ["Disability Justice Advocate", "Mutual Aid Organizer", "Community Care Coordinator", "Accessibility Organizer"],
+    "source": "articles/article_prefigurative_community_building_part24.json"
+  },
+  {
+    "id": "article_prefigurative_community_building_part25",
+    "title": "Prefigurative Community Building (Part 25): Consent-Based Conflict Transformation Circles - A Power With Approach to Healing Harm",
+    "slug": "prefigurative-community-building-part25-conflict-transformation",
+    "tags": ["Transformative Justice", "Conflict Transformation", "Restorative Justice", "Consent Culture", "Community Accountability"],
+    "domains": ["Community", "Knowledge", "Narrative"],
+    "recommendedFor": ["Community Organizer", "Conflict Mediator", "Transformative Justice Advocate", "Community Care Coordinator"],
+    "source": "articles/article_prefigurative_community_building_part25.json"
+  },
+  {
+    "id": "article_prefigurative_community_building_part26",
+    "title": "Prefigurative Community Building (Part 26): Growing Community Health Collectives - A Power With Guide to Peer-Led Healing",
+    "slug": "prefigurative-community-building-part26-health-collectives",
+    "tags": ["Community Health", "Peer Support", "Herbal Medicine", "Collective Healing", "Health Justice", "Traditional Knowledge"],
+    "domains": ["Community", "Knowledge", "Narrative"],
+    "recommendedFor": ["Health Justice Advocate", "Herbalist", "Peer Support Worker", "Community Healer", "Mutual Aid Organizer"],
+    "source": "articles/article_prefigurative_community_building_part26.json"
+  },
+{
+    "id": "article_prefigurative_community_building_part31",
+    "title": "Prefigurative Community Building (Part 31): Telling Our Own Stories - How to Build a Community Media Platform as a Power With Project",
+    "slug": "prefigurative-community-building-part31-community-media",
+    "tags": ["Community Media", "Zines", "Independent Media", "Collective Storytelling", "Media Justice", "Power With"],
+    "domains": ["Communication", "Narrative", "Knowledge"],
+    "recommendedFor": ["Media Organizer", "Zine Maker", "Community Journalist", "Cultural Worker", "Storyteller"],
+    "source": "articles/article_prefigurative_community_building_part31.json"
+  },
+  {
+    "id": "article_prefigurative_community_building_part32",
+    "title": "Prefigurative Community Building (Part 32): Permaculture Guilds as Power With Ecological Coordination",
+    "slug": "prefigurative-community-building-part32-permaculture-guilds",
+    "tags": ["Permaculture", "Ecological Design", "Land Stewardship", "Community Gardens", "Sustainable Agriculture", "Power With"],
+    "domains": ["Food", "Community", "Knowledge"],
+    "recommendedFor": ["Gardener", "Land Steward", "Permaculture Practitioner", "Environmental Organizer", "Community Builder"],
+    "source": "articles/article_prefigurative_community_building_part32.json"
+  },
+  {
+    "id": "article_prefigurative_community_building_part33",
+    "title": "Prefigurative Community Building (Part 33): Community Composting as Power With Nutrient Cycling",
+    "slug": "prefigurative-community-building-part33-community-composting",
+    "tags": ["Composting", "Waste Reduction", "Soil Health", "Community Infrastructure", "Ecological Restoration", "Power With"],
+    "domains": ["Community", "Knowledge", "Narrative"],
+    "recommendedFor": ["Ecological Restoration Worker", "Land Steward", "Environmental Scientist", "Permaculture Designer", "Bioregional Organizer"],
+    "source": "articles/article_prefigurative_community_building_part35.json"
+  },
+  {
+    "id": "article_prefigurative_community_building_part36",
+    "title": "Prefigurative Community Building (Part 36): Copwatch and Community Defense as Power With - A Guide to Collective Safety",
+    "slug": "prefigurative-community-building-part36-copwatch-community-defense",
+    "tags": ["Community Defense", "Copwatch", "Community Safety", "Abolition", "Mutual Protection", "Power With"],
+    "domains": ["Community", "Knowledge", "Power"],
+    "recommendedFor": ["Community Organizer", "Abolition Activist", "Community Safety Coordinator", "Street Medic", "Legal Observer"],
+    "source": "articles/article_prefigurative_community_building_part36.json"
+  },
+  {
+    "id": "article_prefigurative_community_building_part37",
+    "title": "Prefigurative Community Building (Part 37): Street Medics and Crisis Response Collectives - A Power With Model of Care and Safety",
+    "slug": "prefigurative-community-building-part37-street-medics-crisis-response",
+    "tags": ["Street Medics", "Crisis Response", "Community Care", "Emergency Response", "Mutual Aid", "Power With"],
+    "domains": ["Community", "Knowledge", "Power"],
+    "recommendedFor": ["Street Medic", "Community Care Coordinator", "Crisis Response Organizer", "Protest Support Worker", "Community Safety Advocate"],
+    "source": "articles/article_prefigurative_community_building_part37.json"
+  },
+  {
+    "id": "article_prefigurative_community_building_part38",
+    "title": "Prefigurative Community Building (Part 38): Digital Security Pods - Power With in the Age of Surveillance",
+    "slug": "prefigurative-community-building-part38-digital-security-pods",
+    "tags": ["Digital Security", "Privacy", "Surveillance Resistance", "Technology Justice", "Peer Support", "Power With"],
+    "domains": ["Communication", "Knowledge", "Power"],
+    "recommendedFor": ["Digital Rights Activist", "Community Organizer", "Tech Worker", "Privacy Advocate", "Mutual Aid Organizer"],
+    "source": "articles/article_prefigurative_community_building_part38.json"
+  },
+  {
+    "id": "article_prefigurative_community_building_part39",
+    "title": "Prefigurative Community Building (Part 39): Sanctuary Networks & Immigration Accompaniment - A Power With Path to Collective Protection",
+    "slug": "prefigurative-community-building-part39-sanctuary-networks",
+    "tags": ["Immigration Justice", "Sanctuary Networks", "Accompaniment", "Community Protection", "Solidarity", "Power With"],
+    "domains": ["Community", "Knowledge", "Power"],
+    "recommendedFor": ["Immigration Rights Organizer", "Sanctuary Coordinator", "Community Safety Advocate", "Solidarity Activist", "Legal Observer"],
+    "source": "articles/article_prefigurative_community_building_part39.json"
+  },
+  {
+    "id": "article_prefigurative_community_building_part40",
+    "title": "Prefigurative Community Building (Part 40): Federated Assemblies & Popular Councils - A Power With Framework for Collective Governance",
+    "slug": "prefigurative-community-building-part40-federated-assemblies",
+    "tags": ["Federated Assemblies", "Popular Councils", "Democratic Governance", "Collective Decision-Making", "Political Organization", "Power With"],
+    "domains": ["Power", "Community", "Knowledge"],
+    "recommendedFor": ["Community Organizer", "Political Activist", "Democratic Governance Advocate", "Federation Builder", "Grassroots Leader"],
+    "source": "articles/article_prefigurative_community_building_part40.json"
+  },
+  {
+    "id": "article_prefigurative_community_building_part41",
+    "title": "Prefigurative Community Building (Part 41): Resource Mapping & Infrastructure Weaving - Building Resilient Networks of Power With",
+    "slug": "prefigurative-community-building-part41-resource-mapping",
+    "tags": ["Resource Mapping", "Community Assets", "Infrastructure Weaving", "Network Building", "Participatory Planning", "Power With"],
+    "domains": ["Community", "Knowledge", "Narrative"],
+    "recommendedFor": ["Community Organizer", "Network Weaver", "Asset Mapper", "Infrastructure Planner", "Mutual Aid Coordinator"],
+    "source": "articles/article_prefigurative_community_building_part41.json"
+  },
+  {
+    "id": "article_prefigurative_community_building_part42",
+    "title": "Prefigurative Community Building (Part 42): Solidarity Economy Convergences - Building Collective Power Across Sectors",
+    "slug": "prefigurative-community-building-part42-solidarity-economy-convergences",
+    "tags": ["Solidarity Economy", "Movement Convergences", "Cross-Sector Organizing", "Collective Power", "Movement Building", "Power With"],
+    "domains": ["Community", "Knowledge", "Narrative"],
+    "recommendedFor": ["Movement Convener", "Solidarity Economy Organizer", "Cross-Movement Facilitator", "Coalition Builder", "Network Weaver"],
+    "source": "articles/article_prefigurative_community_building_part42.json"
+  }
+]Narrative"],
+    "recommendedFor": ["Environmental Organizer", "Community Gardener", "Sustainability Advocate", "Waste Justice Activist", "Neighborhood Leader"],
+    "source": "articles/article_prefigurative_community_building_part33.json"
+  },
+  {
+    "id": "article_prefigurative_community_building_part34",
+    "title": "Prefigurative Community Building (Part 34): Bioregional Stewardship Networks - Governance Aligned with Living Systems",
+    "slug": "prefigurative-community-building-part34-bioregional-stewardship",
+    "tags": ["Bioregionalism", "Watershed Stewardship", "Ecological Governance", "Land Justice", "Environmental Organizing", "Power With"],
+    "domains": ["Community", "Knowledge", "Narrative"],
+    "recommendedFor": ["Land Steward", "Environmental Justice Organizer", "Bioregional Activist", "Water Protector", "Ecological Restoration Worker"],
+    "source": "articles/article_prefigurative_community_building_part34.json"
+  },
+  {
+    "id": "article_prefigurative_community_building_part35",
+    "title": "Prefigurative Community Building (Part 35): Mycorrhizal Mutualism and Rewilding as Power With Coordination",
+    "slug": "prefigurative-community-building-part35-mycorrhizal-rewilding",
+    "tags": ["Rewilding", "Ecosystem Restoration", "Mycorrhizal Networks", "Interspecies Collaboration", "Ecological Healing", "Power With"],
+    "domains": ["Community", "Knowledge", "[
+  {
+    "id": "article_prefigurative_community_building_part27",
+    "title": "Prefigurative Community Building (Part 27): Liberation Study Groups as Power With Learning Circles",
+    "slug": "prefigurative-community-building-part27-liberation-study-groups",
+    "tags": ["Liberation Education", "Study Groups", "Political Education", "Collective Learning", "Power With", "Radical Pedagogy"],
+    "domains": ["Knowledge", "Community", "Narrative"],
+    "recommendedFor": ["Educator", "Community Organizer", "Political Activist", "Lifelong Learner", "Study Group Facilitator"],
+    "source": "articles/article_prefigurative_community_building_part27.json"
+  },
+  {
+    "id": "article_prefigurative_community_building_part28",
+    "title": "Prefigurative Community Building (Part 28): Public Art Collaboratives as Power With - Reclaiming Space, Story, and Solidarity",
+    "slug": "prefigurative-community-building-part28-public-art-collaboratives",
+    "tags": ["Public Art", "Community Art", "Collaborative Creation", "Cultural Commons", "Placemaking", "Power With"],
+    "domains": ["Community", "Narrative", "Knowledge"],
+    "recommendedFor": ["Community Artist", "Cultural Organizer", "Neighborhood Leader", "Creative Activist", "Placemaking Advocate"],
+    "source": "articles/article_prefigurative_community_building_part28.json"
+  },
+  {
+    "id": "article_prefigurative_community_building_part29",
+    "title": "Prefigurative Community Building (Part 29): Intergenerational Storytelling and Oral History as Power With Practice",
+    "slug": "prefigurative-community-building-part29-storytelling-oral-history",
+    "tags": ["Oral History", "Storytelling", "Intergenerational", "Cultural Preservation", "Community Memory", "Power With"],
+    "domains": ["Community", "Knowledge", "Narrative"],
+    "recommendedFor": ["Community Historian", "Elder", "Cultural Organizer", "Storyteller", "Memory Keeper"],
+    "source": "articles/article_prefigurative_community_building_part29.json"
+  },
+  {
+    "id": "article_prefigurative_community_building_part30",
+    "title": "Prefigurative Community Building (Part 30): Restoring Our Tongues - A Power With Guide to Decolonial Language Revitalization",
+    "slug": "prefigurative-community-building-part30-language-revitalization",
+    "tags": ["Language Revitalization", "Decolonization", "Cultural Preservation", "Indigenous Knowledge", "Community Learning", "Power With"],
+    "domains": ["Knowledge", "Community", "Narrative"],
+    "recommendedFor": ["Cultural Worker", "Language Learner", "Indigenous Organizer", "Community Educator", "Heritage Speaker"],
+    "source": "articles/article_prefigurative_community_building_part30.json"
+  },
+  {
+    "id": "article_prefigurative_community_building_part31",
+    "title": "Prefigurative Community Building (Part 31): Telling Our Own Stories - How to Build a Community Media Platform as a Power With Project",
+    "slug": "prefigurative-community-building-part31-community-media",
+    "tags": ["Community Media", "Zines", "Independent Media", "Collective Storytelling", "Media Justice", "Power With"],
+    "domains": ["Communication", "Narrative", "Knowledge"],
+    "recommendedFor": ["Media Organizer", "Zine Maker", "Community Journalist", "Cultural Worker", "Storyteller"],
+    "source": "articles/article_prefigurative_community_building_part31.json"
+  }
+]

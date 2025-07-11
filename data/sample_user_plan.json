@@ -1,0 +1,99 @@
+{
+  "email": "user@example.com",
+  "subscriptionTier": "Free",
+  "status": "Active",
+  "timePerWeek": "1\u20132 hours a week",
+  "monthlyBudget": "$10\u201325",
+  "style": "Weekly action plans",
+  "skillsHave": [
+    "Gardening or food growing",
+    "Cooking or preserving food",
+    "Writing, designing, or storytelling"
+  ],
+  "skillsEnjoy": [
+    "Hands-on tinkering",
+    "Helping people learn"
+  ],
+  "motivations": [
+    "Helping others",
+    "Being part of something bigger"
+  ],
+  "socialSupport": "Not yet, but I\u2019m open to finding others",
+  "personaTags": [
+    "Steward",
+    "Connector"
+  ],
+  "selectedDomains": [
+    "Food",
+    "Power",
+    "Community"
+  ],
+  "domainData": {
+    "Food": {
+      "summary": "Reclaim autonomy one bite at a time.",
+      "actions": {
+        "level0": [
+          "Grow herbs",
+          "Join a local CSA"
+        ],
+        "level1": [
+          "Start a compost bin",
+          "Preserve seasonal food"
+        ],
+        "level2": [
+          "Host a food share",
+          "Build a raised bed garden"
+        ],
+        "level3": [
+          "Convert lawn to food production",
+          "Create a neighborhood seed library"
+        ]
+      },
+      "completed": []
+    },
+    "Power": {
+      "summary": "Reduce reliance on centralized energy.",
+      "actions": {
+        "level0": [
+          "Switch to LED bulbs",
+          "Buy a battery pack"
+        ],
+        "level1": [
+          "Calculate energy usage",
+          "Use off-grid cooking"
+        ],
+        "level2": [
+          "Install backup battery storage",
+          "Build a DIY solar charger"
+        ],
+        "level3": [
+          "Install a critical load panel",
+          "Design a solar system with a neighbor"
+        ]
+      },
+      "completed": []
+    },
+    "Community": {
+      "summary": "Make mutual aid your infrastructure.",
+      "actions": {
+        "level0": [
+          "Introduce yourself to a neighbor",
+          "Attend a local gathering"
+        ],
+        "level1": [
+          "Start a text thread",
+          "Volunteer at a local org"
+        ],
+        "level2": [
+          "Host a potluck",
+          "Organize a tool share"
+        ],
+        "level3": [
+          "Start a mutual aid fund",
+          "Create a neighborhood resilience group"
+        ]
+      },
+      "completed": []
+    }
+  }
+}
