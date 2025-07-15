@@ -6,11 +6,22 @@ import { Textarea } from "@/components/ui/textarea";
 import { ChevronDown, ChevronUp, Lock } from "lucide-react";
 import { ProgressRing } from "./ProgressRing";
 
+interface TaskAction {
+  task: string;
+  time?: string;
+  cost?: string;
+  impact?: string;
+  source?: string;
+  categoryTags?: string[];
+}
+
+type ActionItem = string | TaskAction;
+
 interface DomainActions {
-  level0: string[];
-  level1: string[];
-  level2: string[];
-  level3: string[];
+  level0: ActionItem[];
+  level1: ActionItem[];
+  level2: ActionItem[];
+  level3: ActionItem[];
 }
 
 interface DomainData {
@@ -42,6 +53,11 @@ export const DomainCard = ({
 }: DomainCardProps) => {
   const [activeLevel, setActiveLevel] = useState<0 | 1 | 2 | 3>(0);
   
+  // Helper function to get action identifier (task name for objects, full string for strings)
+  const getActionId = (action: ActionItem): string => {
+    return typeof action === 'string' ? action : action.task;
+  };
+  
   const getAllActions = () => {
     return [
       ...data.actions.level0,
@@ -62,8 +78,18 @@ export const DomainCard = ({
   
   const getLevelProgress = (level: 0 | 1 | 2 | 3) => {
     const levelActions = getLevelActions(level);
-    const levelCompleted = levelActions.filter(action => data.completed.includes(action)).length;
+    const levelCompleted = levelActions.filter(action => data.completed.includes(getActionId(action))).length;
     return levelActions.length > 0 ? (levelCompleted / levelActions.length) * 100 : 0;
+  };
+
+  // Helper function to get impact color
+  const getImpactColor = (impact?: string) => {
+    switch (impact?.toLowerCase()) {
+      case 'high': return 'text-success';
+      case 'medium': return 'text-warning';
+      case 'low': return 'text-muted-foreground';
+      default: return 'text-foreground';
+    }
   };
 
   return (
@@ -116,25 +142,71 @@ export const DomainCard = ({
             ))}
           </div>
           
-          {/* Actions List */}
+           {/* Actions List */}
           <div className="space-y-3">
             <h4 className="font-medium text-foreground">Level {activeLevel} Actions</h4>
-            {getLevelActions(activeLevel).map((action, index) => (
-              <div key={index} className="flex items-start gap-3 p-3 rounded-lg bg-muted/30">
-                <Checkbox
-                  checked={data.completed.includes(action)}
-                  onCheckedChange={() => onActionToggle(action)}
-                  className="mt-0.5"
-                />
-                 <span className={`text-sm leading-relaxed ${
-                  data.completed.includes(action) 
-                    ? 'line-through text-muted-foreground' 
-                    : 'text-foreground'
-                }`}>
-                  {typeof action === 'string' ? action : JSON.stringify(action)}
-                </span>
-              </div>
-            ))}
+            {getLevelActions(activeLevel).map((action, index) => {
+              const actionId = getActionId(action);
+              const isCompleted = data.completed.includes(actionId);
+              const actionData = typeof action === 'object' ? action : null;
+              
+              return (
+                <div key={index} className="flex items-start gap-3 p-4 rounded-lg bg-muted/30 hover:bg-muted/40 transition-colors">
+                  <Checkbox
+                    checked={isCompleted}
+                    onCheckedChange={() => onActionToggle(actionId)}
+                    className="mt-0.5"
+                  />
+                  <div className="flex-1 space-y-2">
+                    <div className={`text-sm leading-relaxed font-medium ${
+                      isCompleted 
+                        ? 'line-through text-muted-foreground' 
+                        : 'text-foreground'
+                    }`}>
+                      {actionData ? actionData.task : (typeof action === 'string' ? action : '')}
+                    </div>
+                    
+                    {actionData && (
+                      <div className="flex flex-wrap gap-3 text-xs">
+                        {actionData.time && (
+                          <div className="flex items-center gap-1 text-muted-foreground">
+                            <span className="font-medium">Time:</span>
+                            <span>{actionData.time}</span>
+                          </div>
+                        )}
+                        {actionData.cost && (
+                          <div className="flex items-center gap-1 text-muted-foreground">
+                            <span className="font-medium">Cost:</span>
+                            <span>{actionData.cost}</span>
+                          </div>
+                        )}
+                        {actionData.impact && (
+                          <div className="flex items-center gap-1">
+                            <span className="font-medium text-muted-foreground">Impact:</span>
+                            <span className={`font-medium ${getImpactColor(actionData.impact)}`}>
+                              {actionData.impact}
+                            </span>
+                          </div>
+                        )}
+                      </div>
+                    )}
+                    
+                    {actionData?.categoryTags && actionData.categoryTags.length > 0 && (
+                      <div className="flex flex-wrap gap-1 mt-2">
+                        {actionData.categoryTags.map((tag, tagIndex) => (
+                          <span 
+                            key={tagIndex} 
+                            className="px-2 py-1 text-xs bg-accent/20 text-accent-foreground rounded-md"
+                          >
+                            {tag}
+                          </span>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                </div>
+              );
+            })}
           </div>
           
           {/* Reflection Section */}
