@@ -95,7 +95,7 @@ const Index = () => {
   const { toast } = useToast();
 
   const allDomains = Object.keys(userData.domainData);
-  const exploredDomains = allDomains.length; // Always show total domains available
+  const exploredDomains = userData.selectedDomains.length; // Domains with actions assigned
   const domainsWithActions = userData.selectedDomains;
   
   const getAllActions = () => {
