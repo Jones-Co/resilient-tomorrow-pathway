@@ -2,6 +2,7 @@ import { useState } from "react";
 import { UserProfile } from "@/components/UserProfile";
 import { OverviewPanel } from "@/components/OverviewPanel";
 import { DomainCard } from "@/components/DomainCard";
+import { PlaceholderDomainCard } from "@/components/PlaceholderDomainCard";
 import { ReminderDialog } from "@/components/ReminderDialog";
 import { JsonInput } from "@/components/JsonInput";
 import { useToast } from "@/hooks/use-toast";
@@ -94,7 +95,8 @@ const Index = () => {
   const { toast } = useToast();
 
   const allDomains = Object.keys(userData.domainData);
-  const exploredDomains = userData.selectedDomains.length;
+  const exploredDomains = allDomains.length; // Always show total domains available
+  const domainsWithActions = userData.selectedDomains;
   
   const getAllActions = () => {
     return Object.values(userData.domainData).flatMap(domain => [
@@ -179,6 +181,22 @@ const Index = () => {
     }
   };
 
+  const handleAddActions = (domain: string) => {
+    if (userData.subscriptionTier === "Free") {
+      toast({
+        title: "Upgrade Required", 
+        description: "Adding custom actions requires a paid subscription",
+        variant: "destructive",
+      });
+      return;
+    }
+    
+    toast({
+      title: "Coming Soon",
+      description: `Action customization for ${domain} will be available soon`,
+    });
+  };
+
   return (
     <div className="min-h-screen bg-background">
       <div className="container mx-auto px-4 py-8 max-w-7xl">
@@ -228,19 +246,39 @@ const Index = () => {
 
         {/* Domain Cards Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
-          {Object.entries(userData.domainData).map(([domain, data]) => (
-            <DomainCard
-              key={domain}
-              title={domain}
-              data={data}
-              isExpanded={expandedDomains.has(domain)}
-              onToggle={() => handleDomainToggle(domain)}
-              onActionToggle={(action) => handleActionToggle(domain, action)}
-              onReflectionChange={(reflection) => handleReflectionChange(domain, reflection)}
-              reflection={reflections[domain]}
-              isPaidUser={userData.subscriptionTier === "Paid"}
-            />
-          ))}
+          {/* Active Domains - those with actions */}
+          {domainsWithActions.map((domain) => {
+            const data = userData.domainData[domain as keyof typeof userData.domainData];
+            return (
+              <DomainCard
+                key={domain}
+                title={domain}
+                data={data}
+                isExpanded={expandedDomains.has(domain)}
+                onToggle={() => handleDomainToggle(domain)}
+                onActionToggle={(action) => handleActionToggle(domain, action)}
+                onReflectionChange={(reflection) => handleReflectionChange(domain, reflection)}
+                reflection={reflections[domain]}
+                isPaidUser={userData.subscriptionTier === "Paid"}
+              />
+            );
+          })}
+          
+          {/* Placeholder Domains - those without actions yet */}
+          {allDomains
+            .filter(domain => !domainsWithActions.includes(domain))
+            .map((domain) => {
+              const data = userData.domainData[domain as keyof typeof userData.domainData];
+              return (
+                <PlaceholderDomainCard
+                  key={domain}
+                  title={domain}
+                  summary={data?.summary}
+                  isPaidUser={userData.subscriptionTier === "Paid"}
+                  onAddActions={() => handleAddActions(domain)}
+                />
+              );
+            })}
         </div>
 
         {/* Reminder Dialog */}
