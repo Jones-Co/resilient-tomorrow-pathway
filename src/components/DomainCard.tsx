@@ -126,12 +126,12 @@ export const DomainCard = ({
                   onCheckedChange={() => onActionToggle(action)}
                   className="mt-0.5"
                 />
-                <span className={`text-sm leading-relaxed ${
+                 <span className={`text-sm leading-relaxed ${
                   data.completed.includes(action) 
                     ? 'line-through text-muted-foreground' 
                     : 'text-foreground'
                 }`}>
-                  {action}
+                  {typeof action === 'string' ? action : JSON.stringify(action)}
                 </span>
               </div>
             ))}
