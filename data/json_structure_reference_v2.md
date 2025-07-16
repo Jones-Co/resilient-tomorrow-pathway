@@ -57,24 +57,25 @@ This is the expected structure of the `user_plan.json` file created in the backg
 
 ### 🔁 Webhook Sync Function
 
-@function sendUserPlanToWebhook(userPlan)
-POST [https://jonesco.app.n8n.cloud/webhook/save-plan](https://jonesco.app.n8n.cloud/webhook-test/save-plan)
-Content-Type: application/json
-Body:
+@function sendUserPlanToWebhook(userPlan)  
+POST https://jonesco.app.n8n.cloud/webhook/save-plan  
+Content-Type: application/json  
+
+```json
 {
-"email": userPlan.email,
-"subscriptionTier": userPlan.subscriptionTier,
-"timePerWeek": userPlan.timePerWeek,
-"monthlyBudget": userPlan.monthlyBudget,
-"style": userPlan.style,
-"skillsHave": userPlan.skillsHave,
-"skillsEnjoy": userPlan.skillsEnjoy,
-"motivations": userPlan.motivations,
-"socialSupport": userPlan.socialSupport,
-"personaTags": userPlan.personaTags,
-"selectedDomains": userPlan.selectedDomains,
-"domainData": userPlan.domainData,
-"lastUpdated": "{{now}}"
+  "email": userPlan.email,
+  "subscriptionTier": userPlan.subscriptionTier,
+  "timePerWeek": userPlan.timePerWeek,
+  "monthlyBudget": userPlan.monthlyBudget,
+  "style": userPlan.style,
+  "skillsHave": userPlan.skillsHave,
+  "skillsEnjoy": userPlan.skillsEnjoy,
+  "motivations": userPlan.motivations,
+  "socialSupport": userPlan.socialSupport,
+  "personaTags": userPlan.personaTags,
+  "selectedDomains": userPlan.selectedDomains,
+  "domainData": userPlan.domainData,
+  "lastUpdated": "{{now}}"
 }
 
 Call this function any time the userPlan is created or updated.
