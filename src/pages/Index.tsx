@@ -15,72 +15,72 @@ const mockUserData = {
   selectedDomains: ["Food", "Power", "Community"],
   domainData: {
     Food: {
-      summary: "Reclaim access to healthy, local, resilient food systems.",
+      summary: "Reclaim autonomy one bite at a time.",
       actions: {
-        level0: ["Sign up for a local CSA", "Visit a farmers market this weekend"],
-        level1: ["Start a balcony herb garden", "Preserve seasonal food (e.g., canning)"],
-        level2: ["Host a neighborhood food share", "Learn seed saving"],
-        level3: ["Build a year-round food production plan", "Convert lawn to garden"]
+        level0: ["Grow herbs", "Join a local CSA"],
+        level1: ["Start a compost bin", "Preserve seasonal food"],
+        level2: ["Host a food share", "Build a raised bed garden"],
+        level3: ["Convert lawn to food production", "Create a neighborhood seed library"]
       },
-      completed: ["Visit a farmers market this weekend"]
+      completed: ["Join a local CSA"]
     },
     Power: {
-      summary: "Reduce reliance on centralized, fragile energy grids.",
+      summary: "Reduce reliance on centralized energy.",
       actions: {
-        level0: ["Buy a battery pack for your phone", "Switch to LED bulbs"],
-        level1: ["Install a solar charger for small devices", "Calculate your energy usage"],
-        level2: ["Install backup battery storage", "Switch energy provider to a green co-op"],
-        level3: ["Design a partial solar system", "Run a critical load panel"]
+        level0: ["Switch to LED bulbs", "Buy a battery pack"],
+        level1: ["Calculate energy usage", "Use off-grid cooking"],
+        level2: ["Install backup battery storage", "Build a DIY solar charger"],
+        level3: ["Install a critical load panel", "Design a solar system with a neighbor"]
       },
       completed: ["Switch to LED bulbs"]
     },
     Community: {
-      summary: "Rebuild belonging and mutual aid as infrastructure.",
+      summary: "Make mutual aid your infrastructure.",
       actions: {
         level0: ["Introduce yourself to a neighbor", "Attend a local gathering"],
-        level1: ["Start a text thread for your street", "Volunteer at a community org"],
-        level2: ["Host a resilience dinner", "Form a skill-share group"],
-        level3: ["Launch a mutual aid network", "Create a local barter system"]
+        level1: ["Start a text thread", "Volunteer at a local org"],
+        level2: ["Host a potluck", "Organize a tool share"],
+        level3: ["Start a mutual aid fund", "Create a neighborhood resilience group"]
       },
       completed: []
     },
-    Water: {
-      summary: "Secure clean, reliable water sources and conservation systems.",
+    Money: {
+      summary: "Build economic resilience beyond traditional financial systems.",
       actions: {
-        level0: ["Install a water filter", "Learn your watershed"],
-        level1: ["Set up rainwater collection", "Audit your water usage"],
-        level2: ["Build greywater system", "Join water conservation group"],
-        level3: ["Design home water resilience plan", "Advocate for watershed protection"]
+        level0: ["Track your spending", "Learn about alternative currencies"],
+        level1: ["Build an emergency fund", "Join a buying club"],
+        level2: ["Start a local investment circle", "Create a mutual aid fund"],
+        level3: ["Launch a community bank", "Develop local economic networks"]
       },
       completed: []
     },
-    Shelter: {
-      summary: "Create resilient, energy-efficient, community-oriented living spaces.",
+    Communication: {
+      summary: "Create resilient information networks and authentic connection.",
       actions: {
-        level0: ["Improve home insulation", "Learn basic repairs"],
-        level1: ["Install efficient heating/cooling", "Create emergency shelter kit"],
-        level2: ["Design resilient home upgrades", "Form housing cooperative"],
-        level3: ["Build alternative housing", "Develop eco-neighborhood"]
+        level0: ["Start a neighborhood group chat", "Learn basic digital security"],
+        level1: ["Set up mesh networking", "Create a community newsletter"],
+        level2: ["Build local media networks", "Organize citizen journalism"],
+        level3: ["Establish community radio", "Create independent information systems"]
       },
       completed: []
     },
-    Health: {
-      summary: "Build personal and community health resilience and healing capacity.",
+    Knowledge: {
+      summary: "Preserve and share essential skills for community resilience.",
       actions: {
-        level0: ["Learn basic first aid", "Build herbal medicine kit"],
-        level1: ["Take wilderness medicine course", "Start community health group"],
-        level2: ["Learn advanced healing skills", "Create neighborhood health network"],
-        level3: ["Establish community health center", "Train community health workers"]
+        level0: ["Document a skill you have", "Learn from a neighbor"],
+        level1: ["Teach a workshop", "Start a skill-sharing group"],
+        level2: ["Create a local knowledge library", "Organize skill exchanges"],
+        level3: ["Build a community learning center", "Develop apprenticeship programs"]
       },
       completed: []
     },
-    Finance: {
-      summary: "Create economic resilience through alternative systems and local exchange.",
+    Narrative: {
+      summary: "Shape the stories that guide us toward regenerative futures.",
       actions: {
-        level0: ["Build emergency fund", "Learn about local currency"],
-        level1: ["Join or start buying club", "Learn basic investing"],
-        level2: ["Create mutual aid fund", "Start local business"],
-        level3: ["Launch community bank", "Develop local economy"]
+        level0: ["Share your personal story", "Attend storytelling events"],
+        level1: ["Document community stories", "Host story circles"],
+        level2: ["Create community media", "Organize narrative workshops"],
+        level3: ["Launch storytelling festivals", "Build narrative infrastructure"]
       },
       completed: []
     }
