@@ -75,7 +75,8 @@ Content-Type: application/json
   "personaTags": userPlan.personaTags,
   "selectedDomains": userPlan.selectedDomains,
   "domainData": userPlan.domainData,
-  "lastUpdated": "{{now}}"
+  "lastUpdated": new Date().toISOString()
+
 }
 
 Call this function any time the userPlan is created or updated.
