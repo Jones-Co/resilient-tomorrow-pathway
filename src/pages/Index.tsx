@@ -94,7 +94,8 @@ const Index = () => {
   const [reminderDialogOpen, setReminderDialogOpen] = useState(false);
   const { toast } = useToast();
 
-  const allDomains = Object.keys(userData.domainData);
+  // Always show all 7 domains regardless of what's in userData
+  const allDomains = ["Food", "Power", "Money", "Community", "Communication", "Knowledge", "Narrative"];
   const exploredDomains = userData.selectedDomains.length; // Domains with actions assigned
   const domainsWithActions = userData.selectedDomains;
   
