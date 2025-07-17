@@ -87,8 +87,8 @@ const mockUserData = {
   }
 };
 
-const Index = () => {
-  const [userData, setUserData] = useState(mockUserData);
+const Index = ({ userData: propUserData }: { userData?: any } = {}) => {
+  const [userData, setUserData] = useState(propUserData || mockUserData);
   const [expandedDomains, setExpandedDomains] = useState<Set<string>>(new Set());
   const [reflections, setReflections] = useState<Record<string, string>>({});
   const [reminderDialogOpen, setReminderDialogOpen] = useState(false);
@@ -100,7 +100,7 @@ const Index = () => {
   const domainsWithActions = userData.selectedDomains;
   
   const getAllActions = () => {
-    return Object.values(userData.domainData).flatMap(domain => [
+    return Object.values(userData.domainData).flatMap((domain: any) => [
       ...domain.actions.level0,
       ...domain.actions.level1,
       ...domain.actions.level2,
@@ -109,7 +109,7 @@ const Index = () => {
   };
   
   const getAllCompletedActions = () => {
-    return Object.values(userData.domainData).flatMap(domain => domain.completed);
+    return Object.values(userData.domainData).flatMap((domain: any) => domain.completed);
   };
 
   const totalActions = getAllActions().length;
