@@ -63,10 +63,10 @@ const Plan = () => {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 flex items-center justify-center">
+      <div className="min-h-screen bg-background flex items-center justify-center">
         <div className="text-center">
-          <Loader2 className="h-8 w-8 animate-spin text-white mx-auto mb-4" />
-          <p className="text-white">Loading your personalized plan...</p>
+          <Loader2 className="h-8 w-8 animate-spin text-primary mx-auto mb-4" />
+          <p className="text-foreground">Loading your personalized plan...</p>
         </div>
       </div>
     );
@@ -74,10 +74,10 @@ const Plan = () => {
 
   if (!planData) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 flex items-center justify-center">
+      <div className="min-h-screen bg-background flex items-center justify-center">
         <div className="text-center">
-          <p className="text-white text-xl mb-4">Plan not found</p>
-          <p className="text-slate-400">Please check your dashboard ID and try again.</p>
+          <p className="text-foreground text-xl mb-4">Plan not found</p>
+          <p className="text-muted-foreground">Please check your dashboard ID and try again.</p>
         </div>
       </div>
     );

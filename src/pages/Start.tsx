@@ -98,37 +98,44 @@ const Start = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
-      <div className="container mx-auto px-4 py-8">
+    <div className="min-h-screen bg-background">
+      <div className="container mx-auto px-4 py-8 max-w-7xl">
         {/* Header */}
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-white mb-4">
-            Resilient Tomorrow
-          </h1>
-          <p className="text-xl text-slate-300 mb-2">
+          <div className="flex flex-col items-center gap-4 mb-4">
+            <img 
+              src="/lovable-uploads/badeea5d-467f-4971-8815-15ecfe8e22c1.png" 
+              alt="Resilient Tomorrow Logo" 
+              className="w-32 h-32 object-contain"
+            />
+            <h1 className="text-4xl font-bold text-foreground">
+              Resilient Tomorrow
+            </h1>
+          </div>
+          <p className="text-xl text-muted-foreground mb-2">
             Your Personalized Offramp Assistant
           </p>
-          <p className="text-slate-400 max-w-2xl mx-auto">
+          <p className="text-muted-foreground max-w-2xl mx-auto">
             Chat with our AI assistant to create your customized plan for building resilience 
             across Food, Power, Money, Community, Communication, Knowledge, and Narrative domains.
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+        <div className="grid lg:grid-cols-3 gap-8">
           {/* GPT Chat Section */}
           <div className="lg:col-span-2">
-            <Card className="bg-slate-800/50 border-slate-700">
+            <Card>
               <CardHeader>
-                <CardTitle className="text-white flex items-center gap-2">
+                <CardTitle className="flex items-center gap-2">
                   <MessageSquare className="h-5 w-5" />
                   AI Offramp Assistant
                 </CardTitle>
-                <CardDescription className="text-slate-400">
+                <CardDescription>
                   Chat with our specialized GPT to build your personalized resilience plan
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <div className="bg-slate-900/50 rounded-lg p-4 mb-4">
+                <div className="bg-muted rounded-lg p-4 mb-4">
                   <iframe
                     src="https://chatgpt.com/g/g-685315e10ae081918e79b4b8682acd1f-resilient-tomorrow-offramp-assistant"
                     width="100%"
@@ -138,11 +145,11 @@ const Start = () => {
                     title="Resilient Tomorrow GPT Assistant"
                   />
                 </div>
-                <div className="text-sm text-slate-400">
+                <div className="text-sm text-muted-foreground">
                   <p className="mb-2">
                     💡 <strong>How it works:</strong>
                   </p>
-                  <ul className="list-disc list-inside space-y-1 text-slate-500">
+                  <ul className="list-disc list-inside space-y-1">
                     <li>Answer questions about your goals, resources, and preferences</li>
                     <li>The AI will generate a personalized plan in JSON format</li>
                     <li>Once complete, click "Submit to Dashboard" to access your plan</li>
@@ -154,10 +161,10 @@ const Start = () => {
 
           {/* Status Panel */}
           <div className="lg:col-span-1">
-            <Card className="bg-slate-800/50 border-slate-700">
+            <Card>
               <CardHeader>
-                <CardTitle className="text-white">Plan Status</CardTitle>
-                <CardDescription className="text-slate-400">
+                <CardTitle>Plan Status</CardTitle>
+                <CardDescription>
                   Your progress through the assessment
                 </CardDescription>
               </CardHeader>
@@ -165,13 +172,13 @@ const Start = () => {
                 {/* Plan Detection Status */}
                 <div className="flex items-center gap-3">
                   {detectedPlan ? (
-                    <CheckCircle className="h-5 w-5 text-green-500" />
+                    <CheckCircle className="h-5 w-5 text-success" />
                   ) : (
-                    <div className="h-5 w-5 border-2 border-slate-600 rounded-full" />
+                    <div className="h-5 w-5 border-2 border-muted rounded-full" />
                   )}
                   <div>
-                    <p className="text-white font-medium">Plan Generated</p>
-                    <p className="text-sm text-slate-400">
+                    <p className="font-medium">Plan Generated</p>
+                    <p className="text-sm text-muted-foreground">
                       Complete the GPT conversation
                     </p>
                   </div>
@@ -179,22 +186,22 @@ const Start = () => {
 
                 {/* Plan Details */}
                 {detectedPlan && (
-                  <div className="bg-slate-700/50 rounded-lg p-4 space-y-3">
-                    <h4 className="text-white font-medium">Plan Preview</h4>
+                  <div className="bg-muted rounded-lg p-4 space-y-3">
+                    <h4 className="font-medium">Plan Preview</h4>
                     <div className="space-y-2">
                       <div className="flex justify-between">
-                        <span className="text-slate-400">Email:</span>
-                        <span className="text-white text-sm">{detectedPlan.email}</span>
+                        <span className="text-muted-foreground">Email:</span>
+                        <span className="text-sm">{detectedPlan.email}</span>
                       </div>
                       <div className="flex justify-between">
-                        <span className="text-slate-400">Tier:</span>
+                        <span className="text-muted-foreground">Tier:</span>
                         <Badge variant="outline" className="text-xs">
                           {detectedPlan.subscriptionTier}
                         </Badge>
                       </div>
                       <div className="flex justify-between">
-                        <span className="text-slate-400">Domains:</span>
-                        <span className="text-white text-sm">
+                        <span className="text-muted-foreground">Domains:</span>
+                        <span className="text-sm">
                           {detectedPlan.selectedDomains?.length || 0}
                         </span>
                       </div>
@@ -206,7 +213,7 @@ const Start = () => {
                 <Button
                   onClick={handleSubmitPlan}
                   disabled={!detectedPlan || isSubmitting}
-                  className="w-full bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700"
+                  className="w-full"
                 >
                   {isSubmitting ? (
                     <>
@@ -222,7 +229,7 @@ const Start = () => {
                 </Button>
 
                 {!detectedPlan && (
-                  <p className="text-xs text-slate-500 text-center">
+                  <p className="text-xs text-muted-foreground text-center">
                     Complete your GPT conversation to enable submission
                   </p>
                 )}
@@ -230,16 +237,16 @@ const Start = () => {
             </Card>
 
             {/* Domain Overview */}
-            <Card className="bg-slate-800/50 border-slate-700 mt-6">
+            <Card className="mt-6">
               <CardHeader>
-                <CardTitle className="text-white text-lg">7 Resilience Domains</CardTitle>
+                <CardTitle className="text-lg">7 Resilience Domains</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="grid grid-cols-1 gap-2">
                   {["Food", "Power", "Money", "Community", "Communication", "Knowledge", "Narrative"].map((domain) => (
                     <div key={domain} className="flex items-center gap-2 text-sm">
-                      <div className="h-2 w-2 bg-purple-500 rounded-full" />
-                      <span className="text-slate-300">{domain}</span>
+                      <div className="h-2 w-2 bg-primary rounded-full" />
+                      <span className="text-muted-foreground">{domain}</span>
                     </div>
                   ))}
                 </div>
