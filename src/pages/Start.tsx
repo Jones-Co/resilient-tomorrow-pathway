@@ -4,11 +4,20 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { useToast } from "@/hooks/use-toast";
 import { Loader2, MessageSquare, ArrowRight, CheckCircle } from "lucide-react";
+import AssistantChat from "@/components/AssistantChat";
 
 const Start = () => {
   const [detectedPlan, setDetectedPlan] = useState<any>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const { toast } = useToast();
+
+  const handlePlanGenerated = (plan: any) => {
+    setDetectedPlan(plan);
+    toast({
+      title: "Plan Generated!",
+      description: "Your personalized offramp plan is ready to submit.",
+    });
+  };
 
   // Function to extract JSON plan from GPT output
   const extractLatestJsonPlan = () => {
@@ -134,27 +143,8 @@ const Start = () => {
                   Chat with our specialized GPT to build your personalized resilience plan
                 </CardDescription>
               </CardHeader>
-              <CardContent>
-                <div className="bg-muted rounded-lg p-4 mb-4">
-                  <iframe
-                    src="https://chatgpt.com/g/g-685315e10ae081918e79b4b8682acd1f-resilient-tomorrow-offramp-assistant"
-                    width="100%"
-                    height="600"
-                    frameBorder="0"
-                    className="rounded-lg"
-                    title="Resilient Tomorrow GPT Assistant"
-                  />
-                </div>
-                <div className="text-sm text-muted-foreground">
-                  <p className="mb-2">
-                    💡 <strong>How it works:</strong>
-                  </p>
-                  <ul className="list-disc list-inside space-y-1">
-                    <li>Answer questions about your goals, resources, and preferences</li>
-                    <li>The AI will generate a personalized plan in JSON format</li>
-                    <li>Once complete, click "Submit to Dashboard" to access your plan</li>
-                  </ul>
-                </div>
+              <CardContent className="p-0 h-[600px]">
+                <AssistantChat onPlanGenerated={handlePlanGenerated} />
               </CardContent>
             </Card>
           </div>
