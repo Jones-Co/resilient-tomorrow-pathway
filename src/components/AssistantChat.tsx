@@ -39,7 +39,11 @@ const AssistantChat: React.FC<AssistantChatProps> = ({ onPlanGenerated }) => {
   }, [messages]);
 
   const scrollToBottom = () => {
-    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+    messagesEndRef.current?.scrollIntoView({ 
+      behavior: 'smooth',
+      block: 'nearest',
+      inline: 'nearest'
+    });
   };
 
   const initializeChat = async () => {
