@@ -259,9 +259,9 @@ const AssistantChat: React.FC<AssistantChatProps> = ({ onPlanGenerated }) => {
 
   return (
     <Card className="h-full flex flex-col">
-      <CardContent className="flex-1 p-4 flex flex-col">
-        <ScrollArea className="flex-1 pr-4">
-          <div className="space-y-4">
+      <CardContent className="flex-1 p-4 flex flex-col min-h-0">
+        <ScrollArea className="flex-1 min-h-0">
+          <div className="space-y-4 pb-4">
             {messages.map((message) => (
               <div
                 key={message.id}
@@ -281,7 +281,7 @@ const AssistantChat: React.FC<AssistantChatProps> = ({ onPlanGenerated }) => {
                       : 'bg-muted'
                   }`}
                 >
-                  <p className="text-sm whitespace-pre-wrap">{message.content}</p>
+                  <p className="text-sm whitespace-pre-wrap break-words">{message.content}</p>
                   <span className="text-xs opacity-70 mt-1 block">
                     {message.timestamp.toLocaleTimeString()}
                   </span>
@@ -306,11 +306,11 @@ const AssistantChat: React.FC<AssistantChatProps> = ({ onPlanGenerated }) => {
                 </div>
               </div>
             )}
+            <div ref={messagesEndRef} />
           </div>
-          <div ref={messagesEndRef} />
         </ScrollArea>
         
-        <div className="flex gap-2 mt-4">
+        <div className="flex gap-2 mt-4 flex-shrink-0">
           <Input
             value={inputMessage}
             onChange={(e) => setInputMessage(e.target.value)}
