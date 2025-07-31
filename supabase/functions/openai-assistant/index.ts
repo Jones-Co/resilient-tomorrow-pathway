@@ -1,3 +1,4 @@
+
 import "https://deno.land/x/xhr@0.1.0/mod.ts";
 import { serve } from "https://deno.land/std@0.168.0/http/server.ts";
 
@@ -15,7 +16,8 @@ serve(async (req) => {
   }
 
   try {
-    const { action, threadId, message, assistantId, runId } = await req.json();
+    const requestBody = await req.json();
+    const { action, threadId, message, assistantId, runId, toolOutputs } = requestBody;
 
     const baseHeaders = {
       'Authorization': `Bearer ${OPENAI_API_KEY}`,
@@ -97,7 +99,6 @@ serve(async (req) => {
         break;
 
       case 'submit_tool_outputs':
-        const { toolOutputs } = await req.json();
         response = await fetch(`https://api.openai.com/v1/threads/${threadId}/runs/${runId}/submit_tool_outputs`, {
           method: 'POST',
           headers: baseHeaders,

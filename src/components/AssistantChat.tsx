@@ -24,6 +24,7 @@ const AssistantChat: React.FC<AssistantChatProps> = ({ onPlanGenerated }) => {
   const [isLoading, setIsLoading] = useState(false);
   const [threadId, setThreadId] = useState<string | null>(null);
   const [isInitialized, setIsInitialized] = useState(false);
+  const [planGenerated, setPlanGenerated] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const { toast } = useToast();
 
@@ -166,6 +167,12 @@ const AssistantChat: React.FC<AssistantChatProps> = ({ onPlanGenerated }) => {
   };
 
   const handleRequiredAction = async (runId: string, requiredAction: any) => {
+    // Prevent duplicate plan generation
+    if (planGenerated) {
+      console.log('Plan already generated, skipping...');
+      return;
+    }
+
     const toolCalls = requiredAction.submit_tool_outputs.tool_calls;
     const toolOutputs = [];
 
@@ -174,6 +181,9 @@ const AssistantChat: React.FC<AssistantChatProps> = ({ onPlanGenerated }) => {
         try {
           const planData = JSON.parse(toolCall.function.arguments);
           console.log('Generated plan:', planData);
+          
+          // Mark plan as generated to prevent loops
+          setPlanGenerated(true);
           
           // Notify parent component
           onPlanGenerated(planData);
@@ -192,17 +202,27 @@ const AssistantChat: React.FC<AssistantChatProps> = ({ onPlanGenerated }) => {
     }
 
     // Submit tool outputs
-    await supabase.functions.invoke('openai-assistant', {
-      body: {
-        action: 'submit_tool_outputs',
-        threadId,
-        runId,
-        toolOutputs
-      }
-    });
+    try {
+      await supabase.functions.invoke('openai-assistant', {
+        body: {
+          action: 'submit_tool_outputs',
+          threadId,
+          runId,
+          toolOutputs
+        }
+      });
 
-    // Continue polling
-    await pollRunStatus(runId);
+      // Continue polling only if we haven't already generated a plan
+      if (!planGenerated) {
+        await pollRunStatus(runId);
+      } else {
+        // Fetch final messages
+        await fetchMessages();
+      }
+    } catch (error) {
+      console.error('Error submitting tool outputs:', error);
+      setPlanGenerated(false); // Reset on error
+    }
   };
 
   const fetchMessages = async () => {
