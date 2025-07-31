@@ -28,7 +28,7 @@ const AssistantChat: React.FC<AssistantChatProps> = ({ onPlanGenerated }) => {
   const { toast } = useToast();
 
   // Your GPT Assistant ID - you'll need to create this in OpenAI and update here
-  const ASSISTANT_ID = "asst_your_assistant_id_here";
+  const ASSISTANT_ID = "asst_b5DNvfmHPPeyaCjpvJKewaBp";
 
   useEffect(() => {
     initializeChat();
