@@ -218,6 +218,15 @@ const Start = () => {
                   )}
                 </Button>
 
+                {/* Test Webhook Button */}
+                <Button
+                  variant="outline"
+                  onClick={() => window.open('/test-webhook.html', '_blank')}
+                  className="w-full mt-2"
+                >
+                  Test N8n Webhook
+                </Button>
+
                 {!detectedPlan && (
                   <p className="text-xs text-muted-foreground text-center">
                     Complete your GPT conversation to enable submission
