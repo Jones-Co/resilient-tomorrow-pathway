@@ -79,13 +79,22 @@ const Start = () => {
 
       const data = await response.json();
       
-      if (data.dashboardId) {
+      // Handle both dashboardId and dashboardURL responses
+      let dashboardId = data.dashboardId;
+      
+      if (!dashboardId && data.dashboardURL) {
+        // Extract UUID from dashboardURL (e.g., "https://offramp.resilient-tomorrow.com/9c4c58e4-25b3-4123-baf0-c4beae285d82")
+        const urlParts = data.dashboardURL.split('/');
+        dashboardId = urlParts[urlParts.length - 1];
+      }
+      
+      if (dashboardId) {
         toast({
           title: "Plan Submitted Successfully!",
           description: "Redirecting to your personalized dashboard...",
         });
         setTimeout(() => {
-          window.location.href = `/plan/${data.dashboardId}`;
+          window.location.href = `/plan/${dashboardId}`;
         }, 1500);
       } else {
         toast({
