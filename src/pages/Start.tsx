@@ -79,12 +79,13 @@ const Start = () => {
 
       const data = await response.json();
       
-      // Handle both dashboardId and dashboardURL responses
+      // Handle both dashboardId and dashboardUrl responses
       let dashboardId = data.dashboardId;
       
-      if (!dashboardId && data.dashboardURL) {
+      if (!dashboardId && (data.dashboardURL || data.dashboardUrl)) {
         // Extract UUID from dashboardURL (e.g., "https://offramp.resilient-tomorrow.com/9c4c58e4-25b3-4123-baf0-c4beae285d82")
-        const urlParts = data.dashboardURL.split('/');
+        const dashboardUrl = data.dashboardURL || data.dashboardUrl;
+        const urlParts = dashboardUrl.split('/');
         dashboardId = urlParts[urlParts.length - 1];
       }
       
