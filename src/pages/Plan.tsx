@@ -4,7 +4,7 @@ import { supabase } from "@/integrations/supabase/client";
 import { useToast } from "@/hooks/use-toast";
 import { Loader2, ArrowLeft, RefreshCw } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { JsonInput } from "@/components/JsonInput";
+
 import Index from "./Index";
 
 const Plan = () => {
@@ -138,14 +138,6 @@ const Plan = () => {
     fetchPlanData();
   };
 
-  const handleJsonUpdate = (newData: any) => {
-    if (newData === null) {
-      // Reset to the original plan data if available, or null if not
-      setPlanData(location.state?.planData || null);
-    } else {
-      setPlanData(newData);
-    }
-  };
 
   useEffect(() => {
     fetchPlanData();
@@ -244,18 +236,8 @@ const Plan = () => {
     );
   }
 
-  // Pass the loaded plan data to the existing Index component, but first show JSON input
-  return (
-    <div>
-      <div className="container mx-auto px-4 py-8 max-w-7xl">
-        <JsonInput 
-          onJsonUpdate={handleJsonUpdate}
-          currentData={planData}
-        />
-      </div>
-      <Index userData={planData} />
-    </div>
-  );
+  // Pass the loaded plan data to the existing Index component
+  return <Index userData={planData} />;
 };
 
 export default Plan;
