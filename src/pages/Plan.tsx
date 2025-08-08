@@ -154,9 +154,10 @@ const Plan = () => {
 
   const getLoadingMessage = () => {
     if (!isRetrying) return "Loading your personalized plan...";
-    if (elapsedTime < 10) return "Your plan is being generated, please wait...";
-    if (elapsedTime < 30) return "Still processing your plan, almost ready...";
-    return "This is taking longer than usual, but we're still working on it...";
+    if (elapsedTime < 15) return "Generating your personalized action plan...";
+    if (elapsedTime < 30) return "Adding the finishing touches to your plan...";
+    if (elapsedTime < 45) return "Almost ready, finalizing your recommendations...";
+    return "Taking a bit longer than usual, but your plan is almost complete...";
   };
 
   const getProgressPercentage = () => {
@@ -190,7 +191,7 @@ const Plan = () => {
                 Elapsed time: {Math.floor(elapsedTime / 60)}:{(elapsedTime % 60).toString().padStart(2, '0')}
               </p>
               <p className="text-sm text-muted-foreground">
-                We're creating your personalized action plan. This usually takes a minute or two.
+                We're finalizing your personalized action plan with custom recommendations based on your answers.
               </p>
               
               <div className="flex gap-2 justify-center mt-6">
