@@ -22,7 +22,7 @@ const mockUserData = {
         level2: ["Host a food share", "Build a raised bed garden"],
         level3: ["Convert lawn to food production", "Create a neighborhood seed library"]
       },
-      completed: ["Join a local CSA"]
+      completed: []
     },
     Power: {
       summary: "Reduce reliance on centralized energy.",
@@ -32,7 +32,7 @@ const mockUserData = {
         level2: ["Install backup battery storage", "Build a DIY solar charger"],
         level3: ["Install a critical load panel", "Design a solar system with a neighbor"]
       },
-      completed: ["Switch to LED bulbs"]
+      completed: []
     },
     Community: {
       summary: "Make mutual aid your infrastructure.",
@@ -92,12 +92,24 @@ const Index = ({ userData: propUserData }: { userData?: any } = {}) => {
   const normalizeUserData = (data: any) => {
     if (!data) return mockUserData;
     
+    const normalizedDomainData = { ...data.domainData };
+    
+    // Ensure all domains start with empty completed arrays
+    Object.keys(normalizedDomainData).forEach(domain => {
+      if (normalizedDomainData[domain]) {
+        normalizedDomainData[domain] = {
+          ...normalizedDomainData[domain],
+          completed: []
+        };
+      }
+    });
+    
     return {
       email: data.email || mockUserData.email,
       subscriptionTier: data.subscriptionTier || mockUserData.subscriptionTier,
       status: data.status || mockUserData.status,
       selectedDomains: data.selectedDomains || mockUserData.selectedDomains,
-      domainData: data.domainData || mockUserData.domainData
+      domainData: normalizedDomainData || mockUserData.domainData
     };
   };
 
