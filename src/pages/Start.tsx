@@ -66,12 +66,19 @@ const Start = () => {
       return;
     }
 
-    // Generate UUID locally for immediate navigation
     const planId = crypto.randomUUID();
     console.log("Generated plan ID:", planId);
 
-    // Navigate immediately to provide optimistic UX
-    navigate(`/plan/${planId}`);
+    // Navigate immediately with plan data for instant dashboard
+    navigate(`/plan/${planId}`, { 
+      state: { 
+        planData: { 
+          ...detectedPlan, 
+          planId, 
+          lastUpdated: new Date().toISOString() 
+        } 
+      } 
+    });
     
     // Show immediate success feedback
     toast({

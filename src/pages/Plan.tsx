@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef } from "react";
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams, useNavigate, useLocation } from "react-router-dom";
 import { supabase } from "@/integrations/supabase/client";
 import { useToast } from "@/hooks/use-toast";
 import { Loader2, ArrowLeft, RefreshCw } from "lucide-react";
@@ -9,8 +9,9 @@ import Index from "./Index";
 const Plan = () => {
   const { dashboardId } = useParams<{ dashboardId: string }>();
   const navigate = useNavigate();
-  const [planData, setPlanData] = useState<any>(null);
-  const [loading, setLoading] = useState(true);
+  const location = useLocation();
+  const [planData, setPlanData] = useState<any>(location.state?.planData || null);
+  const [loading, setLoading] = useState(!location.state?.planData);
   const [retryCount, setRetryCount] = useState(0);
   const [elapsedTime, setElapsedTime] = useState(0);
   const [isRetrying, setIsRetrying] = useState(false);
