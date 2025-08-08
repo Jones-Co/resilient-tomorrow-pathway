@@ -230,7 +230,7 @@ const Start = () => {
 
                 {/* Test JSON Button */}
                 <Button
-                  onClick={() => {
+                  onClick={async () => {
                     const testPlan = {
                       "email": "test@example.com",
                       "subscriptionTier": "Free",
@@ -251,18 +251,37 @@ const Start = () => {
                           "goals": ["Test money goal"],
                           "actions": ["Test money action"]
                         }
-                      }
+                      },
+                      "lastUpdated": new Date().toISOString()
                     };
-                    setDetectedPlan(testPlan);
-                    toast({
-                      title: "Test Plan Generated",
-                      description: "A test JSON plan has been created for testing purposes.",
-                    });
+
+                    try {
+                      const response = await fetch("https://jonesco.app.n8n.cloud/webhook-test/save-plan", {
+                        method: "POST",
+                        headers: {
+                          "Content-Type": "application/json",
+                        },
+                        body: JSON.stringify(testPlan),
+                      });
+
+                      const data = await response.json();
+                      
+                      toast({
+                        title: "Test Submitted",
+                        description: `Test data sent to webhook. Response: ${JSON.stringify(data)}`,
+                      });
+                    } catch (error) {
+                      toast({
+                        title: "Test Failed",
+                        description: "Failed to submit test data to webhook.",
+                        variant: "destructive",
+                      });
+                    }
                   }}
                   variant="outline"
                   className="w-full"
                 >
-                  Test JSON
+                  Test JSON to Webhook
                 </Button>
 
 
