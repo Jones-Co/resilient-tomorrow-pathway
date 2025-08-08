@@ -100,16 +100,21 @@ const Index = ({ userData: propUserData }: { userData?: any } = {}) => {
   const domainsWithActions = userData.selectedDomains;
   
   const getAllActions = () => {
-    return Object.values(userData.domainData).flatMap((domain: any) => [
-      ...domain.actions.level0,
-      ...domain.actions.level1,
-      ...domain.actions.level2,
-      ...domain.actions.level3
-    ]);
+    if (!userData.domainData) return [];
+    return Object.values(userData.domainData).flatMap((domain: any) => {
+      if (!domain?.actions) return [];
+      return [
+        ...(domain.actions.level0 || []),
+        ...(domain.actions.level1 || []),
+        ...(domain.actions.level2 || []),
+        ...(domain.actions.level3 || [])
+      ];
+    });
   };
   
   const getAllCompletedActions = () => {
-    return Object.values(userData.domainData).flatMap((domain: any) => domain.completed);
+    if (!userData.domainData) return [];
+    return Object.values(userData.domainData).flatMap((domain: any) => domain?.completed || []);
   };
 
   const totalActions = getAllActions().length;
