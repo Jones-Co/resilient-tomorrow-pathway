@@ -88,7 +88,20 @@ const mockUserData = {
 };
 
 const Index = ({ userData: propUserData }: { userData?: any } = {}) => {
-  const [userData, setUserData] = useState(propUserData || mockUserData);
+  // Ensure userData has the expected structure, fallback to mock data if needed
+  const normalizeUserData = (data: any) => {
+    if (!data) return mockUserData;
+    
+    return {
+      email: data.email || mockUserData.email,
+      subscriptionTier: data.subscriptionTier || mockUserData.subscriptionTier,
+      status: data.status || mockUserData.status,
+      selectedDomains: data.selectedDomains || mockUserData.selectedDomains,
+      domainData: data.domainData || mockUserData.domainData
+    };
+  };
+
+  const [userData, setUserData] = useState(normalizeUserData(propUserData));
   const [expandedDomains, setExpandedDomains] = useState<Set<string>>(new Set());
   const [reflections, setReflections] = useState<Record<string, string>>({});
   const [reminderDialogOpen, setReminderDialogOpen] = useState(false);
@@ -96,8 +109,8 @@ const Index = ({ userData: propUserData }: { userData?: any } = {}) => {
 
   // Always show all 7 domains regardless of what's in userData
   const allDomains = ["Food", "Power", "Money", "Community", "Communication", "Knowledge", "Narrative"];
-  const exploredDomains = userData.selectedDomains.length; // Domains with actions assigned
-  const domainsWithActions = userData.selectedDomains;
+  const exploredDomains = userData.selectedDomains?.length || 0; // Domains with actions assigned
+  const domainsWithActions = userData.selectedDomains || [];
   
   const getAllActions = () => {
     if (!userData.domainData) return [];
@@ -135,16 +148,19 @@ const Index = ({ userData: propUserData }: { userData?: any } = {}) => {
   const handleActionToggle = (domain: string, action: string) => {
     setUserData(prev => {
       const newData = { ...prev };
-      const domainData = newData.domainData[domain as keyof typeof newData.domainData];
+      if (!newData.domainData) return newData;
       
-      if (domainData.completed.includes(action)) {
+      const domainData = newData.domainData[domain as keyof typeof newData.domainData];
+      if (!domainData) return newData;
+      
+      if (domainData.completed?.includes(action)) {
         domainData.completed = domainData.completed.filter(a => a !== action);
         toast({
           title: "Action unmarked",
           description: "Removed from completed actions",
         });
       } else {
-        domainData.completed = [...domainData.completed, action];
+        domainData.completed = [...(domainData.completed || []), action];
         toast({
           title: "Great progress!",
           description: "Action marked as completed",
@@ -254,7 +270,8 @@ const Index = ({ userData: propUserData }: { userData?: any } = {}) => {
         <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
           {/* Active Domains - those with actions */}
           {domainsWithActions.map((domain) => {
-            const data = userData.domainData[domain as keyof typeof userData.domainData];
+            const data = userData.domainData?.[domain as keyof typeof userData.domainData];
+            if (!data) return null;
             return (
               <DomainCard
                 key={domain}
@@ -274,12 +291,12 @@ const Index = ({ userData: propUserData }: { userData?: any } = {}) => {
           {allDomains
             .filter(domain => !domainsWithActions.includes(domain))
             .map((domain) => {
-              const data = userData.domainData[domain as keyof typeof userData.domainData];
+              const data = userData.domainData?.[domain as keyof typeof userData.domainData];
               return (
                 <PlaceholderDomainCard
                   key={domain}
                   title={domain}
-                  summary={data?.summary}
+                  summary={data?.summary || `Explore ${domain} strategies for building resilience`}
                   isPaidUser={userData.subscriptionTier === "Paid"}
                   onAddActions={() => handleAddActions(domain)}
                 />
