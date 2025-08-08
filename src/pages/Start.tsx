@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -10,6 +11,7 @@ const Start = () => {
   const [detectedPlan, setDetectedPlan] = useState<any>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const { toast } = useToast();
+  const navigate = useNavigate();
 
   const handlePlanGenerated = (plan: any) => {
     setDetectedPlan(plan);
@@ -53,7 +55,7 @@ const Start = () => {
     return () => clearInterval(interval);
   }, [detectedPlan, toast]);
 
-  // Submit plan to webhook and redirect
+  // Submit plan with optimistic navigation
   const handleSubmitPlan = async () => {
     if (!detectedPlan) {
       toast({
@@ -64,7 +66,20 @@ const Start = () => {
       return;
     }
 
-    setIsSubmitting(true);
+    // Generate UUID locally for immediate navigation
+    const planId = crypto.randomUUID();
+    console.log("Generated plan ID:", planId);
+
+    // Navigate immediately to provide optimistic UX
+    navigate(`/plan/${planId}`);
+    
+    // Show immediate success feedback
+    toast({
+      title: "Creating Your Plan...",
+      description: "You'll be redirected to your dashboard while we save everything.",
+    });
+
+    // Send to N8N in background with our generated UUID
     try {
       const response = await fetch("https://jonesco.app.n8n.cloud/webhook/save-plan", {
         method: "POST",
@@ -73,46 +88,31 @@ const Start = () => {
         },
         body: JSON.stringify({
           ...detectedPlan,
+          planId, // Include our generated UUID
           lastUpdated: new Date().toISOString(),
         }),
       });
 
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+
       const data = await response.json();
-      
-      // Handle both dashboardId and dashboardUrl responses
-      let dashboardId = data.dashboardId;
-      
-      if (!dashboardId && (data.dashboardURL || data.dashboardUrl)) {
-        // Extract UUID from dashboardURL (e.g., "https://offramp.resilient-tomorrow.com/9c4c58e4-25b3-4123-baf0-c4beae285d82")
-        const dashboardUrl = data.dashboardURL || data.dashboardUrl;
-        const urlParts = dashboardUrl.split('/');
-        dashboardId = urlParts[urlParts.length - 1];
-      }
-      
-      if (dashboardId) {
-        toast({
-          title: "Plan Submitted Successfully!",
-          description: "Redirecting to your personalized dashboard...",
-        });
-        setTimeout(() => {
-          window.location.href = `/plan/${dashboardId}`;
-        }, 1500);
-      } else {
-        toast({
-          title: "Plan Saved",
-          description: "Plan saved, but no dashboard ID returned.",
-          variant: "destructive",
-        });
-      }
+      console.log("Webhook response:", data);
+
+      // Show success toast (user already navigated)
+      toast({
+        title: "Plan Saved Successfully!",
+        description: "Your personalized plan has been created and saved.",
+      });
     } catch (error) {
       console.error("Error submitting plan:", error);
+      // Show error toast with helpful message
       toast({
-        title: "Submission Error",
-        description: "Failed to submit your plan. Please try again.",
+        title: "Save In Progress",
+        description: "We're still working to save your plan in the background. Please check back in a moment.",
         variant: "destructive",
       });
-    } finally {
-      setIsSubmitting(false);
     }
   };
 
@@ -231,7 +231,9 @@ const Start = () => {
                 {/* Test JSON Button */}
                 <Button
                   onClick={async () => {
+                    const testPlanId = crypto.randomUUID();
                     const testPlan = {
+                      "planId": testPlanId,
                       "email": "test@example.com",
                       "subscriptionTier": "Free",
                       "selectedDomains": ["Food", "Power", "Money"],
@@ -255,8 +257,10 @@ const Start = () => {
                       "lastUpdated": new Date().toISOString()
                     };
 
+                    console.log("Test plan with ID:", testPlanId);
+
                     try {
-                      const response = await fetch("https://jonesco.app.n8n.cloud/webhook-test/save-plan", {
+                      const response = await fetch("https://jonesco.app.n8n.cloud/webhook/save-plan", {
                         method: "POST",
                         headers: {
                           "Content-Type": "application/json",
@@ -268,7 +272,7 @@ const Start = () => {
                       
                       toast({
                         title: "Test Submitted",
-                        description: `Test data sent to webhook. Response: ${JSON.stringify(data)}`,
+                        description: `Test data sent with planId: ${testPlanId}. Response: ${JSON.stringify(data)}`,
                       });
                     } catch (error) {
                       toast({
