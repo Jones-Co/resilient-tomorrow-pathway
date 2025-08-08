@@ -213,7 +213,7 @@ const Start = () => {
                 <Button
                   onClick={handleSubmitPlan}
                   disabled={!detectedPlan || isSubmitting}
-                  className="w-full"
+                  className="w-full mb-2"
                 >
                   {isSubmitting ? (
                     <>
@@ -226,6 +226,43 @@ const Start = () => {
                       <ArrowRight className="ml-2 h-4 w-4" />
                     </>
                   )}
+                </Button>
+
+                {/* Test JSON Button */}
+                <Button
+                  onClick={() => {
+                    const testPlan = {
+                      "email": "test@example.com",
+                      "subscriptionTier": "Free",
+                      "selectedDomains": ["Food", "Power", "Money"],
+                      "domainData": {
+                        "Food": {
+                          "score": 7,
+                          "goals": ["Test food goal"],
+                          "actions": ["Test food action"]
+                        },
+                        "Power": {
+                          "score": 6,
+                          "goals": ["Test power goal"],
+                          "actions": ["Test power action"]
+                        },
+                        "Money": {
+                          "score": 8,
+                          "goals": ["Test money goal"],
+                          "actions": ["Test money action"]
+                        }
+                      }
+                    };
+                    setDetectedPlan(testPlan);
+                    toast({
+                      title: "Test Plan Generated",
+                      description: "A test JSON plan has been created for testing purposes.",
+                    });
+                  }}
+                  variant="outline"
+                  className="w-full"
+                >
+                  Test JSON
                 </Button>
 
 
