@@ -4,7 +4,7 @@ import { OverviewPanel } from "@/components/OverviewPanel";
 import { DomainCard } from "@/components/DomainCard";
 import { PlaceholderDomainCard } from "@/components/PlaceholderDomainCard";
 import { ReminderDialog } from "@/components/ReminderDialog";
-import { JsonInput } from "@/components/JsonInput";
+
 import { useToast } from "@/hooks/use-toast";
 
 // Mock data from the design brief
@@ -251,11 +251,6 @@ const Index = ({ userData: propUserData }: { userData?: any } = {}) => {
           </p>
         </div>
 
-        {/* JSON Input for Testing */}
-        <JsonInput 
-          onJsonUpdate={handleJsonUpdate}
-          currentData={userData}
-        />
 
         {/* User Profile */}
         <div className="mb-8">
