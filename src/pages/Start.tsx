@@ -69,14 +69,15 @@ const Start = () => {
     const planId = crypto.randomUUID();
     console.log("Generated plan ID:", planId);
 
-    // Navigate immediately with plan data for instant dashboard
+    // Navigate to plan page with processing state
     navigate(`/plan/${planId}`, { 
       state: { 
         planData: { 
           ...detectedPlan, 
           planId, 
           lastUpdated: new Date().toISOString() 
-        } 
+        },
+        showProcessing: true
       } 
     });
     

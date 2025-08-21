@@ -13,6 +13,9 @@ const Plan = () => {
   const location = useLocation();
   const [planData, setPlanData] = useState<any>(location.state?.planData || null);
   const [loading, setLoading] = useState(!location.state?.planData);
+  
+  // Show processing screen if we have fresh data from submission
+  const [showProcessing, setShowProcessing] = useState(!!location.state?.planData && location.state?.showProcessing);
   const [retryCount, setRetryCount] = useState(0);
   const [elapsedTime, setElapsedTime] = useState(0);
   const [isRetrying, setIsRetrying] = useState(false);
@@ -32,7 +35,11 @@ const Plan = () => {
   };
 
   const fetchPlanData = async (isRetryAttempt = false) => {
-    if (!dashboardId) {
+    console.log("Dashboard ID from params:", dashboardId);
+    console.log("Type of dashboardId:", typeof dashboardId);
+    
+    if (!dashboardId || dashboardId === ":dashboardId") {
+      console.error("Invalid dashboard ID:", dashboardId);
       toast({
         title: "Invalid Dashboard ID",
         description: "No dashboard ID provided in the URL.",
@@ -140,7 +147,21 @@ const Plan = () => {
 
 
   useEffect(() => {
-    fetchPlanData();
+    // If we have fresh plan data from submission, show processing screen briefly
+    if (showProcessing) {
+      const processingTimer = setTimeout(() => {
+        setShowProcessing(false);
+      }, 3000); // Show processing for 3 seconds
+      
+      return () => clearTimeout(processingTimer);
+    }
+  }, [showProcessing]);
+
+  useEffect(() => {
+    // Only fetch from database if we don't have plan data in state
+    if (!planData) {
+      fetchPlanData();
+    }
     
     // Cleanup on unmount
     return () => {
@@ -167,6 +188,38 @@ const Plan = () => {
     if (!isRetrying) return 0;
     return Math.min((elapsedTime / 60) * 100, 95); // Never show 100% until complete
   };
+
+  // Show processing screen when user just submitted their plan
+  if (showProcessing) {
+    return (
+      <div className="min-h-screen bg-background flex items-center justify-center p-4">
+        <div className="text-center max-w-md">
+          <div className="relative mb-6">
+            <Loader2 className="h-12 w-12 animate-spin text-primary mx-auto mb-4" />
+            <div className="w-full bg-muted rounded-full h-2 mb-4">
+              <div 
+                className="bg-primary h-2 rounded-full transition-all duration-1000"
+                style={{ width: "85%" }}
+              />
+            </div>
+          </div>
+          
+          <h2 className="text-xl font-semibold text-foreground mb-2">
+            Processing Your Plan...
+          </h2>
+          
+          <div className="space-y-3">
+            <p className="text-sm text-muted-foreground">
+              We're finalizing your personalized action plan with custom recommendations based on your answers.
+            </p>
+            <p className="text-sm text-muted-foreground">
+              This will only take a moment...
+            </p>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   if (loading) {
     return (
