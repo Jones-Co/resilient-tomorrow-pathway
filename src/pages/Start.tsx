@@ -4,14 +4,17 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { useToast } from "@/hooks/use-toast";
-import { Loader2, MessageSquare, ArrowRight, CheckCircle } from "lucide-react";
+import { Loader2, MessageSquare, ArrowRight, CheckCircle, LogOut, User } from "lucide-react";
 import AssistantChat from "@/components/AssistantChat";
+import { supabase } from "@/integrations/supabase/client";
+import { useAuth } from "@/hooks/useAuth";
 
 const Start = () => {
   const [detectedPlan, setDetectedPlan] = useState<any>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const { toast } = useToast();
   const navigate = useNavigate();
+  const { user, signOut } = useAuth();
 
   const handlePlanGenerated = (plan: any) => {
     setDetectedPlan(plan);
@@ -66,61 +69,88 @@ const Start = () => {
       return;
     }
 
-    const planId = crypto.randomUUID();
-    console.log("Generated plan ID:", planId);
-
-    // Navigate to plan page with processing state
-    navigate(`/plan/${planId}`, { 
-      state: { 
-        planData: { 
-          ...detectedPlan, 
-          planId, 
-          lastUpdated: new Date().toISOString() 
-        },
-        showProcessing: true
-      } 
-    });
-    
-    // Show immediate success feedback
-    toast({
-      title: "Creating Your Plan...",
-      description: "You'll be redirected to your dashboard while we save everything.",
-    });
-
-    // Send to N8N in background with our generated UUID
-    try {
-      const response = await fetch("https://jonesco.app.n8n.cloud/webhook/save-plan", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          ...detectedPlan,
-          planId, // Include our generated UUID
-          lastUpdated: new Date().toISOString(),
-        }),
-      });
-
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
-      }
-
-      const data = await response.json();
-      console.log("Webhook response:", data);
-
-      // Show success toast (user already navigated)
+    if (!user) {
       toast({
-        title: "Plan Saved Successfully!",
-        description: "Your personalized plan has been created and saved.",
-      });
-    } catch (error) {
-      console.error("Error submitting plan:", error);
-      // Show error toast with helpful message
-      toast({
-        title: "Save In Progress",
-        description: "We're still working to save your plan in the background. Please check back in a moment.",
+        title: "Authentication Required",
+        description: "Please sign in to continue.",
         variant: "destructive",
       });
+      return;
+    }
+
+    try {
+      setIsSubmitting(true);
+      const planId = crypto.randomUUID();
+      console.log("Generated plan ID:", planId);
+
+      // Create plan data with authenticated user info
+      const planDataWithAuth = {
+        ...detectedPlan,
+        planId,
+        user_id: user.id,
+        email: user.email,
+        lastUpdated: new Date().toISOString(),
+      };
+
+      // Save directly to Supabase first
+      const { error: saveError } = await supabase
+        .from("user_plans")
+        .insert({
+          id: planId,
+          user_id: user.id,
+          email: user.email,
+          subscriptionTier: detectedPlan.subscriptionTier || "Free",
+          status: detectedPlan.status || "Active",
+          plan_data: planDataWithAuth,
+        });
+
+      if (saveError) {
+        console.error("Error saving to Supabase:", saveError);
+        toast({
+          title: "Save Error",
+          description: "Failed to save your plan. Please try again.",
+          variant: "destructive",
+        });
+        setIsSubmitting(false);
+        return;
+      }
+
+      // Navigate to plan page with processing state
+      navigate(`/plan/${planId}`, { 
+        state: { 
+          planData: planDataWithAuth,
+          showProcessing: false  // Data is already saved, no need to show processing
+        } 
+      });
+      
+      // Show immediate success feedback
+      toast({
+        title: "Plan Created!",
+        description: "Your personalized plan has been saved successfully.",
+      });
+
+      // Send to N8N webhook in background (optional)
+      try {
+        await fetch("https://jonesco.app.n8n.cloud/webhook/save-plan", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(planDataWithAuth),
+        });
+      } catch (webhookError) {
+        console.error("Webhook error (non-critical):", webhookError);
+        // Don't show error to user since plan was already saved to Supabase
+      }
+    } catch (error) {
+      console.error("Error submitting plan:", error);
+      toast({
+        title: "Error",
+        description: "Failed to save your plan. Please try again.",
+        variant: "destructive",
+      });
+    } finally {
+      setIsSubmitting(false);
     }
   };
 
@@ -128,7 +158,26 @@ const Start = () => {
     <div className="min-h-screen bg-background">
       <div className="container mx-auto px-4 py-8 max-w-7xl">
         {/* Header */}
-        <div className="text-center mb-8">
+        <div className="text-center mb-8 relative">
+          {/* User Profile and Sign Out */}
+          {user && (
+            <div className="absolute top-0 right-0 flex items-center gap-4">
+              <div className="flex items-center gap-2 bg-card border rounded-lg px-3 py-2">
+                <User className="h-4 w-4 text-muted-foreground" />
+                <span className="text-sm text-muted-foreground">{user.email}</span>
+              </div>
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={signOut}
+                className="flex items-center gap-2"
+              >
+                <LogOut className="h-4 w-4" />
+                Sign Out
+              </Button>
+            </div>
+          )}
+          
           <div className="flex flex-col items-center gap-4 mb-4">
             <img 
               src="/lovable-uploads/badeea5d-467f-4971-8815-15ecfe8e22c1.png" 

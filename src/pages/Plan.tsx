@@ -2,8 +2,9 @@ import { useEffect, useState, useRef } from "react";
 import { useParams, useNavigate, useLocation } from "react-router-dom";
 import { supabase } from "@/integrations/supabase/client";
 import { useToast } from "@/hooks/use-toast";
-import { Loader2, ArrowLeft, RefreshCw } from "lucide-react";
+import { Loader2, ArrowLeft, RefreshCw, LogOut, User } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useAuth } from "@/hooks/useAuth";
 
 import Index from "./Index";
 
@@ -13,6 +14,7 @@ const Plan = () => {
   const location = useLocation();
   const [planData, setPlanData] = useState<any>(location.state?.planData || null);
   const [loading, setLoading] = useState(!location.state?.planData);
+  const { user, signOut } = useAuth();
   
   // Show processing screen if we have fresh data from submission
   const [showProcessing, setShowProcessing] = useState(!!location.state?.planData && location.state?.showProcessing);
@@ -200,29 +202,50 @@ const Plan = () => {
   // Show processing screen when user just submitted their plan
   if (showProcessing) {
     return (
-      <div className="min-h-screen bg-background flex items-center justify-center p-4">
-        <div className="text-center max-w-md">
-          <div className="relative mb-6">
-            <Loader2 className="h-12 w-12 animate-spin text-primary mx-auto mb-4" />
-            <div className="w-full bg-muted rounded-full h-2 mb-4">
-              <div 
-                className="bg-primary h-2 rounded-full transition-all duration-1000"
-                style={{ width: "85%" }}
-              />
+      <div className="min-h-screen bg-background">
+        {/* User Header */}
+        {user && (
+          <div className="absolute top-4 right-4 flex items-center gap-4">
+            <div className="flex items-center gap-2 bg-card border rounded-lg px-3 py-2">
+              <User className="h-4 w-4 text-muted-foreground" />
+              <span className="text-sm text-muted-foreground">{user.email}</span>
             </div>
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={signOut}
+              className="flex items-center gap-2"
+            >
+              <LogOut className="h-4 w-4" />
+              Sign Out
+            </Button>
           </div>
-          
-          <h2 className="text-xl font-semibold text-foreground mb-2">
-            Processing Your Plan...
-          </h2>
-          
-          <div className="space-y-3">
-            <p className="text-sm text-muted-foreground">
-              We're finalizing your personalized action plan with custom recommendations based on your answers.
-            </p>
-            <p className="text-sm text-muted-foreground">
-              This will only take a moment...
-            </p>
+        )}
+        
+        <div className="flex items-center justify-center min-h-screen p-4">
+          <div className="text-center max-w-md">
+            <div className="relative mb-6">
+              <Loader2 className="h-12 w-12 animate-spin text-primary mx-auto mb-4" />
+              <div className="w-full bg-muted rounded-full h-2 mb-4">
+                <div 
+                  className="bg-primary h-2 rounded-full transition-all duration-1000"
+                  style={{ width: "85%" }}
+                />
+              </div>
+            </div>
+            
+            <h2 className="text-xl font-semibold text-foreground mb-2">
+              Processing Your Plan...
+            </h2>
+            
+            <div className="space-y-3">
+              <p className="text-sm text-muted-foreground">
+                We're finalizing your personalized action plan with custom recommendations based on your answers.
+              </p>
+              <p className="text-sm text-muted-foreground">
+                This will only take a moment...
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -231,56 +254,77 @@ const Plan = () => {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-background flex items-center justify-center p-4">
-        <div className="text-center max-w-md">
-          <div className="relative mb-6">
-            <Loader2 className="h-12 w-12 animate-spin text-primary mx-auto mb-4" />
+      <div className="min-h-screen bg-background">
+        {/* User Header */}
+        {user && (
+          <div className="absolute top-4 right-4 flex items-center gap-4">
+            <div className="flex items-center gap-2 bg-card border rounded-lg px-3 py-2">
+              <User className="h-4 w-4 text-muted-foreground" />
+              <span className="text-sm text-muted-foreground">{user.email}</span>
+            </div>
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={signOut}
+              className="flex items-center gap-2"
+            >
+              <LogOut className="h-4 w-4" />
+              Sign Out
+            </Button>
+          </div>
+        )}
+        
+        <div className="flex items-center justify-center min-h-screen p-4">
+          <div className="text-center max-w-md">
+            <div className="relative mb-6">
+              <Loader2 className="h-12 w-12 animate-spin text-primary mx-auto mb-4" />
+              {isRetrying && (
+                <div className="w-full bg-muted rounded-full h-2 mb-4">
+                  <div 
+                    className="bg-primary h-2 rounded-full transition-all duration-1000"
+                    style={{ width: `${getProgressPercentage()}%` }}
+                  />
+                </div>
+              )}
+            </div>
+            
+            <h2 className="text-xl font-semibold text-foreground mb-2">
+              {getLoadingMessage()}
+            </h2>
+            
             {isRetrying && (
-              <div className="w-full bg-muted rounded-full h-2 mb-4">
-                <div 
-                  className="bg-primary h-2 rounded-full transition-all duration-1000"
-                  style={{ width: `${getProgressPercentage()}%` }}
-                />
+              <div className="space-y-3">
+                <p className="text-sm text-muted-foreground">
+                  Elapsed time: {Math.floor(elapsedTime / 60)}:{(elapsedTime % 60).toString().padStart(2, '0')}
+                </p>
+                <p className="text-sm text-muted-foreground">
+                  We're finalizing your personalized action plan with custom recommendations based on your answers.
+                </p>
+                
+                <div className="flex gap-2 justify-center mt-6">
+                  <Button 
+                    variant="outline" 
+                    onClick={() => navigate("/")}
+                    className="flex items-center gap-2"
+                  >
+                    <ArrowLeft className="h-4 w-4" />
+                    Go Back
+                  </Button>
+                  
+                  {elapsedTime > 30 && (
+                    <Button 
+                      variant="outline" 
+                      onClick={handleManualRetry}
+                      className="flex items-center gap-2"
+                    >
+                      <RefreshCw className="h-4 w-4" />
+                      Try Again
+                    </Button>
+                  )}
+                </div>
               </div>
             )}
           </div>
-          
-          <h2 className="text-xl font-semibold text-foreground mb-2">
-            {getLoadingMessage()}
-          </h2>
-          
-          {isRetrying && (
-            <div className="space-y-3">
-              <p className="text-sm text-muted-foreground">
-                Elapsed time: {Math.floor(elapsedTime / 60)}:{(elapsedTime % 60).toString().padStart(2, '0')}
-              </p>
-              <p className="text-sm text-muted-foreground">
-                We're finalizing your personalized action plan with custom recommendations based on your answers.
-              </p>
-              
-              <div className="flex gap-2 justify-center mt-6">
-                <Button 
-                  variant="outline" 
-                  onClick={() => navigate("/")}
-                  className="flex items-center gap-2"
-                >
-                  <ArrowLeft className="h-4 w-4" />
-                  Go Back
-                </Button>
-                
-                {elapsedTime > 30 && (
-                  <Button 
-                    variant="outline" 
-                    onClick={handleManualRetry}
-                    className="flex items-center gap-2"
-                  >
-                    <RefreshCw className="h-4 w-4" />
-                    Try Again
-                  </Button>
-                )}
-              </div>
-            </div>
-          )}
         </div>
       </div>
     );
