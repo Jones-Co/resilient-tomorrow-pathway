@@ -71,9 +71,13 @@ const Start = () => {
 
     if (!user) {
       toast({
-        title: "Authentication Required",
-        description: "Please sign in to continue.",
-        variant: "destructive",
+        title: "Sign Up to Save Your Plan",
+        description: "Create an account to save and access your personalized plan anytime.",
+        action: (
+          <Button variant="outline" onClick={() => window.location.href = '/auth'}>
+            Sign Up
+          </Button>
+        ),
       });
       return;
     }
@@ -160,7 +164,7 @@ const Start = () => {
         {/* Header */}
         <div className="text-center mb-8 relative">
           {/* User Profile and Sign Out */}
-          {user && (
+          {user ? (
             <div className="absolute top-0 right-0 flex items-center gap-4">
               <div className="flex items-center gap-2 bg-card border rounded-lg px-3 py-2">
                 <User className="h-4 w-4 text-muted-foreground" />
@@ -174,6 +178,16 @@ const Start = () => {
               >
                 <LogOut className="h-4 w-4" />
                 Sign Out
+              </Button>
+            </div>
+          ) : (
+            <div className="absolute top-0 right-0">
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={() => window.location.href = '/auth'}
+              >
+                Sign Up / Sign In
               </Button>
             </div>
           )}
