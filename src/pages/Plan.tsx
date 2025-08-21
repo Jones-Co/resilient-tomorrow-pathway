@@ -35,8 +35,8 @@ const Plan = () => {
   };
 
   const fetchPlanData = async (isRetryAttempt = false) => {
-    console.log("Dashboard ID from params:", dashboardId);
-    console.log("Type of dashboardId:", typeof dashboardId);
+    console.log("Fetching plan data for ID:", dashboardId);
+    console.log("Is retry attempt:", isRetryAttempt);
     
     if (!dashboardId || dashboardId === ":dashboardId") {
       console.error("Invalid dashboard ID:", dashboardId);
@@ -46,18 +46,21 @@ const Plan = () => {
         variant: "destructive",
       });
       setLoading(false);
-      return;
+      return false;
     }
 
     try {
+      console.log("Querying database for plan:", dashboardId);
       const { data, error } = await supabase
         .from("user_plans")
         .select("*")
         .eq("id", dashboardId)
         .maybeSingle();
 
+      console.log("Database response:", { data, error });
+
       if (error) {
-        console.error("Error fetching plan:", error);
+        console.error("Database error:", error);
         if (!isRetryAttempt || retryCount >= 20) {
           toast({
             title: "Error Loading Plan",
@@ -71,14 +74,17 @@ const Plan = () => {
       }
 
       if (data && data.plan_data) {
+        console.log("Plan data found, setting state");
         setPlanData(data.plan_data);
         setLoading(false);
+        setIsRetrying(false);
         clearTimers();
         return true;
       }
 
       // Data exists but plan_data is null - plan is still being generated
       if (data && !data.plan_data) {
+        console.log("Plan exists but data is null, starting retry polling");
         if (!isRetryAttempt) {
           startRetryPolling();
         }
@@ -86,12 +92,13 @@ const Plan = () => {
       }
 
       // No data found
+      console.log("No plan data found, starting retry polling");
       if (!isRetryAttempt) {
         startRetryPolling();
       }
       return false;
     } catch (error) {
-      console.error("Error fetching plan:", error);
+      console.error("Exception during plan fetch:", error);
       if (!isRetryAttempt || retryCount >= 20) {
         toast({
           title: "Error Loading Plan",
@@ -99,6 +106,7 @@ const Plan = () => {
           variant: "destructive",
         });
         setLoading(false);
+        setIsRetrying(false);
         clearTimers();
       }
       return false;
